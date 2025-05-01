@@ -1,45 +1,104 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import axios from 'axios';
+import PropertyAPI from '../services/PropertyAPI';
 
-const PropertyForm = ({ property = null, isEditing = false }) => {
+const PropertyForm = () => {
   const navigate = useNavigate();
+  const { id } = useParams(); // For editing existing property
+  // eslint-disable-next-line no-unused-vars
   const { currentUser } = useAuth();
+  const isEditing = !!id;
+  
   const [loading, setLoading] = useState(false);
+  const [fetchingProperty, setFetchingProperty] = useState(isEditing);
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(false);
   const [uploadingImages, setUploadingImages] = useState(false);
   const [images, setImages] = useState([]);
   const [previewImages, setPreviewImages] = useState([]);
+  const [existingImages, setExistingImages] = useState([]);
 
-
+  // Initialize form data with defaults
   const [formData, setFormData] = useState({
-    title: property?.title || '',
-    description: property?.description || '',
-    price: property?.price || '',
-    address: property?.address || '',
-    city: property?.city || '',
-    state: property?.state || '',
-    zipCode: property?.zipCode || '',
-    country: property?.country || 'Mauritius',
-    propertyType: property?.propertyType || 'apartment',
-    listingType: property?.listingType || 'rent',
-    bedrooms: property?.bedrooms || 1,
-    bathrooms: property?.bathrooms || 1,
-    toilets: property?.toilets || 1,
-    squareFeet: property?.squareFeet || '',
-    yearBuilt: property?.yearBuilt || '',
-    parkingSpaces: property?.parkingSpaces || 0,
-    furnished: property?.furnished || false,
-    petFriendly: property?.petFriendly || false,
-    hasAirConditioning: property?.hasAirConditioning || false,
-    hasHeating: property?.hasHeating || false,
-    hasInternet: property?.hasInternet || false,
-    amenities: property?.amenities || [],
-    availableFrom: property?.availableFrom ? new Date(property.availableFrom).toISOString().split('T')[0] : '',
+    title: '',
+    description: '',
+    price: '',
+    address: '',
+    city: '',
+    state: '',
+    zipCode: '',
+    country: 'Mauritius',
+    propertyType: 'apartment',
+    listingType: 'rent',
+    bedrooms: 1,
+    bathrooms: 1,
+    toilets: 1,
+    squareFeet: '',
+    yearBuilt: '',
+    parkingSpaces: 0,
+    furnished: false,
+    petFriendly: false,
+    hasAirConditioning: false,
+    hasHeating: false,
+    hasInternet: false,
+    amenities: [],
+    availableFrom: '',
   });
+
+  // Fetch property data if editing
+  useEffect(() => {
+    if (isEditing) {
+      const fetchPropertyDetails = async () => {
+        try {
+          const response = await PropertyAPI.getPropertyById(id);
+          const property = response.data;
+          
+          // Update form with property data
+          setFormData({
+            title: property.title || '',
+            description: property.description || '',
+            price: property.price || '',
+            address: property.address || '',
+            city: property.city || '',
+            state: property.state || '',
+            zipCode: property.zipCode || '',
+            country: property.country || 'Mauritius',
+            propertyType: property.propertyType || 'apartment',
+            listingType: property.listingType || 'rent',
+            bedrooms: property.bedrooms || 1,
+            bathrooms: property.bathrooms || 1,
+            toilets: property.toilets || 1,
+            squareFeet: property.squareFeet || '',
+            yearBuilt: property.yearBuilt || '',
+            parkingSpaces: property.parkingSpaces || 0,
+            furnished: property.furnished || false,
+            petFriendly: property.petFriendly || false,
+            hasAirConditioning: property.hasAirConditioning || false,
+            hasHeating: property.hasHeating || false,
+            hasInternet: property.hasInternet || false,
+            amenities: property.amenities || [],
+            availableFrom: property.availableFrom 
+              ? new Date(property.availableFrom).toISOString().split('T')[0] 
+              : '',
+          });
+          
+          // Set existing images if any
+          if (property.images && property.images.length > 0) {
+            setExistingImages(property.images);
+          }
+          
+          setFetchingProperty(false);
+        } catch (err) {
+          console.error('Error fetching property details:', err);
+          setError('Failed to load property details. Please try again.');
+          setFetchingProperty(false);
+        }
+      };
+
+      fetchPropertyDetails();
+    }
+  }, [id, isEditing]);
 
   // Handle input changes
   const handleChange = (e) => {
@@ -69,7 +128,7 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
     setImages([...images, ...files]);
   };
 
-  // Remove image
+  // Remove image from preview
   const removeImage = (index) => {
     const newPreviewImages = [...previewImages];
     const newImages = [...images];
@@ -77,6 +136,20 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
     newImages.splice(index, 1);
     setPreviewImages(newPreviewImages);
     setImages(newImages);
+  };
+
+  // Remove existing image (when editing)
+  const removeExistingImage = async (imageId) => {
+    try {
+      // API call to remove the image
+      await PropertyAPI.deletePropertyImage(id, imageId);
+      
+      // Update UI
+      setExistingImages(existingImages.filter(img => img.id !== imageId));
+    } catch (err) {
+      console.error('Error removing image:', err);
+      setError('Failed to remove image. Please try again.');
+    }
   };
 
   // Handle form submission
@@ -107,24 +180,15 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
       });
       
       // Set upload status
-      setUploadingImages(true);
+      setUploadingImages(images.length > 0);
       
-      // Send to API
-      const url = isEditing 
-        ? `http://localhost:8080/api/properties/${property.id}` 
-        : 'http://localhost:8080/api/properties';
-      
-      const method = isEditing ? 'put' : 'post';
-      
-      const response = await axios({
-        method,
-        url,
-        data: propertyData,
-        headers: {
-          'Content-Type': 'multipart/form-data',
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
-        }
-      });
+      // API call - create or update
+      let response;
+      if (isEditing) {
+        response = await PropertyAPI.updateProperty(id, propertyData);
+      } else {
+        response = await PropertyAPI.createProperty(propertyData);
+      }
       
       setSuccess(true);
       setUploadingImages(false);
@@ -136,7 +200,8 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
       
     } catch (err) {
       setUploadingImages(false);
-      setError(err.response?.data?.message || 'Failed to save property. Please try again.');
+      const errorMessage = err.message || 'Failed to save property. Please try again.';
+      setError(errorMessage);
       console.error('Property save error:', err);
     } finally {
       setLoading(false);
@@ -168,6 +233,15 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
       });
     }
   };
+
+  // Show loading state while fetching property
+  if (fetchingProperty) {
+    return (
+      <div className="bg-[#1E1E1E] rounded-lg p-6 flex items-center justify-center h-64">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-white"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-[#1E1E1E] rounded-lg p-6">
@@ -554,9 +628,40 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
         <div className="p-4 bg-[#0D0D0D] rounded-lg">
           <h3 className="text-white font-semibold mb-4">Property Images</h3>
           
+          {/* Existing Images (when editing) */}
+          {isEditing && existingImages.length > 0 && (
+            <div className="mb-6">
+              <h4 className="text-white mb-2">Current Images</h4>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {existingImages.map((image, index) => (
+                  <div key={image.id} className="relative">
+                    <img 
+                      src={image.imageUrl} 
+                      alt={`Property ${index + 1}`} 
+                      className="w-full h-32 object-cover rounded-lg"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeExistingImage(image.id)}
+                      className="absolute top-2 right-2 bg-red-500 text-white rounded-full p-1"
+                    >
+                      ✕
+                    </button>
+                    {image.isPrimary && (
+                      <div className="absolute bottom-2 left-2 bg-blue-500 text-white text-xs px-2 py-1 rounded">
+                        Primary
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          
+          {/* Upload New Images */}
           <div className="mb-4">
             <label htmlFor="images" className="block text-white mb-2">
-              Upload Images (Max 10 images, 5MB each)
+              Upload {isEditing ? 'Additional ' : ''}Images (Max 10 images, 5MB each)
             </label>
             <input
               type="file"
@@ -578,7 +683,7 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
             </p>
           </div>
           
-          {/* Image Preview */}
+          {/* New Image Preview */}
           {previewImages.length > 0 && (
             <div>
               <h4 className="text-white mb-2">Preview</h4>
@@ -597,7 +702,7 @@ const PropertyForm = ({ property = null, isEditing = false }) => {
                     >
                       ✕
                     </button>
-                    {index === 0 && (
+                    {index === 0 && existingImages.length === 0 && (
                       <div className="absolute bottom-2 left-2 bg-blue-500 text-white text-xs px-2 py-1 rounded">
                         Primary
                       </div>
