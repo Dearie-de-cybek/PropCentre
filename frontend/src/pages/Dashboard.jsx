@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../context/AuthContext';
 import StatCard from '../components/dashboard/StatCard';
 import PropertyCard from '../components/PropCard';
 import ActivityFeed from '../components/dashboard/ActivityFeed';
