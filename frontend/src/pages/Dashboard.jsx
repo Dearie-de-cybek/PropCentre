@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { useAuth } from '../context/AuthContext';
-import StatCard from '../components/dashboard/StatCard';
+import StatCard from '../components/StatCard';
 import PropertyCard from '../components/PropCard';
-import ActivityFeed from '../components/dashboard/ActivityFeed';
-import QuickActions from '../components/dashboard/QuickActions';
+import ActivityFeed from '../components/ActivityFeed';
+import QuickActions from '../components/QuickActions';
 import { 
   BuildingIcon, 
   CalendarIcon, 
