@@ -1,29 +1,38 @@
 const express = require('express');
-const router = express.Router();
 const propertyController = require('../controller/PropertyController');
 const { isAuthenticated } = require('../middlewares/auth');
 const upload = require('../config/multerConfig');
 
-// Public endpoints
-router.get('/', propertyController.getAllProperties.bind(propertyController));
-router.get('/featured', propertyController.getFeaturedProperties.bind(propertyController));
-router.get('/:id', propertyController.getPropertyById.bind(propertyController));
-router.get('/:id/reviews', propertyController.getPropertyReviews.bind(propertyController));
+class PropertyRoutes {
+  constructor() {
+    this.router = express.Router();
+    this.path = "/properties";
+    this.initializeRoutes();
+  }
 
-// Authenticated endpoints
-router.get('/landlord', isAuthenticated, propertyController.getLandlordProperties.bind(propertyController));
-router.post('/', isAuthenticated, upload.array('images', 10), propertyController.createProperty.bind(propertyController));
-router.put('/:id', isAuthenticated, upload.array('images', 10), propertyController.updateProperty.bind(propertyController));
-router.delete('/:id', isAuthenticated, propertyController.deleteProperty.bind(propertyController));
-router.delete('/:id/images/:imageId', isAuthenticated, propertyController.deletePropertyImage.bind(propertyController));
+  initializeRoutes() {
+    // Public endpoints
+    this.router.get(`${this.path}/`, propertyController.getAllProperties.bind(propertyController));
+    this.router.get(`${this.path}/featured`, propertyController.getFeaturedProperties.bind(propertyController));
+    this.router.get(`${this.path}/:id`, propertyController.getPropertyById.bind(propertyController));
+    this.router.get(`${this.path}/:id/reviews`, propertyController.getPropertyReviews.bind(propertyController));
 
-// Saved properties
-router.post('/:id/save', isAuthenticated, propertyController.saveProperty.bind(propertyController));
-router.get('/saved', isAuthenticated, propertyController.getSavedProperties.bind(propertyController));
-router.delete('/:id/save', isAuthenticated, propertyController.removeSavedProperty.bind(propertyController));
+    // Authenticated endpoints
+    this.router.get(`${this.path}/landlord`, isAuthenticated, propertyController.getLandlordProperties.bind(propertyController));
+    this.router.post(`${this.path}/`, isAuthenticated, upload.array('images', 10), propertyController.createProperty.bind(propertyController));
+    this.router.put(`${this.path}/:id`, isAuthenticated, upload.array('images', 10), propertyController.updateProperty.bind(propertyController));
+    this.router.delete(`${this.path}/:id`, isAuthenticated, propertyController.deleteProperty.bind(propertyController));
+    this.router.delete(`${this.path}/:id/images/:imageId`, isAuthenticated, propertyController.deletePropertyImage.bind(propertyController));
 
-// Appointments and reviews
-router.post('/:id/appointments', isAuthenticated, propertyController.bookAppointment.bind(propertyController));
-router.post('/:id/reviews', isAuthenticated, propertyController.submitReview.bind(propertyController));
+    // Saved properties
+    this.router.post(`${this.path}/:id/save`, isAuthenticated, propertyController.saveProperty.bind(propertyController));
+    this.router.get(`${this.path}/saved`, isAuthenticated, propertyController.getSavedProperties.bind(propertyController));
+    this.router.delete(`${this.path}/:id/save`, isAuthenticated, propertyController.removeSavedProperty.bind(propertyController));
 
-module.exports = router;
+    // Appointments and reviews
+    this.router.post(`${this.path}/:id/appointments`, isAuthenticated, propertyController.bookAppointment.bind(propertyController));
+    this.router.post(`${this.path}/:id/reviews`, isAuthenticated, propertyController.submitReview.bind(propertyController));
+  }
+}
+
+module.exports = PropertyRoutes;
