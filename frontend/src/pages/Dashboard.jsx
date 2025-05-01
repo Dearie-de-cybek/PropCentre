@@ -2,8 +2,7 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext';
 import StatCard from '../components/StatCard';
-import PropertyCard from '../../components/PropCard';
-import ActivityFeed from '../components/ActivityFeed';
+import PropertyCard from '../components/PropCard';
 import QuickActions from '../components/QuickActions';
 import { 
   BuildingIcon, 
@@ -116,35 +115,7 @@ const Dashboard = () => {
     },
   ];
   
-  // Activities data
-  const activities = [
-    {
-      id: 1,
-      type: 'message',
-      content: 'You received a new message from John Doe',
-      time: '10 minutes ago',
-    },
-    {
-      id: 2,
-      type: 'appointment',
-      content: 'Appointment confirmed for tomorrow at 10:00 AM',
-      time: '2 hours ago',
-    },
-    {
-      id: 3,
-      type: 'property',
-      content: isLandlord() 
-        ? 'Someone saved your property "Modern Downtown Apartment"'
-        : 'New property matching your criteria was listed',
-      time: '5 hours ago',
-    },
-    {
-      id: 4,
-      type: 'system',
-      content: 'Your account was successfully verified',
-      time: 'Yesterday',
-    },
-  ];
+  
 
   return (
     <div className="pb-6">
@@ -180,13 +151,7 @@ const Dashboard = () => {
         <div className="lg:col-span-1">
           <QuickActions userType={currentUser.accountType} />
           
-          {/* Recent Activity */}
-          <div className="bg-[#1E1E1E] rounded-lg mt-8">
-            <div className="border-b border-[#404040] p-4">
-              <h2 className="text-white font-bold">Recent Activity</h2>
-            </div>
-            <ActivityFeed activities={activities} />
-          </div>
+        
         </div>
         
         {/* Right: Property Listings */}
