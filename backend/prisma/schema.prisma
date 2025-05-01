@@ -1,0 +1,310 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model User {
+  id                Int             @id @default(autoincrement())
+  email             String          @unique
+  password          String
+  firstName         String
+  lastName          String
+  phoneNumber       String?
+  profileImage      String?
+  userType          String          // "landlord" or "seeker"
+  isVerified        Boolean         @default(false)
+  isActive          Boolean         @default(true)
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+
+  // Relationships
+  landlordProfile   LandlordProfile?
+  seekerProfile     SeekerProfile?
+  properties        Property[]      // For landlords
+  savedProperties   SavedProperty[] // For seekers
+  reviews           Review[]        // Reviews written by this user
+  messages          Message[]       // Messages sent by this user
+  appointments      Appointment[]   // Appointments made by seekers
+  notifications     Notification[]
+  
+  @@index([email, userType])
+}
+
+
+model LandlordProfile {
+  id                Int      @id @default(autoincrement())
+  userId            Int      @unique
+  companyName       String?
+  companyLogo       String?
+  description       String?  @db.Text
+  verificationStatus String  @default("pending") // pending, verified, rejected
+  verificationDocuments String?
+  averageRating     Float?
+  totalReviews      Int      @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  // Relationships
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// Property Seeker specific profile
+model SeekerProfile {
+  id                    Int      @id @default(autoincrement())
+  userId                Int      @unique
+  preferredLocation     String?
+  budget                String?
+  preferredPropertyTypes String[] // Array of property types 
+  moveInDate            DateTime?
+  seekingFor            String?  // rent, buy
+  additionalNotes       String?  @db.Text
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  // Relationships
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// Property listing model
+model Property {
+  id                Int      @id @default(autoincrement())
+  ownerId           Int
+  title             String
+  description       String   @db.Text
+  price             Decimal  @db.Decimal(10, 2)
+  address           String
+  city              String
+  state             String?
+  zipCode           String?
+  country           String   @default("Nigeria")
+  latitude          Float?
+  longitude         Float?
+  propertyType      String   // apartment, house, condo, etc.
+  status            String   @default("available") // available, rented, sold, pending
+  listingType       String   // rent, sale
+  bedrooms          Int?
+  bathrooms         Int?
+  toilets           Int?
+  squareFeet        Int?
+  yearBuilt         Int?
+  parkingSpaces     Int?
+  furnished         Boolean  @default(false)
+  petFriendly       Boolean  @default(false)
+  hasAirConditioning Boolean @default(false)
+  hasHeating        Boolean  @default(false)
+  hasInternet       Boolean  @default(false)
+  featuredProperty  Boolean  @default(false)
+  availableFrom     DateTime?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  // Relationships
+  owner             User              @relation(fields: [ownerId], references: [id])
+  images            PropertyImage[]
+  amenities         PropertyAmenity[]
+  savedBy           SavedProperty[]
+  reviews           Review[]
+  appointments      Appointment[]
+  messages          Message[]
+  
+  @@index([ownerId, status, listingType, propertyType])
+  @@index([city, state, status])
+  @@index([price, bedrooms, bathrooms])
+}
+
+// Property images
+model PropertyImage {
+  id          Int      @id @default(autoincrement())
+  propertyId  Int
+  imageUrl    String
+  isPrimary   Boolean  @default(false)
+  caption     String?
+  createdAt   DateTime @default(now())
+
+  // Relationships
+  property    Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  
+  @@index([propertyId])
+}
+
+// Property amenities
+model PropertyAmenity {
+  id          Int      @id @default(autoincrement())
+  propertyId  Int
+  name        String
+  description String?
+  icon        String?
+  createdAt   DateTime @default(now())
+
+  // Relationships
+  property    Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  
+  @@unique([propertyId, name])
+}
+
+// Saved properties (favorites)
+model SavedProperty {
+  id           Int      @id @default(autoincrement())
+  userId       Int
+  propertyId   Int
+  notes        String?  @db.Text
+  createdAt    DateTime @default(now())
+
+  // Relationships
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  property     Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, propertyId])
+  @@index([userId])
+}
+
+// Property reviews
+model Review {
+  id          Int      @id @default(autoincrement())
+  propertyId  Int
+  reviewerId  Int
+  rating      Int      // 1-5 stars
+  comment     String?  @db.Text
+  title       String?
+  pros        String?  @db.Text
+  cons        String?  @db.Text
+  isApproved  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  property    Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  reviewer    User     @relation(fields: [reviewerId], references: [id], onDelete: Cascade)
+  
+  @@index([propertyId, rating])
+  @@index([reviewerId])
+}
+
+// Property viewing appointments
+model Appointment {
+  id          Int      @id @default(autoincrement())
+  propertyId  Int
+  seekerId    Int
+  date        DateTime
+  timeSlot    String
+  status      String   @default("pending") // pending, confirmed, canceled, completed
+  message     String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  property    Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  seeker      User     @relation(fields: [seekerId], references: [id], onDelete: Cascade)
+  
+  @@index([propertyId, date, status])
+  @@index([seekerId, status])
+}
+
+// Messages between users
+model Message {
+  id          Int      @id @default(autoincrement())
+  senderId    Int
+  receiverId  Int?
+  propertyId  Int?
+  subject     String?
+  content     String   @db.Text
+  isRead      Boolean  @default(false)
+  readAt      DateTime?
+  createdAt   DateTime @default(now())
+
+  // Relationships
+  sender      User     @relation(fields: [senderId], references: [id], onDelete: Cascade)
+  property    Property? @relation(fields: [propertyId], references: [id], onDelete: SetNull)
+  
+  @@index([senderId])
+  @@index([receiverId])
+  @@index([propertyId])
+}
+
+// Notifications
+model Notification {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  type        String   // new_message, new_review, appointment_update, etc.
+  title       String
+  message     String
+  isRead      Boolean  @default(false)
+  link        String?  // URL to navigate to when clicking the notification
+  createdAt   DateTime @default(now())
+
+  // Relationships
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, isRead])
+}
+
+// Sponsored ads
+model SponsoredAd {
+  id               Int      @id @default(autoincrement())
+  landlordId       Int
+  title            String
+  description      String
+  imageUrl         String
+  advertiserName   String
+  advertiserLogo   String?
+  targetLocation   String?
+  clickCount       Int      @default(0)
+  impressionCount  Int      @default(0)
+  startDate        DateTime
+  endDate          DateTime
+  isActive         Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  
+  @@index([landlordId, isActive])
+}
+
+// Search history for property seekers
+model SearchHistory {
+  id               Int      @id @default(autoincrement())
+  userId           Int
+  searchQuery      String
+  filters          Json?    // Stored as JSON with search parameters
+  resultCount      Int?
+  createdAt        DateTime @default(now())
+  
+  @@index([userId])
+}
+
+// Subscription plans for landlords
+model SubscriptionPlan {
+  id               Int      @id @default(autoincrement())
+  name             String
+  description      String
+  price            Decimal  @db.Decimal(10, 2)
+  interval         String   // monthly, yearly
+  features         String[]
+  maxListings      Int
+  featuredListings Int
+  isActive         Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+// Tenant application for rentals
+model TenantApplication {
+  id               Int      @id @default(autoincrement())
+  propertyId       Int
+  applicantId      Int
+  status           String   @default("pending") // pending, approved, rejected
+  employmentInfo   Json?    
+  incomeVerification Json?
+  creditScore      Int?
+  references       Json?
+  applicationNotes String?  @db.Text
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  
+  @@index([propertyId, status])
+  @@index([applicantId])
+}

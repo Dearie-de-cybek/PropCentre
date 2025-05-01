@@ -1,5 +1,3 @@
-// Update your src/middlewares/error.js file
-
 const HandleErrors = (err, req, res, next) => {
     // Skip error handling for OPTIONS requests
     if (req.method === 'OPTIONS') {
