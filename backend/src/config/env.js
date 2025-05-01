@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 dotenv.config({ path: "./.env" });
 
-const LOCAL_POSTGRESQL = "postgresql://postgres:@localhost:5432/event_management";
+const LOCAL_POSTGRESQL = "postgresql://postgres:@localhost:5432/propcentre";
 
 const ENV = {
   // Environment
@@ -17,7 +17,7 @@ const ENV = {
       : process.env.DATABASE_URL,
   
   // Authentication config
-  jwtSecret: process.env.JWT_SECRET || 'your_jwt_secret_key_change_this_in_production',
+  jwtSecret: process.env.JWT_SECRET || 'sdcsdcdc32ry38y9dpnp23i3892te832tp9e230n',
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '24h',
   
   // URLs
