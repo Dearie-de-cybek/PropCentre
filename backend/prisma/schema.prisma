@@ -7,7 +7,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
 model User {
   id                Int             @id @default(autoincrement())
   email             String          @unique
@@ -28,13 +27,12 @@ model User {
   properties        Property[]      // For landlords
   savedProperties   SavedProperty[] // For seekers
   reviews           Review[]        // Reviews written by this user
-  messages          Message[]       // Messages sent by this user
   appointments      Appointment[]   // Appointments made by seekers
   notifications     Notification[]
+  sessions          Session[]       // Added relation to Session model
   
   @@index([email, userType])
 }
-
 
 model LandlordProfile {
   id                Int      @id @default(autoincrement())
@@ -110,7 +108,6 @@ model Property {
   savedBy           SavedProperty[]
   reviews           Review[]
   appointments      Appointment[]
-  messages          Message[]
   
   @@index([ownerId, status, listingType, propertyType])
   @@index([city, state, status])
@@ -205,8 +202,6 @@ model Appointment {
   @@index([seekerId, status])
 }
 
-
-
 // Notifications
 model Notification {
   id          Int      @id @default(autoincrement())
@@ -290,25 +285,23 @@ model TenantApplication {
   @@index([applicantId])
 }
 
-
-
-
+// Session model 
 model Session {
   id             Int      @id @default(autoincrement())
-  user_id        Int
+  userId         Int      // Changed from user_id
   token          String   @unique
-  refresh_token  String?  @unique
-  is_active      Boolean  @default(true)
-  ip_address     String?
-  user_agent     String?
-  expires_at     DateTime
-  created_at     DateTime @default(now())
-  updated_at     DateTime @updatedAt
+  refreshToken   String?  @unique // Changed from refresh_token
+  isActive       Boolean  @default(true) // Changed from is_active
+  ipAddress      String?  // Changed from ip_address
+  userAgent      String?  // Changed from user_agent
+  expiresAt      DateTime // Changed from expires_at
+  createdAt      DateTime @default(now()) // Changed from created_at
+  updatedAt      DateTime @updatedAt // Changed from updated_at
 
   // Relations
-  user           User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade) // Changed user_id to userId
 
-  @@index([user_id, is_active])
+  @@index([userId, isActive]) // Updated index
   @@index([token])
 }
 
@@ -317,10 +310,10 @@ model PasswordReset {
   id          Int      @id @default(autoincrement())
   email       String
   token       String   @unique
-  is_used     Boolean  @default(false)
-  expires_at  DateTime
-  created_at  DateTime @default(now())
+  isUsed      Boolean  @default(false) // Changed from is_used
+  expiresAt   DateTime // Changed from expires_at
+  createdAt   DateTime @default(now()) // Changed from created_at
   
-  @@index([token, is_used])
+  @@index([token, isUsed]) // Updated index
   @@index([email])
 }
