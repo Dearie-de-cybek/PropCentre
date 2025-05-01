@@ -13,7 +13,6 @@ app.initializedRoutes([
 
 // Start server
 const PORT = process.env.PORT || 8080;
-server.listen(PORT, () => {
+app.listen(PORT, () => {
   logger.info(`Server started at http://localhost:${PORT}`);
-  logger.info(`WebSocket server running on the same port`);
 });
