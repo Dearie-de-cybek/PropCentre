@@ -81,7 +81,7 @@ model Property {
   city              String
   state             String?
   zipCode           String?
-  country           String   @default("Nigeria")
+  country           String   @default("Mauritius")
   latitude          Float?
   longitude         Float?
   propertyType      String   // apartment, house, condo, etc.
@@ -205,26 +205,7 @@ model Appointment {
   @@index([seekerId, status])
 }
 
-// Messages between users
-model Message {
-  id          Int      @id @default(autoincrement())
-  senderId    Int
-  receiverId  Int?
-  propertyId  Int?
-  subject     String?
-  content     String   @db.Text
-  isRead      Boolean  @default(false)
-  readAt      DateTime?
-  createdAt   DateTime @default(now())
 
-  // Relationships
-  sender      User     @relation(fields: [senderId], references: [id], onDelete: Cascade)
-  property    Property? @relation(fields: [propertyId], references: [id], onDelete: SetNull)
-  
-  @@index([senderId])
-  @@index([receiverId])
-  @@index([propertyId])
-}
 
 // Notifications
 model Notification {
@@ -307,4 +288,39 @@ model TenantApplication {
   
   @@index([propertyId, status])
   @@index([applicantId])
+}
+
+
+
+
+model Session {
+  id             Int      @id @default(autoincrement())
+  user_id        Int
+  token          String   @unique
+  refresh_token  String?  @unique
+  is_active      Boolean  @default(true)
+  ip_address     String?
+  user_agent     String?
+  expires_at     DateTime
+  created_at     DateTime @default(now())
+  updated_at     DateTime @updatedAt
+
+  // Relations
+  user           User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@index([user_id, is_active])
+  @@index([token])
+}
+
+// Password reset model
+model PasswordReset {
+  id          Int      @id @default(autoincrement())
+  email       String
+  token       String   @unique
+  is_used     Boolean  @default(false)
+  expires_at  DateTime
+  created_at  DateTime @default(now())
+  
+  @@index([token, is_used])
+  @@index([email])
 }
