@@ -6,9 +6,9 @@ import { useAuth } from '../context/AuthContext';
  * ProtectedRoute component to handle authentication and role-based access
  * 
  * @param {Object} props
- * @param {JSX.Element} props.children - The component to render if authenticated
- * @param {string} [props.requiredAccountType] - The account type required for access (landlord or seeker)
- * @param {string} [props.redirectPath] - Where to redirect if not authenticated (defaults to /login)
+ * @param {JSX.Element} props.children 
+ * @param {string} [props.requiredAccountType] 
+ * @param {string} [props.redirectPath] 
  */
 const ProtectedRoute = ({ 
   children, 

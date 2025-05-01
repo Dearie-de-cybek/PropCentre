@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import PropertyNavbar from "../components/PropertyNavbar";
+import { useAuth } from '../context/AuthContext';
 
 const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const { login, error: authError, loading } = useAuth();
   
   const [userType, setUserType] = useState('seeker'); // Default to property seeker
   const [formData, setFormData] = useState({
@@ -14,15 +16,26 @@ const Login = () => {
   });
   
   const [errors, setErrors] = useState({});
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState('');
 
-  // Check if we have a success message from registration
+  // Check if we have a message from the location state (e.g., from registration)
   useEffect(() => {
     if (location.state?.message) {
       setMessage(location.state.message);
     }
   }, [location]);
+
+  // Clear message when component unmounts
+  useEffect(() => {
+    return () => setMessage('');
+  }, []);
+
+  // Set auth error to local state if it exists
+  useEffect(() => {
+    if (authError) {
+      setErrors({ submit: authError });
+    }
+  }, [authError]);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -56,41 +69,24 @@ const Login = () => {
     }
     
     setErrors({});
-    setIsSubmitting(true);
     
     try {
-      // Here you would make an API call to authenticate the user
-      // based on the selected userType
-      
-      // Example API call:
-      // const response = await api.post('/auth/login', {
-      //   ...formData,
-      //   userType
-      // });
-      
-      console.log('Logging in with data:', {
-        ...formData,
+      // Use the auth context login function
+      await login(
+        formData.email, 
+        formData.password, 
         userType
-      });
+      );
       
-      // Simulate API call delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Store user information in localStorage or state management
-      // localStorage.setItem('token', response.data.token);
-      // localStorage.setItem('userType', userType);
-      
-      // Redirect to appropriate dashboard based on user type
+      // Redirect based on user type
       if (userType === 'landlord') {
         navigate('/landlord/dashboard');
       } else {
         navigate('/properties'); // For property seekers
       }
     } catch (error) {
+      // Error is already handled by the auth context
       console.error('Login error:', error);
-      setErrors({ submit: 'Invalid email or password. Please try again.' });
-    } finally {
-      setIsSubmitting(false);
     }
   };
 
@@ -192,10 +188,10 @@ const Login = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              disabled={isSubmitting}
+              disabled={loading}
               className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:bg-blue-400"
             >
-              {isSubmitting ? 'Logging in...' : `Log in as ${userType === 'landlord' ? 'Landlord' : 'Property Seeker'}`}
+              {loading ? 'Logging in...' : `Log in as ${userType === 'landlord' ? 'Landlord' : 'Property Seeker'}`}
             </button>
             
             {/* Register Link */}
