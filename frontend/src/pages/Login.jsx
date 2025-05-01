@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import PropertyNavbar from "../components/PropertyNavbar";
@@ -8,7 +9,7 @@ const Login = () => {
   const location = useLocation();
   const { login, error: authError, loading } = useAuth();
   
-  const [userType, setUserType] = useState('seeker'); // Default to property seeker
+  const [userType, setUserType] = useState('seeker'); 
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -17,6 +18,10 @@ const Login = () => {
   
   const [errors, setErrors] = useState({});
   const [message, setMessage] = useState('');
+
+  // Get redirect path from location state (if it exists)
+  // This handles redirects from ProtectedRoute
+  const from = location.state?.from?.pathname || '/dashboard';
 
   // Check if we have a message from the location state (e.g., from registration)
   useEffect(() => {
@@ -78,12 +83,9 @@ const Login = () => {
         userType
       );
       
-      // Redirect based on user type
-      if (userType === 'landlord') {
-        navigate('/landlord/dashboard');
-      } else {
-        navigate('/properties'); // For property seekers
-      }
+      // After successful login, redirect to the dashboard
+      // The dashboard will adapt based on the user's account type
+      navigate('/dashboard');
     } catch (error) {
       // Error is already handled by the auth context
       console.error('Login error:', error);

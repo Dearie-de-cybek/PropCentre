@@ -2,7 +2,7 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext';
 import StatCard from '../components/StatCard';
-import PropertyCard from '../components/PropCard';
+import PropertyCard from '../../components/PropCard';
 import ActivityFeed from '../components/ActivityFeed';
 import QuickActions from '../components/QuickActions';
 import { 
