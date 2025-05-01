@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
@@ -182,7 +183,6 @@ const PropertyForm = () => {
       // Set upload status
       setUploadingImages(images.length > 0);
       
-      // API call - create or update
       let response;
       if (isEditing) {
         response = await PropertyAPI.updateProperty(id, propertyData);
