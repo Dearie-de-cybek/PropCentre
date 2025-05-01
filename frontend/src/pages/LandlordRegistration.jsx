@@ -1,9 +1,13 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import PropertyNavbar from "../components/PropertyNavbar";
+import { useAuth } from '../context/AuthContext';
 
 const LandlordRegistration = () => {
   const navigate = useNavigate();
+  const { registerLandlord, loading, error: authError } = useAuth();
+  
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -16,7 +20,13 @@ const LandlordRegistration = () => {
   });
   
   const [errors, setErrors] = useState({});
-  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Set auth error to local state if it exists
+  React.useEffect(() => {
+    if (authError) {
+      setErrors({ submit: authError });
+    }
+  }, [authError]);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -69,31 +79,24 @@ const LandlordRegistration = () => {
     }
     
     setErrors({});
-    setIsSubmitting(true);
     
     try {
-      // Here you would make an API call to register the landlord
-      // Example API call:
-      // const response = await api.post('/auth/register/landlord', {
-      //   ...formData,
-      //   userType: 'landlord'
-      // });
+  
+      const { confirmPassword, acceptTerms, ...apiData } = formData;
       
-      console.log('Registering landlord with data:', {
-        ...formData,
-        userType: 'landlord'
-      });
+      // Call the registerLandlord method from AuthContext
+      const response = await registerLandlord(apiData);
       
-      // Simulate API call delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      console.log('Registration successful:', response);
       
       // After successful registration, redirect to login
-      navigate('/login', { state: { message: 'Registration successful! Please log in.' } });
+      navigate('/login', { 
+        state: { message: 'Registration successful! Please log in with your new account.' } 
+      });
     } catch (error) {
       console.error('Registration error:', error);
-      setErrors({ submit: 'Registration failed. Please try again.' });
-    } finally {
-      setIsSubmitting(false);
+      // Error is already handled by the auth context and will be displayed
+      // via the authError effect above
     }
   };
 
@@ -234,10 +237,10 @@ const LandlordRegistration = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              disabled={isSubmitting}
+              disabled={loading}
               className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:bg-blue-400"
             >
-              {isSubmitting ? 'Registering...' : 'Register as Landlord'}
+              {loading ? 'Registering...' : 'Register as Landlord'}
             </button>
             
             {/* Login Link */}
