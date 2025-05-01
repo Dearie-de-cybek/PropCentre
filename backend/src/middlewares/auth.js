@@ -19,7 +19,7 @@ const isAuthenticated = async (req, res, next) => {
 
     // Verify token
     const decoded = jwt.verify(token, ENV.jwtSecret);
-    
+
     if (!decoded) {
       return res.status(401).json({
         errorStatus: true,
@@ -42,8 +42,8 @@ const isAuthenticated = async (req, res, next) => {
 
     // Check if user exists
     const user = await prisma.user.findUnique({
-      where: { 
-        id: decoded.userId 
+      where: {
+        id: decoded.userId,
       },
     });
 
@@ -58,8 +58,8 @@ const isAuthenticated = async (req, res, next) => {
 
     // Check if session exists
     const session = await prisma.session.findUnique({
-      where: { 
-        token: token 
+      where: {
+        token: token,
       },
     });
 
@@ -76,7 +76,7 @@ const isAuthenticated = async (req, res, next) => {
     req.user = {
       id: user.id,
       email: user.email,
-      accountType: user.account_type,
+      accountType: user.userType,
     };
 
     next();
