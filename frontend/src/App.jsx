@@ -16,6 +16,9 @@ import DashboardLayout from './components/DashboardLayout';
 import Dashboard from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 
+import PropertyManagement from './components/PropertyManagement';
+import PropertyForm from './components/PropertyForm';
+
 const App = () => {
   return (
     <AuthProvider>
@@ -42,31 +45,21 @@ const App = () => {
             
             {/* Landlord-specific routes */}
 
-            {/* <Route path="properties" element={
+            <Route path="properties" element={
               <ProtectedRoute requiredAccountType="landlord">
-                <div>My Properties Page (Coming Soon)</div>
+                <PropertyManagement />
               </ProtectedRoute>
             } />
             <Route path="properties/add" element={
               <ProtectedRoute requiredAccountType="landlord">
-                <div>Add Property Form (Coming Soon)</div>
+                <PropertyForm />
               </ProtectedRoute>
             } />
-            <Route path="applications" element={
+            <Route path="properties/edit/:id" element={
               <ProtectedRoute requiredAccountType="landlord">
-                <div>Applications Page (Coming Soon)</div>
+                <PropertyForm isEditing={true} />
               </ProtectedRoute>
             } />
-            <Route path="tenants" element={
-              <ProtectedRoute requiredAccountType="landlord">
-                <div>Tenants Page (Coming Soon)</div>
-              </ProtectedRoute>
-            } />
-            <Route path="analytics" element={
-              <ProtectedRoute requiredAccountType="landlord">
-                <div>Analytics Page (Coming Soon)</div>
-              </ProtectedRoute>
-            } /> */}
             
             {/* Seeker-specific routes */}
             {/* <Route path="saved" element={
