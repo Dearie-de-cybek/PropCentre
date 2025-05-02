@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Initialize routes
-app.include_router(auth.router)
+#app.include_router(auth.router)
 app.include_router(properties.router)
 app.include_router(recommendations.router)
 app.include_router(analytics.router)
