@@ -4,6 +4,8 @@ import SponsoredAdCard from "../components/SponsporedAdCard";
 import FilterSidebar from "../components/FilterSidebar";
 import PropertyCard from "../components/PropCard";
 import PropertyAPI from "../services/PropertyAPI";
+import PropertyPricePrediction from "../components/PropertyPricePrediction";
+import LocationAnalysisComponent from "../components/LocationAnalysisComponent";
 
 const PropertyHome = () => {
   // State management

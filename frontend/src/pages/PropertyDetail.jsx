@@ -4,6 +4,8 @@ import PropertyNavbar from "../components/PropertyNavbar";
 import PropertyAPI from "../services/PropertyAPI";
 import { useAuth } from "../context/AuthContext";
 import { HeartIcon, MessageCircleIcon, CalendarIcon } from "lucide-react";
+import PropertyDetailsAnalytics from "../components/PropertyDetailsAnalytics";
+import SimilarPropertiesComponent from "../components/SimilarPropertiesComponent";
 
 const PropertyDetail = () => {
   const { id } = useParams();
