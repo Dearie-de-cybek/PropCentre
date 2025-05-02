@@ -113,62 +113,82 @@ class PropertyController {
   }
 
   // Get property by ID
-  async getPropertyById(req, res) {
-    try {
-      const { id } = req.params;
-      
-      // Validate property ID
-      if (!id || isNaN(parseInt(id))) {
-        return this.response.error(res, 'Invalid property ID', 400);
-      }
+async getPropertyById(req, res) {
+  try {
+    const id = parseInt(req.params.id);
 
-      const property = await this.prisma.property.findUnique({
-        where: { id: parseInt(id) },
-        include: {
-          images: true,
-          amenities: true,
-          owner: {
-            select: {
-              id: true,
-              firstName: true,
-              lastName: true,
-              email: true,
-              profileImage: true,
-              landlordProfile: true
-            }
-          },
-          reviews: {
-            where: { isApproved: true },
-            include: {
-              reviewer: {
-                select: {
-                  id: true,
-                  firstName: true,
-                  lastName: true,
-                  profileImage: true
-                }
+    // Validate property ID
+    if (isNaN(id) || id <= 0) {
+      return this.response.error(res, 'Invalid property ID', 400);
+    }
+
+    const property = await this.prisma.property.findUnique({
+      where: { id },
+      include: {
+        images: true,
+        amenities: true,
+        owner: {
+          select: {
+            id: true,
+            firstName: true,
+            lastName: true,
+            email: true,
+            profileImage: true,
+            landlordProfile: true
+          }
+        },
+        reviews: {
+          where: { isApproved: true },
+          include: {
+            reviewer: {
+              select: {
+                id: true,
+                firstName: true,
+                lastName: true,
+                profileImage: true
               }
             }
           }
         }
-      });
-
-      if (!property) {
-        return this.response.error(res, 'Property not found', 404);
       }
+    });
 
-      return this.response.success(res, 'Property fetched successfully', 200, property);
-    } catch (error) {
-      logger.error(`Error fetching property: ${error.message}`);
-      return this.response.error(res, error.message, 500);
+    if (!property) {
+      return this.response.error(res, 'Property not found', 404);
     }
+
+    return this.response.success(res, 'Property fetched successfully', 200, property);
+  } catch (error) {
+    logger.error(`Error fetching property: ${error.message}`);
+    return this.response.error(res, error.message, 500);
   }
+}
 
   // Get landlord properties
   async getLandlordProperties(req, res) {
     try {
-      const userId = req.user.id;
-
+      // Add validation for req.user
+      if (!req.user) {
+        logger.error("User not found in request");
+        return this.response.error(res, "Authentication failed", 401);
+      }
+  
+      // Validate user ID
+      if (!req.user.id) {
+        logger.error("User ID not found in request", req.user);
+        return this.response.error(res, "User ID not found", 400);
+      }
+  
+      // Ensure userId is an integer
+      const userId = parseInt(req.user.id, 10);
+      
+      if (isNaN(userId) || userId <= 0) {
+        logger.error(`Invalid user ID: ${req.user.id}`);
+        return this.response.error(res, "Invalid user ID", 400);
+      }
+  
+      logger.info(`Fetching properties for user ID: ${userId}`);
+  
       const properties = await this.prisma.property.findMany({
         where: { ownerId: userId },
         include: {
@@ -178,7 +198,7 @@ class PropertyController {
           createdAt: 'desc'
         }
       });
-
+  
       return this.response.success(res, 'Landlord properties fetched successfully', 200, properties);
     } catch (error) {
       logger.error(`Error fetching landlord properties: ${error.message}`);

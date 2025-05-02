@@ -11,14 +11,19 @@ class PropertyRoutes {
   }
 
   initializeRoutes() {
-    // Public endpoints
+    // Public endpoints - fixed path routes first
     this.router.get(`${this.path}/`, propertyController.getAllProperties.bind(propertyController));
     this.router.get(`${this.path}/featured`, propertyController.getFeaturedProperties.bind(propertyController));
+    
+    // Authenticated specific endpoints - these MUST come before parameterized routes
+    this.router.get(`${this.path}/landlord`, isAuthenticated, propertyController.getLandlordProperties.bind(propertyController));
+    this.router.get(`${this.path}/saved`, isAuthenticated, propertyController.getSavedProperties.bind(propertyController));
+    
+    // Parameterized routes - these should come after specific routes
     this.router.get(`${this.path}/:id`, propertyController.getPropertyById.bind(propertyController));
     this.router.get(`${this.path}/:id/reviews`, propertyController.getPropertyReviews.bind(propertyController));
 
-    // Authenticated endpoints
-    this.router.get(`${this.path}/landlord`, isAuthenticated, propertyController.getLandlordProperties.bind(propertyController));
+    // Other authenticated endpoints
     this.router.post(`${this.path}/`, isAuthenticated, upload.array('images', 10), propertyController.createProperty.bind(propertyController));
     this.router.put(`${this.path}/:id`, isAuthenticated, upload.array('images', 10), propertyController.updateProperty.bind(propertyController));
     this.router.delete(`${this.path}/:id`, isAuthenticated, propertyController.deleteProperty.bind(propertyController));
@@ -26,7 +31,6 @@ class PropertyRoutes {
 
     // Saved properties
     this.router.post(`${this.path}/:id/save`, isAuthenticated, propertyController.saveProperty.bind(propertyController));
-    this.router.get(`${this.path}/saved`, isAuthenticated, propertyController.getSavedProperties.bind(propertyController));
     this.router.delete(`${this.path}/:id/save`, isAuthenticated, propertyController.removeSavedProperty.bind(propertyController));
 
     // Appointments and reviews

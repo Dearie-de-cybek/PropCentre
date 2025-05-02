@@ -47,11 +47,20 @@ class PropertyAPI {
   // Get properties for a specific landlord (authenticated)
   static async getLandlordProperties() {
     try {
+      // Check if token exists
+      const token = localStorage.getItem("token");
+      if (!token) {
+        console.error("No authentication token found");
+        throw new Error("Authentication token missing");
+      }
+      
       const response = await axios.get(`${API_URL}/properties/landlord`, {
         headers: getAuthHeader(),
+        withCredentials: true
       });
       return response.data;
     } catch (error) {
+      console.error("Error details:", error.response?.data);
       throw this.handleError(error);
     }
   }
