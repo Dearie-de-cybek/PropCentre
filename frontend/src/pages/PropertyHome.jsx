@@ -26,28 +26,26 @@ const PropertyHome = () => {
   });
 
   // Fetch properties on component mount
+  
   useEffect(() => {
+    const fetchProperties = async () => {
+      try {
+        const response = await PropertyAPI.getLandlordProperties();
+        setProperties(response.data || []);
+        setLoading(false);
+      } catch (err) {
+        console.error('Error fetching properties:', err);
+        setError('Failed to load properties. Please try again later.');
+        setLoading(false);
+      }
+    };
+    
     fetchProperties();
+  }, []);
+  
+  useEffect(() => {
     fetchSponsoredAds();
   }, []);
-
-  // Fetch properties with applied filters
-  const fetchProperties = async (appliedFilters = {}) => {
-    setLoading(true);
-    try {
-      const response = await PropertyAPI.getAllProperties({
-        ...appliedFilters,
-        status: 'available' // Only show available properties
-      });
-      setProperties(response.data || []);
-      setLoading(false);
-    } catch (err) {
-      console.error("Error fetching properties:", err);
-      setError("Failed to load properties. Please try again later.");
-      setLoading(false);
-    }
-  };
-
   // Fetch sponsored ads
   const fetchSponsoredAds = async () => {
     try {
@@ -62,7 +60,6 @@ const PropertyHome = () => {
   // Handle filter changes from sidebar
   const handleFilterChange = (newFilters) => {
     setFilters({...filters, ...newFilters});
-    fetchProperties({...filters, ...newFilters});
   };
 
   // Sample sponsored ads data - would be replaced with API data

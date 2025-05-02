@@ -19,26 +19,40 @@ const PropertyDetail = () => {
   const [showContactModal, setShowContactModal] = useState(false);
   const [showAppointmentModal, setShowAppointmentModal] = useState(false);
 
+  // Debug logs to help identify issues
+  console.log("PropertyDetail component rendering");
+  console.log("URL Params ID:", id);
+  console.log("Auth state:", {
+    isAuthenticated: isAuthenticated(),
+    currentUser,
+  });
+
   // Fetch property details
   useEffect(() => {
+    console.log("PropertyDetail useEffect running for ID:", id);
+
     const fetchPropertyDetails = async () => {
       try {
+        console.log("Fetching property data for ID:", id);
         const response = await PropertyAPI.getPropertyById(id);
+        console.log("API Response:", response);
         setProperty(response.data);
-        
+
         // Check if property is saved by user
-        if (isAuthenticated() && currentUser?.accountType === 'seeker') {
+        if (isAuthenticated() && currentUser?.accountType === "seeker") {
           try {
             const savedProperties = await PropertyAPI.getSavedProperties();
-            setSaved(savedProperties.data.some(p => p.propertyId === parseInt(id)));
+            setSaved(
+              savedProperties.data.some((p) => p.propertyId === parseInt(id))
+            );
           } catch (err) {
             console.error("Error checking saved status:", err);
           }
         }
-        
+
         setLoading(false);
       } catch (err) {
-        console.error("Error fetching property details:", err);
+        console.error("Error fetching property details:", err, err.response);
         setError("Failed to load property details. Please try again later.");
         setLoading(false);
       }
@@ -87,7 +101,7 @@ const PropertyDetail = () => {
 
   // Redirect to login
   const redirectToLogin = () => {
-    navigate('/login', { state: { from: `/properties-detail/${id}` } });
+    navigate("/login", { state: { from: `/properties-detail/${id}` } });
   };
 
   // Show loading state
@@ -121,39 +135,74 @@ const PropertyDetail = () => {
     );
   }
 
+  // Fix for image paths - use absolute URLs or import images properly
+  const getImageUrl = (path) => {
+    // If it's already an absolute URL (e.g., http://...)
+    if (
+      path.startsWith("http") ||
+      path.startsWith("https") ||
+      path.startsWith("/")
+    ) {
+      return path;
+    }
+
+    // For relative paths that use ../public, convert to absolute path
+    if (path.includes("../public")) {
+      return path.replace("../public", "");
+    }
+
+    // Otherwise assume it's a relative path from public directory
+    return `/${path}`;
+  };
+
   // Use actual property data or fallback to placeholder data if needed
   const propertyData = {
     id: property.id,
     name: property.title,
-    address: `${property.address}, ${property.city}, ${property.state || ''} ${property.zipCode || ''}`,
-    price: property.price,
-    bedrooms: property.bedrooms,
-    bathrooms: property.bathrooms,
-    toilets: property.toilets,
-    images: property.images && property.images.length > 0 
-      ? property.images.map(img => img.imageUrl) 
-      : [
-          "../public/images/room1.jpg",
-          "../public/images/room2.jpg",
-          "../public/images/room3.jpg",
-          "../public/images/room4.jpg",
-        ],
-    description: property.description,
+    address: `${property.address}, ${property.city}, ${property.state || ""} ${
+      property.zipCode || ""
+    }`,
+    price: property.price || 0,
+    bedrooms: property.bedrooms || 0,
+    bathrooms: property.bathrooms || 0,
+    toilets: property.toilets || 0,
+    images:
+      property.images && property.images.length > 0
+        ? property.images.map((img) => img.imageUrl)
+        : [
+            "/images/room1.jpg",
+            "/images/room2.jpg",
+            "/images/room3.jpg",
+            "/images/room4.jpg",
+          ],
+    description: property.description || "No description available.",
     features: [
       property.hasAirConditioning ? "Air Conditioning" : null,
       property.furnished ? "Furnished" : null,
       property.hasInternet ? "Internet" : null,
       property.petFriendly ? "Pet Friendly" : null,
-      ...(property.amenities || []),
+      // Check if amenities is an array of objects or strings and handle accordingly
+      ...(property.amenities
+        ? property.amenities.map((amenity) =>
+            // If amenity is an object with a name property, use that
+            typeof amenity === "object" && amenity !== null
+              ? amenity.name || amenity.description || JSON.stringify(amenity)
+              : // Otherwise use the amenity directly (assuming it's a string)
+                amenity
+          )
+        : []),
     ].filter(Boolean), // Remove null values
     squareFeet: property.squareFeet,
     year: property.yearBuilt,
-    landlord: property.owner ? {
-      name: `${property.owner.firstName} ${property.owner.lastName}`,
-      company: property.owner.landlordProfile?.companyName,
-      image: property.owner.profileImage
-    } : null
+    landlord: property.owner
+      ? {
+          name: `${property.owner.firstName} ${property.owner.lastName}`,
+          company: property.owner.landlordProfile?.companyName,
+          image: property.owner.profileImage,
+        }
+      : null,
   };
+  console.log("Rendering property with data:", propertyData);
 
   return (
     <>
@@ -166,7 +215,7 @@ const PropertyDetail = () => {
             className="flex items-center text-[#f10000] mb-4"
           >
             <img
-              src="../public/icons/back.svg"
+              src={getImageUrl("/icons/back.svg")}
               alt="Back"
               className="h-4 w-4 mr-2"
             />
@@ -181,7 +230,7 @@ const PropertyDetail = () => {
               </h1>
               <div className="flex items-center text-white">
                 <img
-                  src="../public/icons/map.svg"
+                  src={getImageUrl("/icons/map.svg")}
                   alt="Location"
                   className="h-5 w-5 mr-2"
                 />
@@ -191,18 +240,23 @@ const PropertyDetail = () => {
             <div className="flex space-x-4">
               <button className="text-white p-2 hover:bg-[#404040] rounded-full transition-colors">
                 <img
-                  src="../public/icons/share.svg"
+                  src={getImageUrl("/icons/share.svg")}
                   alt="Share"
                   className="h-[20px] w-[17px]"
                 />
               </button>
-              <button 
+              <button
                 onClick={handleSaveProperty}
                 className={`p-2 rounded-full transition-colors ${
-                  saved ? 'text-red-500 bg-red-500/10' : 'text-white hover:bg-[#404040]'
+                  saved
+                    ? "text-red-500 bg-red-500/10"
+                    : "text-white hover:bg-[#404040]"
                 }`}
               >
-                <HeartIcon className="h-6 w-6" fill={saved ? "currentColor" : "none"} />
+                <HeartIcon
+                  className="h-6 w-6"
+                  fill={saved ? "currentColor" : "none"}
+                />
               </button>
             </div>
           </div>
@@ -218,7 +272,7 @@ const PropertyDetail = () => {
               />
               <button className="absolute left-4 top-4 p-2 rounded">
                 <img
-                  src="../public/icons/expansion.svg"
+                  src={getImageUrl("/icons/expansion.svg")}
                   alt="Expand"
                   className="h-5 w-5"
                 />
@@ -241,7 +295,7 @@ const PropertyDetail = () => {
                   </div>
                   <button className="absolute left-4 top-4 p-2 rounded">
                     <img
-                      src="../public/icons/expansion.svg"
+                      src={getImageUrl("/icons/expansion.svg")}
                       alt="Expand"
                       className="h-5 w-5"
                     />
@@ -260,7 +314,7 @@ const PropertyDetail = () => {
                   </div>
                   <button className="absolute left-4 top-4 p-2 rounded">
                     <img
-                      src="../public/icons/expansion.svg"
+                      src={getImageUrl("/icons/expansion.svg")}
                       alt="Expand"
                       className="h-5 w-5"
                     />
@@ -277,7 +331,7 @@ const PropertyDetail = () => {
                 />
                 <button className="absolute left-4 top-4 p-2 rounded">
                   <img
-                    src="../public/icons/expansion.svg"
+                    src={getImageUrl("/icons/expansion.svg")}
                     alt="Expand"
                     className="h-5 w-5"
                   />
@@ -293,9 +347,7 @@ const PropertyDetail = () => {
               <h2 className="text-white text-2xl font-bold mb-4">
                 Property Overview
               </h2>
-              <p className="text-white mb-6">
-                {propertyData.description}
-              </p>
+              <p className="text-white mb-6">{propertyData.description}</p>
 
               {/* Property Features */}
               <div className="mt-6">
@@ -315,7 +367,7 @@ const PropertyDetail = () => {
                 {/* Bedroom Rectangle */}
                 <div className="bg-[#212121] p-6 rounded flex flex-col items-center">
                   <img
-                    src="../public/icons/bed.svg"
+                    src={getImageUrl("/icons/bed.svg")}
                     alt="Bedroom"
                     className="h-[68px] w-[91px] mb-3"
                   />
@@ -327,7 +379,7 @@ const PropertyDetail = () => {
                 {/* Bathroom Rectangle */}
                 <div className="bg-[#212121] p-6 rounded flex flex-col items-center">
                   <img
-                    src="../public/icons/bathtub.svg"
+                    src={getImageUrl("/icons/bathtub.svg")}
                     alt="Bathroom"
                     className="h-[68px] w-[91px] mb-3"
                   />
@@ -339,7 +391,7 @@ const PropertyDetail = () => {
                 {/* Toilet Rectangle */}
                 <div className="bg-[#212121] p-6 rounded flex flex-col items-center">
                   <img
-                    src="../public/icons/toilet.svg"
+                    src={getImageUrl("/icons/toilet.svg")}
                     alt="Toilet"
                     className="h-[68px] w-[91px] mb-3"
                   />
@@ -351,12 +403,14 @@ const PropertyDetail = () => {
                 {/* Area Rectangle */}
                 <div className="bg-[#212121] p-6 rounded flex flex-col items-center">
                   <img
-                    src="../public/icons/expand.svg"
+                    src={getImageUrl("/icons/expand.svg")}
                     alt="Area"
                     className="mb-3"
                   />
                   <span className="text-white text-center">
-                    {propertyData.squareFeet ? `${propertyData.squareFeet} sq ft` : 'Area N/A'}
+                    {propertyData.squareFeet
+                      ? `${propertyData.squareFeet} sq ft`
+                      : "Area N/A"}
                   </span>
                 </div>
               </div>
@@ -366,14 +420,14 @@ const PropertyDetail = () => {
             <div className="bg-[#212121] w-full lg:w-[500px] rounded-lg p-6 flex flex-col">
               {/* Price */}
               <h3 className="text-white text-3xl font-bold mb-4">
-                ${propertyData.price.toLocaleString()}
-                {property.listingType === 'rent' ? '/month' : ''}
+                ${property.price ? property.price.toLocaleString() : "0"}
+                {property.listingType === "rent" ? "/month" : ""}
               </h3>
 
               {/* Address */}
               <div className="text-white mb-6">
                 <img
-                  src="../public/icons/map.svg"
+                  src={getImageUrl("/icons/map.svg")}
                   alt="Location"
                   className="h-5 w-5 inline mr-2"
                 />
@@ -384,11 +438,21 @@ const PropertyDetail = () => {
               <div className="mb-6">
                 <div className="flex justify-between text-white mb-2">
                   <span>Property Type:</span>
-                  <span className="text-gray-300">{property.propertyType.charAt(0).toUpperCase() + property.propertyType.slice(1)}</span>
+                  <span className="text-gray-300">
+                    {property.propertyType
+                      ? property.propertyType.charAt(0).toUpperCase() +
+                        property.propertyType.slice(1)
+                      : "N/A"}
+                  </span>
                 </div>
                 <div className="flex justify-between text-white mb-2">
                   <span>Status:</span>
-                  <span className="text-gray-300">{property.status.charAt(0).toUpperCase() + property.status.slice(1)}</span>
+                  <span className="text-gray-300">
+                    {property.status
+                      ? property.status.charAt(0).toUpperCase() +
+                        property.status.slice(1)
+                      : "N/A"}
+                  </span>
                 </div>
                 {property.yearBuilt && (
                   <div className="flex justify-between text-white mb-2">
@@ -399,10 +463,13 @@ const PropertyDetail = () => {
               </div>
 
               <div className="container mx-auto px-6 mb-8">
-                <PropertyDetailsAnalytics 
-                  propertyId={id} 
-                  propertyData={propertyData}
-                />
+                {/* Conditionally render PropertyDetailsAnalytics if it's imported and available */}
+                {typeof PropertyDetailsAnalytics === "function" && (
+                  <PropertyDetailsAnalytics
+                    propertyId={id}
+                    propertyData={propertyData}
+                  />
+                )}
               </div>
 
               {/* Landlord Info */}
@@ -412,15 +479,25 @@ const PropertyDetail = () => {
                   <div className="flex items-center">
                     <div className="w-12 h-12 rounded-full bg-[#404040] flex items-center justify-center mr-3 overflow-hidden">
                       {propertyData.landlord.image ? (
-                        <img src={propertyData.landlord.image} alt="Owner" className="w-full h-full object-cover" />
+                        <img
+                          src={propertyData.landlord.image}
+                          alt="Owner"
+                          className="w-full h-full object-cover"
+                        />
                       ) : (
-                        <span className="text-white text-lg">{propertyData.landlord.name.charAt(0)}</span>
+                        <span className="text-white text-lg">
+                          {propertyData.landlord.name.charAt(0)}
+                        </span>
                       )}
                     </div>
                     <div>
-                      <p className="text-white font-medium">{propertyData.landlord.name}</p>
+                      <p className="text-white font-medium">
+                        {propertyData.landlord.name}
+                      </p>
                       {propertyData.landlord.company && (
-                        <p className="text-gray-400 text-sm">{propertyData.landlord.company}</p>
+                        <p className="text-gray-400 text-sm">
+                          {propertyData.landlord.company}
+                        </p>
                       )}
                     </div>
                   </div>
@@ -433,8 +510,8 @@ const PropertyDetail = () => {
               {/* Action Buttons */}
               <div className="flex flex-col space-y-3">
                 {/* Different buttons based on listing type and user type */}
-                {property.listingType === 'sale' ? (
-                  <button 
+                {property.listingType === "sale" ? (
+                  <button
                     onClick={handleContact}
                     className="bg-[#f10000] text-white font-bold py-4 w-full rounded flex items-center justify-center gap-2"
                   >
@@ -442,7 +519,7 @@ const PropertyDetail = () => {
                     Contact About Purchase
                   </button>
                 ) : (
-                  <button 
+                  <button
                     onClick={handleContact}
                     className="bg-[#f10000] text-white font-bold py-4 w-full rounded flex items-center justify-center gap-2"
                   >
@@ -450,8 +527,8 @@ const PropertyDetail = () => {
                     Contact About Renting
                   </button>
                 )}
-                
-                <button 
+
+                <button
                   onClick={handleBookAppointment}
                   className="bg-[#404040] text-white font-bold py-4 w-full rounded flex items-center justify-center gap-2 hover:bg-[#505050]"
                 >
@@ -463,15 +540,21 @@ const PropertyDetail = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-6 py-8">
-        <SimilarPropertiesComponent propertyId={id} />
-      </div>
+
+      {/* Similar Properties - only render if component exists */}
+      {typeof SimilarPropertiesComponent === "function" && (
+        <div className="container mx-auto px-6 py-8">
+          <SimilarPropertiesComponent propertyId={id} />
+        </div>
+      )}
 
       {/* Login Modal */}
       {showLoginModal && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
           <div className="bg-[#1E1E1E] p-6 rounded-lg max-w-md w-full">
-            <h2 className="text-white text-xl font-bold mb-4">Login Required</h2>
+            <h2 className="text-white text-xl font-bold mb-4">
+              Login Required
+            </h2>
             <p className="text-gray-300 mb-6">
               You need to be logged in to perform this action.
             </p>
@@ -497,10 +580,14 @@ const PropertyDetail = () => {
       {showContactModal && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
           <div className="bg-[#1E1E1E] p-6 rounded-lg max-w-md w-full">
-            <h2 className="text-white text-xl font-bold mb-4">Contact Landlord</h2>
+            <h2 className="text-white text-xl font-bold mb-4">
+              Contact Landlord
+            </h2>
             <form className="space-y-4">
               <div>
-                <label htmlFor="message" className="block text-white mb-2">Your Message</label>
+                <label htmlFor="message" className="block text-white mb-2">
+                  Your Message
+                </label>
                 <textarea
                   id="message"
                   rows="4"
@@ -533,19 +620,25 @@ const PropertyDetail = () => {
       {showAppointmentModal && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
           <div className="bg-[#1E1E1E] p-6 rounded-lg max-w-md w-full">
-            <h2 className="text-white text-xl font-bold mb-4">Book Inspection</h2>
+            <h2 className="text-white text-xl font-bold mb-4">
+              Book Inspection
+            </h2>
             <form className="space-y-4">
               <div>
-                <label htmlFor="date" className="block text-white mb-2">Preferred Date</label>
+                <label htmlFor="date" className="block text-white mb-2">
+                  Preferred Date
+                </label>
                 <input
                   type="date"
                   id="date"
                   className="w-full bg-[#404040] text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  min={new Date().toISOString().split('T')[0]}
+                  min={new Date().toISOString().split("T")[0]}
                 />
               </div>
               <div>
-                <label htmlFor="timeSlot" className="block text-white mb-2">Preferred Time</label>
+                <label htmlFor="timeSlot" className="block text-white mb-2">
+                  Preferred Time
+                </label>
                 <select
                   id="timeSlot"
                   className="w-full bg-[#404040] text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -557,7 +650,12 @@ const PropertyDetail = () => {
                 </select>
               </div>
               <div>
-                <label htmlFor="appointmentMessage" className="block text-white mb-2">Message (Optional)</label>
+                <label
+                  htmlFor="appointmentMessage"
+                  className="block text-white mb-2"
+                >
+                  Message (Optional)
+                </label>
                 <textarea
                   id="appointmentMessage"
                   rows="3"
