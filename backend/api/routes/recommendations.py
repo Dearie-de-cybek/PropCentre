@@ -2,7 +2,6 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from typing import List, Dict, Any, Optional
 import pandas as pd
-
 from ml.models.recommendation.mauritius_recommender import MauritiusRecommender
 from api.dependencies import get_recommender_model, get_db
 
@@ -102,5 +101,43 @@ async def get_similar_properties(
             }
         else:
             raise HTTPException(status_code=404, detail="No properties found in database")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+@router.get("/trending")
+async def get_trending_properties(
+    recommender: MauritiusRecommender = Depends(get_recommender_model),
+    db = Depends(get_db),
+    limit: int = Query(5, ge=1, le=20)
+):
+    """Get trending properties based on popularity and market data."""
+    try:
+        # Get properties with most recent views/saves/interactions
+        trending_properties = await db.properties.find({
+            "status": "available"
+        }).sort("viewCount", -1).limit(limit).to_list(limit)
+        
+        # Format response
+        result = []
+        for prop in trending_properties:
+            result.append({
+                "property_id": str(prop["_id"]),
+                "title": prop["title"],
+                "price": float(prop["price"]),
+                "location": prop["location"],
+                "bedrooms": prop.get("bedrooms"),
+                "bathrooms": prop.get("bathrooms"),
+                "property_type": prop["propertyType"],
+                "image_url": prop.get("primaryImage", ""),
+                "trend_score": prop.get("viewCount", 0) / 100  # Normalize to 0-1 range
+            })
+        
+        return {
+            "data": {
+                "trending_properties": result
+            },
+            "message": "Trending properties retrieved successfully",
+            "statusCode": 200
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

@@ -57,6 +57,29 @@ const recommendationService = {
       console.error('Error getting price forecast:', error);
       throw error;
     }
+  },
+
+  getEnvironmentalData: async (location) => {
+    try {
+      const response = await api.get(`/analytics/environmental/${encodeURIComponent(location)}`);
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching environmental data:', error);
+      throw error;
+    }
+  },
+  
+  // Get trending properties
+  getTrendingProperties: async (limit = 5) => {
+    try {
+      const response = await api.get('/recommendations/trending', {
+        params: { limit }
+      });
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching trending properties:', error);
+      throw error;
+    }
   }
 };
 
