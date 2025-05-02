@@ -1,0 +1,1001 @@
+property_id,title,location,district,region,latitude,longitude,price,property_type,bedrooms,bathrooms,area_size,listing_type,year_built,furnished,dist_to_beach
+PROP1000,Charming 3 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.400410714278017,57.709771071557334,195000,condo,3,4,112,sale,1994.0,False,1.4573886534664844
+PROP1001,Elegant 2 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.233026552568802,57.4742228933429,125000,apartment,2,3,61,sale,1984.0,True,7.0893846667553255
+PROP1002,Modern 1 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.26947226474659,57.36915800513242,320000,apartment,1,1,122,sale,1988.0,True,4.051340344684167
+PROP1003,Spacious 3 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.225816084471795,57.469566769682025,315000,condo,3,4,162,rent,1986.0,True,7.03430636277144
+PROP1004,Elegant 2 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31355082732363,57.524760297880064,260000,condo,2,2,131,rent,2006.0,True,6.259548347874627
+PROP1005,Spacious 5 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.203250620524813,57.78169978915476,355000,condo,5,1,125,rent,2018.0,True,3.1783028896959573
+PROP1006,Cozy 2 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.198770008671705,57.77311327864062,360000,condo,2,3,119,rent,1988.0,True,2.8654653209663232
+PROP1007,420 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02659119130649,57.58694605857234,555000,land,0,0,420,sale,,False,3.510084456255954
+PROP1008,Cozy 4 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.27754005460729,57.36001912580536,290000,apartment,4,5,115,rent,2023.0,True,4.4064151681456725
+PROP1009,556 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.3172081416442,57.521927598229695,395000,land,0,0,556,rent,,False,8.081822592444828
+PROP1010,Luxurious 4 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.04179449603417,57.54641365249587,530000,condo,4,4,175,sale,2013.0,True,2.4985964442704667
+PROP1011,Elegant 2 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.15917219847703,57.502594597634875,510000,condo,2,3,184,rent,1985.0,True,2.0205362711696147
+PROP1012,Modern 3 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.297027832636502,57.47330097369646,215000,house,3,1,155,sale,1990.0,False,14.195634003718453
+PROP1013,Elegant 1 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.318509846715173,57.374307748399744,1235000,villa,1,2,306,rent,2019.0,False,4.187443463402625
+PROP1014,Luxurious 2 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.244742808488304,57.4756852036065,345000,house,2,3,234,sale,2023.0,False,10.253532788519927
+PROP1015,Luxurious 4 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.411018186548176,57.69609626960318,365000,house,4,5,255,sale,1987.0,True,2.8970033455236015
+PROP1016,Luxurious 3 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.220910832426718,57.45845026852362,205000,condo,3,3,115,rent,2023.0,True,9.468389344607719
+PROP1017,Beautiful 5 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.220120153570374,57.77934761030661,210000,condo,5,3,89,rent,2010.0,False,4.6231842546332045
+PROP1018,712 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.16594842265727,57.499299565219545,620000,land,0,0,712,rent,,False,3.7176444439841605
+PROP1019,Charming 3 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.261373329512228,57.483893013395196,305000,condo,3,2,142,sale,2024.0,False,6.5275771393041335
+PROP1020,Modern 2 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.19563544749158,57.77790139318205,1310000,villa,2,2,351,sale,1994.0,True,1.2977492528401684
+PROP1021,Luxurious 1 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.187189634803126,57.7722563536897,295000,apartment,1,2,121,sale,2023.0,True,2.7373862322636318
+PROP1022,Beautiful 2 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.40376891219748,57.70780834170393,825000,villa,2,3,329,rent,1988.0,True,4.036359439220427
+PROP1023,Beautiful 3 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.152144181346255,57.49422611629478,255000,house,3,1,114,sale,2019.0,True,4.51540742370589
+PROP1024,440 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.038758338186124,57.535639616549965,560000,land,0,0,440,sale,,False,2.0697892149095782
+PROP1025,Charming 5 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.291104665006905,57.4809439421041,715000,villa,5,6,284,sale,2007.0,True,12.183883836957797
+PROP1026,590 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.040779327290966,57.547974714273955,730000,land,0,0,590,rent,,False,2.0159031112779053
+PROP1027,Cozy 1 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.163406058068123,57.4993659737123,450000,house,1,2,247,sale,2024.0,False,2.2597459807126423
+PROP1028,Spacious 1 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21855294481319,57.464998156838945,305000,house,1,2,168,rent,2021.0,False,8.676697310226496
+PROP1029,Beautiful 3 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.226510528527612,57.78081934827393,930000,villa,3,4,330,sale,2007.0,True,1.7253422521605124
+PROP1030,Elegant 1 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.2220560611577,57.78397029306563,1125000,villa,1,2,382,sale,1999.0,False,4.6243081258263015
+PROP1031,Spacious 4 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.524296294427202,57.51160689791126,105000,apartment,4,5,87,rent,2015.0,False,5.338259490381301
+PROP1032,Cozy 4 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.277677987621548,57.36088570683423,430000,condo,4,4,150,sale,1994.0,False,1.4062615908202445
+PROP1033,Beautiful 1 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.318391078780145,57.37706989683749,320000,apartment,1,1,112,rent,2018.0,False,1.2817315609424207
+PROP1034,Beautiful 1 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.309626886597968,57.52081684337903,745000,villa,1,1,262,rent,2018.0,True,11.132826669036689
+PROP1035,Charming 5 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.409608553280083,57.69799440709541,310000,house,5,1,194,rent,1986.0,True,4.3960841871450045
+PROP1036,Modern 5 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.268266616730504,57.35769559612757,395000,condo,5,6,117,sale,2009.0,False,4.530763621013308
+PROP1037,Modern 1 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.324649445183642,57.52445461361154,355000,condo,1,2,184,sale,2014.0,True,5.152838211375696
+PROP1038,Charming 2 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.398797410841244,57.70522540505237,365000,condo,2,1,188,rent,2001.0,True,1.2540377177106894
+PROP1039,Elegant 1 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.17021002626982,57.49969601095646,395000,condo,1,2,162,sale,2017.0,True,4.818253370275406
+PROP1040,241 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.40644660699513,57.70193218561986,140000,land,0,0,241,sale,,False,1.9439073373883575
+PROP1041,375 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.018660160171436,57.59146025372895,435000,land,0,0,375,rent,,False,1.9832507518221205
+PROP1042,Modern 2 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.42983907749417,57.71025826249429,560000,villa,2,1,160,rent,1980.0,False,3.915570222720559
+PROP1043,Luxurious 3 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.447150281720056,57.70869394999157,340000,condo,3,2,135,rent,1993.0,True,2.4995570204901867
+PROP1044,925 sqm Land in Souillac,Souillac,Savanne,South,-20.519438647232494,57.51236158130284,460000,land,0,0,925,rent,,False,9.101524880863307
+PROP1045,230 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.43191178552465,57.71478505928218,270000,land,0,0,230,sale,,False,1.7666507954884154
+PROP1046,479 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.440851691887378,57.71376154623823,565000,land,0,0,479,rent,,False,2.9213468077020703
+PROP1047,Modern 1 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.306760350234637,57.51992108926649,535000,villa,1,2,185,sale,2002.0,False,11.431212180022527
+PROP1048,Luxurious 2 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.023926852970227,57.58174609337247,995000,villa,2,1,251,rent,2010.0,True,4.071225558356977
+PROP1049,Elegant 2 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.041026268566227,57.547642071039355,225000,house,2,2,103,rent,1983.0,True,3.648121098561733
+PROP1050,Charming 5 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.22984422573795,57.79683319721788,1155000,villa,5,1,312,rent,2013.0,True,2.2492854600212913
+PROP1051,Luxurious 1 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.009747125511122,57.5742546323904,580000,house,1,2,216,rent,1989.0,True,2.824179075832005
+PROP1052,Spacious 5 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21007593926689,57.45281075008017,1005000,villa,5,5,365,rent,1985.0,False,8.453386489160149
+PROP1053,616 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22334296492148,57.46585666016616,445000,land,0,0,616,sale,,False,8.378691055856416
+PROP1054,318 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.017449939821006,57.57993532324765,435000,land,0,0,318,sale,,False,4.111334927589616
+PROP1055,Modern 4 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.327525973076856,57.36788269288401,590000,villa,4,4,155,sale,1981.0,False,4.09058126283869
+PROP1056,Cozy 3 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.44509016206602,57.71938691461831,245000,apartment,3,4,88,rent,2002.0,False,2.785922755090445
+PROP1057,Modern 4 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.43084744530231,57.70827092637896,1540000,villa,4,2,392,rent,2018.0,True,4.421693235923238
+PROP1058,Luxurious 1 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.22080995795643,57.79276371808137,210000,condo,1,2,84,sale,1999.0,False,3.5382305045964366
+PROP1059,Modern 5 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.22466548883817,57.7958067880309,175000,apartment,5,4,83,rent,2011.0,True,3.9394895203584683
+PROP1060,Modern 1 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.52268243737419,57.529512244470325,220000,condo,1,1,138,rent,1988.0,False,6.259412005962388
+PROP1061,Cozy 5 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.40058593671391,57.694054450851695,255000,house,5,1,191,sale,2019.0,True,4.511881792250591
+PROP1062,Modern 4 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.217753781201544,57.452662115366195,1045000,villa,4,1,365,rent,2024.0,False,5.036154694633548
+PROP1063,Luxurious 1 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.324876537208294,57.36956809178172,365000,condo,1,1,140,rent,2004.0,False,2.2023258700729964
+PROP1064,Charming 5 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21248166337925,57.47127273339461,245000,condo,5,5,110,rent,2023.0,False,7.457959486268208
+PROP1065,Spacious 5 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.407402502660876,57.701539016080915,345000,house,5,6,222,rent,1986.0,False,2.261368483602739
+PROP1066,336 sqm Land in Souillac,Souillac,Savanne,South,-20.527886960192003,57.5276361887598,165000,land,0,0,336,sale,,False,7.3986597331638
+PROP1067,Cozy 2 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.321405147741316,57.52226115269297,630000,villa,2,3,236,sale,1996.0,True,7.925703686793578
+PROP1068,Elegant 5 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.320922195268746,57.37108313923674,495000,condo,5,3,189,rent,1987.0,False,3.6446957402188014
+PROP1069,Spacious 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.318747200954416,57.50771348234315,165000,apartment,2,3,80,rent,2015.0,True,14.477229299714903
+PROP1070,327 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.268605618918954,57.47406144458012,215000,land,0,0,327,rent,,False,7.693887318838878
+PROP1071,Beautiful 3 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.269016434781374,57.47183723528142,670000,villa,3,4,253,sale,1984.0,True,14.566063933439374
+PROP1072,Elegant 4 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.521280883493567,57.525020344406386,145000,apartment,4,1,118,sale,2000.0,True,6.379403594775136
+PROP1073,Spacious 1 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.320913572879242,57.51578271317439,205000,apartment,1,2,109,rent,2024.0,False,10.368929002078623
+PROP1074,Luxurious 2 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.20449154542911,57.78662395313027,600000,villa,2,3,194,rent,2013.0,False,3.9153449279269212
+PROP1075,Cozy 2 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.294526541847297,57.472465183617174,195000,apartment,2,1,120,rent,2001.0,True,7.3922173963805005
+PROP1076,Spacious 1 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.274119302347838,57.36554644704938,675000,condo,1,1,198,rent,2004.0,False,3.256708718328379
+PROP1077,575 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.014272679615956,57.58554347772542,625000,land,0,0,575,sale,,False,2.4028144091839887
+PROP1078,Elegant 2 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02481752625406,57.54494701598776,415000,condo,2,3,126,sale,2004.0,True,2.9502181656182387
+PROP1079,Luxurious 5 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.201775064313157,57.778215371683764,1155000,villa,5,3,368,rent,1982.0,True,1.865544513813239
+PROP1080,Spacious 5 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.52373502808055,57.52766541359024,180000,condo,5,3,108,sale,2020.0,False,8.702774317484234
+PROP1081,Charming 5 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.406854570761265,57.69706665154542,390000,house,5,3,284,rent,1997.0,True,4.642802027554205
+PROP1082,Luxurious 1 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.447021661752114,57.71571303231125,305000,house,1,1,125,rent,2001.0,True,3.9675886751308247
+PROP1083,673 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.2389050800463,57.47294213257398,490000,land,0,0,673,sale,,False,10.427170686953708
+PROP1084,Charming 2 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.414039343412608,57.69991685715113,380000,villa,2,1,172,rent,2018.0,False,4.365122414204446
+PROP1085,Spacious 4 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.321341421402426,57.51785039398584,355000,house,4,5,255,sale,1996.0,False,11.460143390108925
+PROP1086,Charming 3 Bedroom House in Souillac,Souillac,Savanne,South,-20.530600882858593,57.52711010469466,275000,house,3,3,231,rent,1987.0,True,12.560113995623164
+PROP1087,Spacious 4 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.217327015797203,57.78680737962984,885000,villa,4,1,235,rent,1985.0,True,1.5146217546124392
+PROP1088,Charming 2 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.433903870477696,57.71083711941742,650000,villa,2,3,161,rent,2022.0,True,1.489248820140693
+PROP1089,Elegant 1 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.245645082815393,57.47547790403794,95000,apartment,1,1,54,rent,1992.0,False,11.817764879046825
+PROP1090,Spacious 5 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.439624727182604,57.720702153082705,670000,house,5,3,296,sale,2017.0,False,1.1497383435300645
+PROP1091,Cozy 4 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.33503311804405,57.38081747943305,980000,villa,4,2,266,sale,2000.0,True,4.853696119903336
+PROP1092,260 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02129008231283,57.5819809381041,340000,land,0,0,260,rent,,False,4.85260493708283
+PROP1093,Spacious 5 Bedroom House in Tamarin,Tamarin,Black River,West,-20.327952955697075,57.38085403091313,220000,house,5,3,107,rent,2020.0,False,4.633443205184347
+PROP1094,Charming 1 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.315595784741202,57.518967937332796,290000,house,1,2,187,rent,1985.0,False,13.213119302869497
+PROP1095,Modern 1 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.220533595767886,57.468426696369754,370000,house,1,1,242,rent,1983.0,True,14.741337656107712
+PROP1096,Beautiful 2 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.299061619221504,57.48745582583223,245000,apartment,2,2,132,sale,1988.0,False,7.679917957484785
+PROP1097,Cozy 3 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.319947268553268,57.52379816222286,1185000,villa,3,3,392,rent,2020.0,True,9.001185662673283
+PROP1098,Modern 3 Bedroom House in Tamarin,Tamarin,Black River,West,-20.324420833861918,57.375206681611324,305000,house,3,1,126,sale,2003.0,True,3.8621084414805
+PROP1099,Elegant 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.311139174525522,57.5112978539713,125000,apartment,2,1,67,rent,1998.0,True,9.204079698064847
+PROP1100,Modern 4 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.416107383570417,57.701220999881706,310000,house,4,5,228,rent,1995.0,True,1.5433468419105822
+PROP1101,Cozy 4 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.311456814661067,57.52347673075676,315000,house,4,1,208,sale,1983.0,False,5.9920711869527885
+PROP1102,Spacious 4 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.228436242653896,57.789260124525576,865000,villa,4,2,254,sale,2015.0,False,2.738470571599119
+PROP1103,Modern 2 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.302453938058434,57.48215390323289,100000,apartment,2,1,53,sale,2002.0,False,10.409720810933976
+PROP1104,Charming 4 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31922189114308,57.52322756093766,480000,villa,4,5,206,sale,2014.0,True,7.340156594808943
+PROP1105,Charming 4 Bedroom House in Tamarin,Tamarin,Black River,West,-20.320940273131995,57.36822893503549,765000,house,4,4,287,rent,1982.0,True,3.5720807408009323
+PROP1106,458 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.324480828347397,57.519686472618154,375000,land,0,0,458,rent,,False,8.333567463370038
+PROP1107,Beautiful 2 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.527577094724283,57.513848891414156,255000,condo,2,3,168,rent,2000.0,True,9.653816883158376
+PROP1108,Beautiful 2 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02192892631926,57.57785152693551,500000,condo,2,1,145,rent,2014.0,True,1.6338307304834618
+PROP1109,Modern 5 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.254340430623593,57.48596776085246,250000,condo,5,4,129,sale,2013.0,True,10.06949699751517
+PROP1110,Cozy 3 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.169302288058386,57.49408493164965,425000,condo,3,4,173,rent,1993.0,True,4.410539201901399
+PROP1111,Charming 5 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.317046062561733,57.363578164127375,260000,apartment,5,6,101,sale,1998.0,True,4.611050451039921
+PROP1112,Modern 1 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.187957925656193,57.77188569299364,370000,condo,1,1,144,rent,1994.0,True,3.7220443362213733
+PROP1113,Luxurious 3 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.40730148129579,57.69890251486652,290000,condo,3,3,174,rent,1990.0,True,3.882871657942281
+PROP1114,Spacious 1 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.44129571608511,57.722329773751575,275000,apartment,1,1,105,rent,2009.0,False,2.11688194463434
+PROP1115,Cozy 1 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.27776588785819,57.36922306538304,765000,villa,1,1,195,sale,2003.0,False,3.9675702009858322
+PROP1116,Spacious 2 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.166020140117126,57.494121446006474,315000,condo,2,3,121,sale,1982.0,False,4.59524000889895
+PROP1117,Cozy 1 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.278544695110856,57.362095275286734,1370000,villa,1,2,321,rent,1998.0,False,4.368825756509093
+PROP1118,Beautiful 1 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.20661589603215,57.77314738386067,960000,villa,1,2,248,sale,2016.0,False,1.1432505724882143
+PROP1119,Luxurious 3 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.309063936483955,57.50786671297627,175000,apartment,3,3,99,sale,2014.0,True,12.382771573462442
+PROP1120,Luxurious 3 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.235080164973187,57.78553615529317,635000,villa,3,2,179,rent,1991.0,False,3.4064613493342963
+PROP1121,Luxurious 1 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32613410842876,57.50703360636937,260000,house,1,1,160,sale,1989.0,False,7.154194569574078
+PROP1122,Luxurious 5 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.244516178685682,57.47259901337081,395000,villa,5,2,169,rent,2001.0,False,7.178880053087605
+PROP1123,Spacious 1 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.303735960416695,57.48007950231784,405000,villa,1,2,162,rent,2013.0,False,7.603494303999591
+PROP1124,860 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.167586646217305,57.49774561719448,665000,land,0,0,860,rent,,False,2.2919028803999515
+PROP1125,Modern 3 Bedroom House in Tamarin,Tamarin,Black River,West,-20.31611536449694,57.375409014044564,365000,house,3,4,178,sale,2001.0,False,2.0126489905777536
+PROP1126,Charming 4 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.324390743367783,57.37182570340822,225000,apartment,4,4,94,rent,2021.0,True,1.258313456032059
+PROP1127,Elegant 1 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.411268427561183,57.703282117323766,165000,apartment,1,1,93,sale,2002.0,False,3.24691449214969
+PROP1128,Spacious 2 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.165924547059564,57.49687997390401,205000,house,2,3,106,rent,1998.0,False,4.346744192499583
+PROP1129,Modern 3 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.258357069720986,57.4849688698128,525000,house,3,3,282,sale,1992.0,True,5.700538014936917
+PROP1130,Beautiful 3 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.299556459908978,57.473061416511705,665000,villa,3,2,230,sale,2002.0,False,6.005410782093873
+PROP1131,Cozy 2 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.195266201374437,57.77084346694428,695000,villa,2,3,216,sale,2001.0,False,4.78175819161443
+PROP1132,Modern 4 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.254807050800075,57.48007992532598,485000,villa,4,3,200,rent,1980.0,True,13.721052673488986
+PROP1133,Spacious 3 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.201094947788445,57.780611420963616,370000,condo,3,3,135,sale,2013.0,False,4.790204424157528
+PROP1134,350 sqm Land in Souillac,Souillac,Savanne,South,-20.521805206203727,57.52265721469265,215000,land,0,0,350,rent,,False,10.433706432991702
+PROP1135,Beautiful 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.298632335534787,57.47889403044103,225000,apartment,1,1,121,sale,1997.0,False,14.194879928776585
+PROP1136,Luxurious 5 Bedroom House in Tamarin,Tamarin,Black River,West,-20.32428122707282,57.36424330808475,575000,house,5,4,249,rent,1984.0,True,1.2912623937417025
+PROP1137,Cozy 5 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.2166158562549,57.45714791920039,245000,condo,5,6,143,sale,2013.0,False,5.345179163748027
+PROP1138,Luxurious 1 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.2054322712638,57.787081746878094,170000,apartment,1,1,76,rent,1980.0,False,1.5567253534188983
+PROP1139,Beautiful 3 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.226321937540643,57.465356180310216,730000,villa,3,1,241,sale,1987.0,False,8.932756652351435
+PROP1140,Spacious 2 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.317991448775388,57.51039410292919,490000,villa,2,3,182,rent,1983.0,False,8.605850649463198
+PROP1141,Elegant 4 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30488961393337,57.47503050622202,405000,villa,4,5,163,sale,2019.0,True,8.536711782397282
+PROP1142,Elegant 4 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.526306605013517,57.525773573226964,190000,apartment,4,4,145,rent,2007.0,True,12.851616966347372
+PROP1143,Modern 3 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.19752519433093,57.78480797251403,300000,house,3,4,131,rent,2008.0,True,1.479486706024903
+PROP1144,Elegant 1 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.318404755270443,57.520100353367404,450000,villa,1,2,193,rent,2017.0,True,13.906662746325495
+PROP1145,Charming 5 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.168542305967726,57.494911196128406,1355000,villa,5,4,377,rent,2023.0,False,1.5258990673696022
+PROP1146,Spacious 2 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22269392961502,57.45839722884287,535000,villa,2,1,190,rent,2019.0,True,9.311257587739316
+PROP1147,Modern 4 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.234734355269314,57.46889057880449,270000,house,4,3,165,rent,1989.0,True,13.758952510285319
+PROP1148,Modern 3 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.238087010284676,57.47422309444911,395000,house,3,1,224,rent,2017.0,False,14.584177825996427
+PROP1149,996 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.431393729835328,57.714678919234046,900000,land,0,0,996,sale,,False,3.5808096993785643
+PROP1150,Elegant 4 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.415939810853544,57.697076812078336,230000,apartment,4,3,133,rent,2021.0,False,4.648702069457331
+PROP1151,Spacious 3 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.435114017367237,57.7120698123389,245000,condo,3,2,85,rent,1989.0,False,1.8434297007770217
+PROP1152,Spacious 3 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.235616130211973,57.46196772114654,170000,condo,3,3,80,rent,2020.0,False,7.082600285338266
+PROP1153,Luxurious 2 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.4044885403569,57.69439432588321,280000,house,2,1,174,rent,1987.0,False,4.899592633783485
+PROP1154,Cozy 3 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.239487580527435,57.472464772061635,240000,condo,3,1,118,rent,2017.0,True,12.86117231702658
+PROP1155,Cozy 2 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31651858909295,57.51742892286408,360000,house,2,2,196,rent,1984.0,True,11.540113206428366
+PROP1156,Modern 3 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.218682348376838,57.78603759613596,495000,condo,3,3,187,rent,2004.0,False,1.4494409499302319
+PROP1157,Beautiful 4 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.225934002279796,57.796144646771445,110000,apartment,4,4,53,sale,1999.0,False,3.1522363228785344
+PROP1158,Charming 3 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.304206488231753,57.479757763318226,385000,condo,3,2,188,rent,2012.0,True,10.852364234552827
+PROP1159,Spacious 1 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23402731147427,57.46087765646427,175000,condo,1,1,82,rent,2010.0,False,14.020408600029029
+PROP1160,Elegant 4 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.197553738137533,57.78795150449187,775000,villa,4,1,248,rent,2001.0,False,4.8021225709547535
+PROP1161,Beautiful 1 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31870538543591,57.50767818143726,410000,villa,1,2,156,sale,2024.0,True,6.301306736071867
+PROP1162,Luxurious 3 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02000618363109,57.57807790201973,530000,condo,3,4,150,sale,2014.0,False,1.5805219172559068
+PROP1163,Elegant 2 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.325012897511638,57.51563269769538,450000,house,2,3,270,rent,2005.0,False,6.85320384627229
+PROP1164,Luxurious 5 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.41447461975147,57.70963312645464,235000,apartment,5,1,135,sale,2009.0,False,1.1089167401256903
+PROP1165,Luxurious 1 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.205776724389487,57.78797944798459,505000,house,1,2,230,rent,2016.0,True,2.086692418732573
+PROP1166,Modern 3 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.024334879974475,57.58161611347434,265000,house,3,3,101,rent,1995.0,True,3.2304593741098255
+PROP1167,664 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.193889651556557,57.78959076343758,635000,land,0,0,664,sale,,False,4.364967785136028
+PROP1168,733 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21747970319353,57.45862973054725,590000,land,0,0,733,rent,,False,14.554931397558425
+PROP1169,Elegant 2 Bedroom House in Souillac,Souillac,Savanne,South,-20.522937183406267,57.51838171277263,225000,house,2,2,184,sale,1992.0,False,9.066152948576585
+PROP1170,Elegant 4 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.3201868078114,57.522383680341214,850000,villa,4,5,360,rent,2017.0,True,8.16129226837953
+PROP1171,Cozy 3 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.262282102137917,57.48156424798608,385000,house,3,3,262,rent,2000.0,False,14.240964172345986
+PROP1172,Luxurious 3 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.16378524007659,57.50808076200984,345000,condo,3,4,145,rent,2024.0,True,4.829378469033308
+PROP1173,396 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.307141700658793,57.483867119315626,235000,land,0,0,396,rent,,False,7.030958190229559
+PROP1174,Luxurious 3 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.267007453428178,57.48372887049958,355000,house,3,1,215,rent,2009.0,False,6.453815050665149
+PROP1175,Luxurious 5 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.26923361702685,57.357095068302755,915000,villa,5,4,210,rent,1999.0,True,4.7425698704301675
+PROP1176,Cozy 2 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02700089040922,57.592133542113615,1440000,villa,2,2,308,sale,2020.0,True,1.0412785065765173
+PROP1177,Modern 4 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.438202016445175,57.70545592435982,180000,apartment,4,4,66,sale,1985.0,False,4.6919325372404685
+PROP1178,Luxurious 1 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.19375159051473,57.77537505567393,125000,apartment,1,2,59,sale,2004.0,False,2.975362531266877
+PROP1179,Cozy 3 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31282016504852,57.51079140178555,220000,condo,3,2,112,sale,2018.0,True,12.405358090764047
+PROP1180,Elegant 1 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.27103466533498,57.365021725526226,485000,condo,1,2,180,rent,2014.0,True,4.029094925349458
+PROP1181,Luxurious 2 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.031245863278976,57.54111856239703,225000,apartment,2,2,75,rent,1986.0,False,3.398612027706388
+PROP1182,Elegant 4 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.017135371974167,57.59068752581168,420000,apartment,4,1,148,rent,1994.0,True,1.3239214631331961
+PROP1183,704 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22228131037549,57.46337259888579,460000,land,0,0,704,rent,,False,12.797509887635142
+PROP1184,Cozy 2 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29878058900484,57.48479599861917,160000,apartment,2,3,109,sale,1983.0,True,6.918839606522342
+PROP1185,Charming 2 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.26558127283735,57.35706684722695,1180000,villa,2,2,318,sale,1998.0,False,2.508464866453107
+PROP1186,Spacious 4 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.272032795956243,57.354691530498,610000,villa,4,2,155,sale,1991.0,True,3.597243746103713
+PROP1187,Modern 1 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.448611071269486,57.71110490431384,1185000,villa,1,1,291,sale,2005.0,True,1.0261729997016946
+PROP1188,Beautiful 3 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.27673809396282,57.366916858783696,335000,house,3,2,133,sale,1982.0,True,4.625885754967982
+PROP1189,Modern 2 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.221545128534437,57.4542455388333,795000,villa,2,1,333,rent,1988.0,True,8.77316177243231
+PROP1190,950 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.2174268671651,57.79077240050094,720000,land,0,0,950,rent,,False,4.721743728878723
+PROP1191,Luxurious 1 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.023674065418515,57.58347040561574,445000,house,1,1,191,rent,2001.0,False,4.186780297909236
+PROP1192,Charming 5 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.518477495671785,57.51926916704155,275000,condo,5,1,183,rent,2009.0,False,14.814086681652489
+PROP1193,Charming 4 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.214146810158745,57.45472312168726,1130000,villa,4,1,393,sale,1998.0,True,11.791036662320668
+PROP1194,Modern 1 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.430305950136493,57.708427146119185,920000,villa,1,2,223,sale,2013.0,False,2.8499518776383383
+PROP1195,878 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.272905590313503,57.46957466450227,575000,land,0,0,878,rent,,False,7.453695678917582
+PROP1196,Elegant 4 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.410053555744952,57.69946010101938,205000,condo,4,2,113,sale,2001.0,True,1.4380171591848598
+PROP1197,286 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.405424451593937,57.69964489273857,190000,land,0,0,286,sale,,False,3.6493747298368464
+PROP1198,Charming 5 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.218103949175912,57.45824305978876,260000,apartment,5,3,137,rent,1992.0,True,5.1447333409061144
+PROP1199,Cozy 3 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.18781290476617,57.782472557072516,165000,apartment,3,2,69,rent,1988.0,True,2.276397058103628
+PROP1200,Elegant 3 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.197556929375352,57.7843315962187,420000,house,3,3,212,rent,1997.0,False,2.507468260164768
+PROP1201,Spacious 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29762573372522,57.47622403207448,140000,apartment,1,2,93,sale,2001.0,False,8.039888152871768
+PROP1202,Elegant 4 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.398953757693874,57.6959636869356,660000,villa,4,1,266,rent,2010.0,True,3.2175392749020166
+PROP1203,Cozy 1 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.532858491338533,57.52047324416378,170000,condo,1,1,119,sale,1986.0,True,13.178362508283218
+PROP1204,Modern 4 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.310733919329543,57.5176701312785,245000,apartment,4,1,139,rent,2022.0,True,5.407361476034399
+PROP1205,Beautiful 5 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.242017375720785,57.47121766981299,1000000,villa,5,3,376,sale,2002.0,False,7.733900947047041
+PROP1206,Cozy 1 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.225859880206677,57.46453278052889,95000,apartment,1,1,59,sale,2011.0,True,6.122778439020685
+PROP1207,Modern 4 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.434978568203217,57.70856946766487,280000,apartment,4,5,101,sale,1994.0,False,4.5188333309031865
+PROP1208,Elegant 3 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.16832744978962,57.50778583284169,180000,apartment,3,2,78,sale,1987.0,False,4.527310785422668
+PROP1209,Cozy 4 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.314158003258548,57.51832675549076,215000,apartment,4,3,106,sale,1987.0,False,11.828807807252517
+PROP1210,343 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24251145078235,57.4719770114907,245000,land,0,0,343,sale,,False,8.906516954043475
+PROP1211,Luxurious 3 Bedroom House in Souillac,Souillac,Savanne,South,-20.525696249668055,57.52710944084507,255000,house,3,4,186,sale,2023.0,True,11.923955462970728
+PROP1212,Modern 4 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.2229235866413,57.78960105184977,210000,apartment,4,1,96,sale,2012.0,True,2.8188361517325724
+PROP1213,Spacious 5 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.528836874331056,57.52371676388283,300000,condo,5,2,187,sale,2005.0,False,5.6986027281005605
+PROP1214,Charming 3 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.227210545358805,57.45375427840671,220000,apartment,3,1,109,sale,2014.0,True,8.941075542589216
+PROP1215,471 sqm Land in Tamarin,Tamarin,Black River,West,-20.33057179906197,57.36672754640229,490000,land,0,0,471,rent,,False,4.616745487665529
+PROP1216,434 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.254398885349538,57.4868047587408,350000,land,0,0,434,rent,,False,11.685533508341216
+PROP1217,Beautiful 1 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.25069420485295,57.47559876582993,125000,apartment,1,1,77,sale,2007.0,False,14.850079819976909
+PROP1218,553 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.413716305574678,57.69374813014493,390000,land,0,0,553,rent,,False,2.6568756696933953
+PROP1219,347 sqm Land in Tamarin,Tamarin,Black River,West,-20.32968904804342,57.37415486476457,415000,land,0,0,347,sale,,False,2.13227471616994
+PROP1220,306 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.017758528247718,57.59118443990588,335000,land,0,0,306,rent,,False,3.982747126421399
+PROP1221,Charming 4 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.164070507308296,57.49588535109548,420000,condo,4,1,195,rent,1993.0,False,4.254771951556107
+PROP1222,Cozy 4 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.224108851099352,57.462442837248,205000,apartment,4,5,111,sale,2024.0,True,12.835781753735036
+PROP1223,Elegant 5 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.264220788735326,57.36571896270619,1155000,villa,5,5,277,sale,2001.0,False,2.3721106144665964
+PROP1224,616 sqm Land in Tamarin,Tamarin,Black River,West,-20.333545807343324,57.36723638626891,595000,land,0,0,616,sale,,False,4.589230447767886
+PROP1225,Luxurious 3 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.272992887675898,57.3717452637175,400000,house,3,3,146,rent,1985.0,True,4.27620379665763
+PROP1226,Cozy 2 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.41353335793258,57.70561168950301,530000,villa,2,3,221,sale,2008.0,False,4.978709848380065
+PROP1227,Elegant 3 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.309427452950512,57.50749343544599,305000,condo,3,1,154,rent,2024.0,False,9.429965717187692
+PROP1228,Cozy 1 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.23029173617157,57.7871256438109,800000,villa,1,2,276,sale,1991.0,True,2.1309386347603874
+PROP1229,Cozy 3 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.319105709080524,57.52327339861363,185000,condo,3,2,107,sale,2002.0,True,10.325605466636365
+PROP1230,Charming 4 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.321722683767018,57.36619957423422,395000,apartment,4,1,140,sale,2011.0,True,1.4794234715139365
+PROP1231,Spacious 4 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.264842348248386,57.480632816248345,295000,condo,4,3,141,rent,2001.0,True,5.626731950271592
+PROP1232,Luxurious 1 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.316632685550392,57.522585436387935,395000,house,1,2,237,rent,1997.0,True,7.210522934896504
+PROP1233,Modern 2 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.168271538688973,57.500035817742116,720000,villa,2,2,206,sale,1984.0,False,4.382472516590436
+PROP1234,Beautiful 5 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.219251218029253,57.779601325997334,665000,villa,5,6,205,sale,2011.0,True,1.7129378578602514
+PROP1235,Beautiful 3 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.270715768847413,57.36393720395948,750000,house,3,1,287,sale,2007.0,True,2.960326236079464
+PROP1236,461 sqm Land in Flic en Flac,Flic en Flac,Black River,West,-20.269670850176116,57.360841789493165,440000,land,0,0,461,rent,,False,4.688405519626309
+PROP1237,Charming 5 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.251267722218795,57.477506756572396,1190000,villa,5,3,395,rent,2011.0,False,10.515869041765939
+PROP1238,Elegant 3 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.272463075561767,57.481611388740795,515000,villa,3,4,158,sale,1997.0,False,12.854934560584006
+PROP1239,489 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.218662168360005,57.4523100560282,330000,land,0,0,489,rent,,False,7.305366503181425
+PROP1240,Modern 1 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.273044479344524,57.47289379334991,235000,house,1,1,152,sale,2012.0,False,9.07264436277325
+PROP1241,Beautiful 1 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03976155414336,57.54210500166846,650000,house,1,1,251,sale,2003.0,False,4.699351852515475
+PROP1242,784 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.193104049447793,57.78961835686829,755000,land,0,0,784,rent,,False,2.7582937549082347
+PROP1243,Charming 4 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.228621362331232,57.47081239570571,230000,house,4,3,133,rent,1996.0,False,5.6671548927693
+PROP1244,Modern 5 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.030446533969645,57.543237496674095,230000,apartment,5,4,79,rent,1985.0,True,4.096093281163132
+PROP1245,374 sqm Land in Tamarin,Tamarin,Black River,West,-20.327875684983347,57.37081736209065,430000,land,0,0,374,sale,,False,3.4681353676551363
+PROP1246,632 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21829844040515,57.47104578469473,470000,land,0,0,632,sale,,False,8.28146193450478
+PROP1247,Spacious 4 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.317815593531677,57.37049467370901,365000,condo,4,5,113,sale,2004.0,True,2.4583379389418423
+PROP1248,935 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30733346030612,57.480550116516234,720000,land,0,0,935,rent,,False,12.271351717337224
+PROP1249,Modern 5 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.293664336949785,57.486190083696265,1065000,villa,5,5,396,rent,2019.0,False,8.780292215721165
+PROP1250,Elegant 5 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.220943317987953,57.45773902554594,110000,apartment,5,4,61,sale,2015.0,False,14.38655832083657
+PROP1251,Cozy 4 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.288961414058793,57.48565928974189,850000,villa,4,2,324,rent,2021.0,True,6.555318837793536
+PROP1252,467 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.032909447127324,57.55426886442392,550000,land,0,0,467,sale,,False,3.660720442833549
+PROP1253,Cozy 2 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22798800878547,57.46203774575798,180000,house,2,2,106,rent,2000.0,False,7.025996785016767
+PROP1254,Beautiful 1 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.263269043000943,57.476105757771734,565000,house,1,1,292,sale,2003.0,True,14.288003406026716
+PROP1255,Elegant 2 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24487629573518,57.47592674682284,195000,condo,2,1,88,sale,1987.0,False,14.115788927978823
+PROP1256,Elegant 1 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.2160330687827,57.459274882779866,200000,apartment,1,2,114,rent,2004.0,False,14.717969009010085
+PROP1257,Charming 5 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.225584367285073,57.780589622654354,1240000,villa,5,5,353,rent,1998.0,False,2.2035431242824886
+PROP1258,Modern 5 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31856588004028,57.50769351958588,90000,apartment,5,5,57,rent,2024.0,False,14.705936214765341
+PROP1259,Spacious 5 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.023586318126238,57.58200815739813,670000,villa,5,3,153,sale,2014.0,False,2.2936614917048788
+PROP1260,Luxurious 5 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.157803321128437,57.500063530375996,385000,condo,5,4,159,rent,2018.0,False,4.153039004359879
+PROP1261,Elegant 1 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22351269534255,57.457366994247614,625000,villa,1,1,241,rent,1982.0,True,13.00410958203684
+PROP1262,Spacious 5 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.189166319470395,57.770375027281624,545000,condo,5,1,190,rent,2016.0,True,4.793804193533308
+PROP1263,250 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.402437863959648,57.69386406833171,145000,land,0,0,250,rent,,False,1.2720324946839079
+PROP1264,Elegant 2 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.232429686237204,57.47252138428181,175000,apartment,2,3,104,rent,2018.0,True,11.497950312682757
+PROP1265,Beautiful 2 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.277575643253996,57.35396230612121,350000,apartment,2,1,144,rent,1988.0,True,4.086108232413734
+PROP1266,442 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.259270764879723,57.47726355392879,305000,land,0,0,442,rent,,False,9.234327144389724
+PROP1267,Elegant 2 Bedroom Villa in Souillac,Souillac,Savanne,South,-20.52142664283749,57.51781951580351,560000,villa,2,1,286,rent,1999.0,True,9.948454456468252
+PROP1268,Spacious 3 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31200574540574,57.50855648292293,245000,condo,3,4,109,sale,1985.0,True,12.754745711057877
+PROP1269,Charming 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.306348555465387,57.51897257387899,165000,apartment,2,3,108,rent,1995.0,False,14.810014350245854
+PROP1270,Elegant 2 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.228633495302955,57.46509727515164,805000,villa,2,1,265,rent,2012.0,False,11.457620022670397
+PROP1271,266 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.227776684447534,57.469384346432186,205000,land,0,0,266,rent,,False,10.722740686229088
+PROP1272,440 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.229040903791915,57.785555443833054,410000,land,0,0,440,rent,,False,2.9473905949180548
+PROP1273,Spacious 4 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.27833637330886,57.369238917284164,605000,house,4,4,214,sale,1996.0,False,1.9827079389423945
+PROP1274,Luxurious 3 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.258066563935042,57.483813441745575,135000,apartment,3,4,76,sale,2009.0,True,8.272462943333684
+PROP1275,756 sqm Land in Tamarin,Tamarin,Black River,West,-20.32810445214137,57.377276796991104,720000,land,0,0,756,sale,,False,2.264418382330061
+PROP1276,Elegant 3 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.27197520831517,57.35477290039019,900000,villa,3,2,188,sale,1986.0,True,2.3025583979471356
+PROP1277,Luxurious 5 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.239616792249635,57.47843331524356,320000,house,5,2,221,rent,2002.0,False,9.748018723141506
+PROP1278,Modern 3 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.5138719005077,57.524297849820464,165000,condo,3,3,101,sale,2009.0,False,6.583621175559664
+PROP1279,Modern 4 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.17021030579589,57.505593385173924,250000,house,4,1,117,rent,1992.0,False,3.017534239326661
+PROP1280,Luxurious 5 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.43676509280111,57.723085442258046,300000,house,5,2,118,sale,2008.0,True,1.8944587832057591
+PROP1281,Modern 4 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.189111870564815,57.77743394169572,245000,condo,4,5,82,rent,2011.0,True,2.8486693024026555
+PROP1282,Spacious 5 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03264391782297,57.55072700451678,540000,condo,5,6,167,rent,2002.0,True,2.523857925877077
+PROP1283,Charming 2 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.26846906738369,57.36748943260641,435000,apartment,2,3,142,rent,2020.0,False,4.642521370978802
+PROP1284,Spacious 3 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.403660729862562,57.70599544831367,545000,villa,3,1,236,rent,1983.0,True,1.0334513151546592
+PROP1285,651 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.229347523019293,57.46047022058705,435000,land,0,0,651,sale,,False,9.780645221184892
+PROP1286,Elegant 1 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.44859835817238,57.71087338763462,600000,condo,1,1,194,rent,2022.0,True,1.528301428111369
+PROP1287,Beautiful 5 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.272844831938382,57.476903252537745,380000,condo,5,1,182,rent,2006.0,False,11.800135152604856
+PROP1288,Spacious 5 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.293681008959627,57.48413948588693,960000,villa,5,4,345,rent,2010.0,True,9.564629147387794
+PROP1289,Elegant 4 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31250140685443,57.521202777406764,360000,condo,4,2,187,sale,2014.0,True,11.454552470187641
+PROP1290,Luxurious 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.325505177053948,57.52175320760635,215000,apartment,2,2,124,sale,2018.0,False,9.242613727415618
+PROP1291,Beautiful 1 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.409350969106047,57.69340187219759,175000,apartment,1,1,99,sale,2024.0,True,4.393212474361416
+PROP1292,Charming 1 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.167115623029016,57.504426455260074,230000,house,1,1,121,sale,2015.0,True,1.352758346684201
+PROP1293,Charming 4 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26450023134207,57.48588636710036,260000,house,4,5,162,rent,1982.0,False,8.586826276860396
+PROP1294,717 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.032875005600577,57.54219375680882,835000,land,0,0,717,rent,,False,1.2910023691823258
+PROP1295,Luxurious 1 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.268370715597676,57.47837056777167,950000,villa,1,1,316,sale,1997.0,True,12.641239522914287
+PROP1296,Charming 5 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.320360508615114,57.508007152170094,150000,house,5,1,108,sale,2015.0,False,6.891573251674393
+PROP1297,Elegant 5 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.028200247382614,57.54686264383564,175000,apartment,5,4,64,sale,2015.0,True,2.7531734947419313
+PROP1298,548 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30201689027303,57.479949641052166,355000,land,0,0,548,sale,,False,6.129263090362405
+PROP1299,Luxurious 2 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.229685514031775,57.78800198562003,495000,house,2,3,236,rent,2005.0,True,4.371366862819661
+PROP1300,903 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.217876660710452,57.45193007489441,655000,land,0,0,903,rent,,False,10.683992526756551
+PROP1301,Charming 2 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.189814699853674,57.77935678301883,370000,apartment,2,1,139,rent,2022.0,False,2.1880592111346178
+PROP1302,Charming 1 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26987977640554,57.48682857611156,450000,house,1,2,244,rent,2005.0,False,8.903825156586311
+PROP1303,Beautiful 5 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.228896310602664,57.46736905060431,215000,apartment,5,5,122,rent,1983.0,True,10.534881545142824
+PROP1304,Spacious 4 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.447175326473772,57.71370324831555,515000,condo,4,5,194,rent,2003.0,False,4.20945874539154
+PROP1305,Charming 2 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.27455342383583,57.35648778884701,380000,apartment,2,1,122,sale,1999.0,True,2.07044651725033
+PROP1306,Cozy 4 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03956249787813,57.534984119078075,715000,house,4,1,296,sale,2018.0,False,4.8116805197306824
+PROP1307,Beautiful 5 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.167791451840866,57.507003191752325,435000,condo,5,5,162,sale,1984.0,False,1.3779656784845673
+PROP1308,832 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.014775263613465,57.58484835823935,1010000,land,0,0,832,sale,,False,1.646436875853952
+PROP1309,240 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24927906969652,57.4706461228221,170000,land,0,0,240,sale,,False,14.590418347227837
+PROP1310,Elegant 3 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.27465482383002,57.3721740987738,425000,house,3,3,176,sale,2011.0,True,3.0314075166592453
+PROP1311,Charming 5 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.154094581515615,57.50776576331198,1225000,villa,5,1,336,sale,1987.0,False,4.248794593534164
+PROP1312,778 sqm Land in Souillac,Souillac,Savanne,South,-20.53027887970559,57.51735848170962,490000,land,0,0,778,sale,,False,10.121477680605805
+PROP1313,Elegant 3 Bedroom House in Souillac,Souillac,Savanne,South,-20.524794884301834,57.522756104719,360000,house,3,4,276,sale,2013.0,True,13.00539772901724
+PROP1314,691 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.22932808016629,57.792351168265945,520000,land,0,0,691,sale,,False,1.7677656739594974
+PROP1315,Elegant 2 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.022365889081282,57.57313931993287,1660000,villa,2,2,356,rent,2002.0,False,4.353876262148635
+PROP1316,Beautiful 3 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.5328442245679,57.52115906581788,340000,condo,3,3,197,rent,2002.0,True,5.3679024516068825
+PROP1317,Elegant 5 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.281553435981962,57.369510272526355,475000,house,5,6,170,sale,2002.0,False,2.110677745016501
+PROP1318,Elegant 2 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.273308167157925,57.36628389288207,810000,house,2,1,294,rent,2014.0,False,2.553268798107489
+PROP1319,Beautiful 3 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.267257756206437,57.35713355294369,220000,apartment,3,3,87,sale,1981.0,False,1.3630077577892732
+PROP1320,Beautiful 2 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.241654980567557,57.476165937380834,205000,house,2,1,123,sale,2005.0,True,8.253683583339987
+PROP1321,Spacious 3 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.012054976020917,57.57557353187549,445000,apartment,3,1,147,rent,1982.0,True,2.971844606968018
+PROP1322,Spacious 5 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31553037780038,57.515971128292875,205000,apartment,5,1,116,sale,2017.0,False,10.215476032175726
+PROP1323,Luxurious 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.320785032751633,57.51708056330672,105000,apartment,2,2,59,rent,1990.0,False,5.835773817390369
+PROP1324,Spacious 2 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.27159665135986,57.48709234737695,275000,house,2,2,182,sale,2016.0,False,8.974611791819068
+PROP1325,Beautiful 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.296751535556826,57.47618624944736,125000,apartment,1,1,79,rent,2009.0,True,11.91216321632485
+PROP1326,Spacious 4 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.227406420920456,57.795113909835756,1170000,villa,4,2,366,rent,2016.0,True,4.837309000677122
+PROP1327,Luxurious 3 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.008327487862275,57.57614364772309,375000,house,3,2,128,rent,2010.0,True,4.457477672253346
+PROP1328,Spacious 2 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.404506683912217,57.70756848212019,370000,house,2,3,225,sale,2013.0,False,4.672274541212098
+PROP1329,Elegant 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.307081374803623,57.508797403729744,160000,apartment,2,1,85,rent,1982.0,False,14.45529363154305
+PROP1330,Spacious 3 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.435403764429918,57.71239893156649,780000,villa,3,2,191,sale,2017.0,False,4.618365364908685
+PROP1331,Elegant 4 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.278710399461474,57.36702528829365,1485000,villa,4,3,333,sale,1996.0,False,4.388830602740576
+PROP1332,Modern 3 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.407698180332634,57.70188571180759,130000,condo,3,4,86,sale,2007.0,False,3.7653320645856154
+PROP1333,Luxurious 3 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.15781294664265,57.49998694780202,345000,condo,3,1,165,sale,1981.0,True,1.6482282387851321
+PROP1334,Modern 5 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.157483235455338,57.49487840855621,240000,apartment,5,5,99,rent,2006.0,True,4.572415445671924
+PROP1335,Charming 2 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21555783268248,57.46764905280131,300000,house,2,2,213,sale,1998.0,True,7.146543108592228
+PROP1336,Spacious 3 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.27071057803284,57.37093235821574,510000,condo,3,3,193,sale,1997.0,True,3.5978425154817746
+PROP1337,Luxurious 2 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.21980696253751,57.79632707781025,375000,apartment,2,2,150,sale,2012.0,False,4.1145918830828805
+PROP1338,226 sqm Land in Tamarin,Tamarin,Black River,West,-20.33461841972764,57.379436617856996,240000,land,0,0,226,sale,,False,2.0012508090992025
+PROP1339,Luxurious 1 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24233695681502,57.47537061824313,340000,condo,1,2,152,rent,1994.0,True,8.643001168588617
+PROP1340,Charming 1 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.1960972819807,57.78039971653275,620000,house,1,2,284,sale,2020.0,True,3.185518457286904
+PROP1341,374 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.01415474219399,57.59030793753927,395000,land,0,0,374,sale,,False,4.567519044072069
+PROP1342,Cozy 5 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.245435377062684,57.476268131069496,195000,house,5,4,117,sale,1984.0,False,12.633620419405613
+PROP1343,Luxurious 1 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.235215335553974,57.46330834342061,145000,condo,1,2,85,sale,1995.0,True,8.992412803155482
+PROP1344,Elegant 3 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30090871161491,57.4707713782503,125000,apartment,3,1,78,sale,1989.0,False,13.811651362379557
+PROP1345,Spacious 2 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.33195855471286,57.380215114257204,1365000,villa,2,1,395,sale,2023.0,True,4.2948613657416415
+PROP1346,Charming 3 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.437631757623823,57.71755333012119,300000,condo,3,4,121,sale,2012.0,True,1.254844833136004
+PROP1347,Cozy 1 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.229400390265003,57.466402397028176,385000,condo,1,1,200,sale,1998.0,True,12.083864719026465
+PROP1348,Beautiful 5 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.44931472363691,57.71770175407068,245000,house,5,5,121,rent,1993.0,False,3.1121888989369055
+PROP1349,Spacious 3 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.250050652284468,57.47619843472021,165000,apartment,3,4,99,rent,2014.0,True,10.617001593436534
+PROP1350,Modern 3 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.316409868683333,57.3790667264868,1385000,villa,3,3,374,sale,2009.0,True,4.891214030003269
+PROP1351,Beautiful 2 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.329638464302416,57.374885021725085,370000,apartment,2,2,140,sale,1984.0,True,1.0039875110550938
+PROP1352,Spacious 3 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.30947620993478,57.51493081846375,205000,house,3,1,150,sale,1982.0,True,5.782393737363839
+PROP1353,Modern 1 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.021700420370802,57.5905591067868,940000,villa,1,1,211,rent,2022.0,True,4.342448270532493
+PROP1354,343 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.22575698139543,57.787538704135116,280000,land,0,0,343,sale,,False,2.636445582160337
+PROP1355,Modern 2 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.158316906935422,57.497626114334174,210000,house,2,1,120,sale,2009.0,False,3.3317813454470313
+PROP1356,657 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.2190007267577,57.78136560457362,645000,land,0,0,657,sale,,False,2.8219082078528435
+PROP1357,Luxurious 2 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.269401889418944,57.36690397647324,260000,house,2,3,114,sale,2009.0,False,2.097885595124159
+PROP1358,Luxurious 4 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.43452866596101,57.71380508229977,375000,apartment,4,3,138,sale,1988.0,False,4.091428944442992
+PROP1359,Luxurious 1 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.15226059529782,57.48997858289991,255000,house,1,1,126,sale,1994.0,False,3.1129514958933173
+PROP1360,Luxurious 5 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.448768360321104,57.71459564820278,235000,condo,5,2,83,sale,2020.0,False,2.1689932283023117
+PROP1361,Luxurious 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.323423938871787,57.51964454184815,145000,apartment,2,3,77,sale,2009.0,True,5.233873818510183
+PROP1362,Luxurious 5 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.32655811058651,57.36503485636874,230000,apartment,5,1,88,rent,1987.0,True,1.746685052302484
+PROP1363,Charming 3 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.217763289879674,57.45599044783465,575000,villa,3,3,222,rent,1987.0,True,5.448923167420455
+PROP1364,Modern 5 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21789100971579,57.458315391956276,350000,house,5,3,191,sale,2011.0,False,12.75912043107689
+PROP1365,237 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.032051959073108,57.54676520986157,305000,land,0,0,237,sale,,False,1.9450447451472566
+PROP1366,Modern 1 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31404328475711,57.524497325355235,180000,apartment,1,1,107,sale,1983.0,True,9.79053624920319
+PROP1367,Luxurious 5 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.25742456380797,57.483994534606374,485000,house,5,2,285,rent,1993.0,False,13.66151863197964
+PROP1368,Beautiful 4 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.15203422817031,57.49985773462264,845000,villa,4,3,250,sale,1984.0,False,1.6480502001885737
+PROP1369,Elegant 1 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.445696004137034,57.71378346149661,355000,condo,1,1,129,rent,2015.0,True,3.686634679343786
+PROP1370,Elegant 1 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.205750891935622,57.78048741389883,655000,house,1,2,287,rent,2002.0,False,1.5673488788844012
+PROP1371,859 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.190543442277352,57.773518827125876,780000,land,0,0,859,rent,,False,2.9179012360801493
+PROP1372,Charming 3 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.41464435710592,57.69988396502206,195000,condo,3,4,124,sale,1980.0,False,4.435446359333647
+PROP1373,Elegant 5 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.431620453483006,57.71590147369752,205000,apartment,5,5,84,rent,1998.0,False,3.7970567563598516
+PROP1374,679 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.416283218779036,57.70492350312174,475000,land,0,0,679,rent,,False,1.2304962527512444
+PROP1375,Modern 4 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02857073188017,57.5522578343255,245000,apartment,4,5,80,rent,1986.0,False,3.611316754998936
+PROP1376,Spacious 1 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21015912045191,57.45301946529858,325000,condo,1,2,150,sale,1984.0,False,5.131789689805947
+PROP1377,Elegant 5 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.43516937743648,57.7204228521558,380000,apartment,5,6,146,sale,1991.0,False,4.555700858273111
+PROP1378,850 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.44337291533173,57.723573097904804,845000,land,0,0,850,rent,,False,1.5700590694763608
+PROP1379,Spacious 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.291728160747414,57.487931181509474,245000,apartment,1,1,136,rent,2002.0,True,14.727641536799958
+PROP1380,Luxurious 3 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.216832400341925,57.79088277508875,950000,villa,3,3,309,rent,1999.0,False,4.998692883953789
+PROP1381,Elegant 5 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.031604311544754,57.54130722131319,790000,house,5,4,279,sale,1991.0,False,2.1980856716142947
+PROP1382,Beautiful 4 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.210296091089415,57.47056159906576,345000,house,4,5,203,rent,1999.0,False,13.407758661909243
+PROP1383,Modern 2 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.28974900771946,57.48182648842855,155000,house,2,2,103,sale,2012.0,False,13.539724209893903
+PROP1384,Luxurious 3 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.411491938340053,57.693983978409264,710000,villa,3,1,261,rent,2004.0,True,4.155771641361632
+PROP1385,Elegant 5 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.325545364082966,57.36586524152658,295000,condo,5,3,114,rent,1991.0,False,3.531575254825812
+PROP1386,Spacious 3 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.233517437031935,57.78752657470742,530000,house,3,2,290,rent,1998.0,False,4.659014293665468
+PROP1387,Luxurious 5 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.231327486038367,57.79100405023054,250000,house,5,4,118,sale,2020.0,True,1.3131202213629227
+PROP1388,620 sqm Land in Tamarin,Tamarin,Black River,West,-20.329157558268715,57.36986873326596,550000,land,0,0,620,rent,,False,4.2503105267093195
+PROP1389,Modern 2 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.437750801956106,57.719581656204426,145000,apartment,2,1,50,sale,2015.0,False,4.892250249886745
+PROP1390,Elegant 5 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.223181361644755,57.793250698820664,1140000,villa,5,1,389,rent,1985.0,False,1.436402594295482
+PROP1391,Cozy 3 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.321178805337116,57.50876934914158,270000,apartment,3,3,148,rent,1991.0,True,10.838880352194522
+PROP1392,Elegant 2 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.276428055247354,57.365503510699796,315000,apartment,2,2,108,rent,2010.0,True,2.8246276597052273
+PROP1393,376 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.213209858032744,57.458106149268666,310000,land,0,0,376,sale,,False,7.773381774069266
+PROP1394,672 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.189566814479484,57.7764296097646,635000,land,0,0,672,rent,,False,4.963779001579467
+PROP1395,Cozy 3 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.27140019196897,57.35526470040085,815000,villa,3,1,176,sale,1987.0,True,2.096645308003817
+PROP1396,Beautiful 4 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.33447609444173,57.378776950623795,1045000,villa,4,5,304,sale,2021.0,False,1.6641299697341694
+PROP1397,Charming 4 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.263328114274312,57.35735514155744,970000,villa,4,1,269,rent,2011.0,True,3.068953210801215
+PROP1398,543 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.201900630598384,57.77087416905792,510000,land,0,0,543,sale,,False,3.5998949283393813
+PROP1399,Charming 3 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.271007430950355,57.36542001073261,1275000,villa,3,3,265,rent,2013.0,True,1.4892080904767924
+PROP1400,Luxurious 1 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23794318840615,57.46509820685223,185000,house,1,1,119,rent,1989.0,False,9.391292981637246
+PROP1401,618 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03604650069425,57.54917984969254,615000,land,0,0,618,rent,,False,1.0903634962621114
+PROP1402,Luxurious 5 Bedroom Villa in Souillac,Souillac,Savanne,South,-20.517766450152582,57.52357515140702,915000,villa,5,6,379,rent,2019.0,True,6.753097156949978
+PROP1403,Luxurious 5 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.249710423760227,57.47166581774474,230000,house,5,4,164,rent,1996.0,True,13.61686904627864
+PROP1404,Modern 5 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.434292899543205,57.705424536208014,490000,condo,5,4,188,sale,2021.0,True,1.2150778115172383
+PROP1405,Beautiful 5 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.27875486501521,57.3633678407747,750000,villa,5,6,202,sale,1996.0,False,1.3176982360102913
+PROP1406,Modern 2 Bedroom House in Tamarin,Tamarin,Black River,West,-20.33299565279037,57.378097577524734,285000,house,2,2,129,rent,2017.0,True,4.981436151192543
+PROP1407,Elegant 3 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.268324749519135,57.482532863933905,365000,house,3,3,223,rent,1987.0,True,10.757301112573021
+PROP1408,Beautiful 2 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.447002825629887,57.72144550556189,345000,condo,2,3,134,rent,1994.0,False,3.7222336237283695
+PROP1409,Beautiful 2 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22428662243505,57.459247895642854,295000,house,2,2,181,rent,1981.0,False,11.596847672002685
+PROP1410,Spacious 4 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.410223375415775,57.69782007532811,730000,villa,4,5,301,rent,1981.0,True,1.5422081400197558
+PROP1411,Charming 3 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.15524407519688,57.50851766550567,510000,house,3,1,289,sale,1992.0,True,3.1193160800752366
+PROP1412,Cozy 4 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.417266987579744,57.70020669731684,395000,house,4,3,263,rent,2008.0,False,2.0529518011124903
+PROP1413,Charming 4 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.28097136741408,57.36491851415559,605000,house,4,2,220,rent,2011.0,False,1.7508381959984485
+PROP1414,Spacious 4 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.233491929535674,57.470269449704944,610000,villa,4,5,230,rent,2016.0,False,14.321000396026935
+PROP1415,Elegant 5 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.267703620717104,57.47133258609047,170000,condo,5,1,92,sale,2012.0,False,9.926431337624118
+PROP1416,Beautiful 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.310961851661634,57.524324307588806,105000,apartment,2,3,62,sale,1997.0,True,11.682709977262352
+PROP1417,511 sqm Land in Tamarin,Tamarin,Black River,West,-20.3257789103585,57.36480831155285,510000,land,0,0,511,rent,,False,1.541971978608161
+PROP1418,895 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.16125473758755,57.496086139702236,785000,land,0,0,895,rent,,False,3.2250373803392893
+PROP1419,417 sqm Land in Flic en Flac,Flic en Flac,Black River,West,-20.27882457787689,57.357972015966354,465000,land,0,0,417,rent,,False,4.153561399964307
+PROP1420,893 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.413860903266286,57.70228010960273,605000,land,0,0,893,rent,,False,3.818913021729838
+PROP1421,Elegant 1 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.27749361568002,57.362448647000804,255000,apartment,1,2,94,rent,1991.0,False,2.4290063242213615
+PROP1422,Modern 4 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.035756658586195,57.54342219443074,560000,house,4,3,205,rent,1993.0,False,2.121773116120814
+PROP1423,Cozy 3 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.288986431543552,57.47211683691354,400000,house,3,2,280,rent,2023.0,False,13.037307182850709
+PROP1424,Charming 2 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.318444378682003,57.366648430029414,1335000,villa,2,2,302,sale,2018.0,True,2.5756827264084494
+PROP1425,Charming 3 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24903516926998,57.46352381607748,490000,villa,3,1,175,rent,2020.0,True,14.015457339689771
+PROP1426,Beautiful 3 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.294853350766026,57.47254847802118,220000,apartment,3,3,150,sale,2001.0,True,7.84688962614024
+PROP1427,Beautiful 5 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.442444023915595,57.70987636129667,855000,villa,5,3,226,rent,2013.0,True,4.569510455071635
+PROP1428,Charming 4 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.27593282710772,57.36464533333376,305000,condo,4,4,99,sale,2002.0,False,2.9080584787697443
+PROP1429,Beautiful 1 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.164575660317485,57.504366897347474,185000,apartment,1,2,89,rent,1995.0,True,4.610106081759486
+PROP1430,Cozy 2 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.409068161584987,57.696935652465655,85000,apartment,2,1,58,sale,1991.0,True,1.9366657214159315
+PROP1431,Cozy 4 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02900899550909,57.541570586556425,510000,house,4,4,209,rent,2000.0,False,2.6545969387249158
+PROP1432,551 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.312364002428076,57.52473640330463,350000,land,0,0,551,sale,,False,7.857437139625518
+PROP1433,Luxurious 1 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.225924416454575,57.778768369225844,690000,villa,1,2,204,sale,2015.0,False,2.469311392219966
+PROP1434,Elegant 3 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.271185104399393,57.36587977589446,320000,apartment,3,1,115,rent,2001.0,True,3.104437421430843
+PROP1435,Charming 3 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.227508203623334,57.787870661900534,410000,condo,3,3,155,sale,2004.0,True,1.4751678934227805
+PROP1436,Charming 5 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.416615505300445,57.69415896633908,240000,condo,5,4,128,rent,2011.0,False,4.809738374232333
+PROP1437,Cozy 5 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03368395449691,57.55243633227357,350000,house,5,1,155,sale,2013.0,False,1.906409406361011
+PROP1438,Elegant 5 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.154723757506176,57.4976882240979,245000,condo,5,5,114,sale,2000.0,True,1.1967856205474834
+PROP1439,Charming 1 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.21663775128177,57.79002677830058,455000,condo,1,1,165,sale,2015.0,True,4.615461836456641
+PROP1440,Spacious 2 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.295706955399684,57.47489709494871,420000,house,2,2,276,rent,2010.0,False,13.76482522744475
+PROP1441,Charming 2 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.039810312192078,57.55014975905303,325000,apartment,2,1,135,rent,1994.0,False,4.281714805382027
+PROP1442,736 sqm Land in Tamarin,Tamarin,Black River,West,-20.326544655647577,57.37163121964278,710000,land,0,0,736,sale,,False,3.6950311613351734
+PROP1443,Luxurious 4 Bedroom House in Tamarin,Tamarin,Black River,West,-20.32587801990974,57.380255619627356,435000,house,4,3,175,sale,1989.0,False,1.2257545784664883
+PROP1444,791 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.297403994763705,57.47653186020241,580000,land,0,0,791,sale,,False,11.537685246630945
+PROP1445,317 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24895146239866,57.48006036138591,230000,land,0,0,317,rent,,False,10.327945619406371
+PROP1446,Luxurious 1 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.027925652371923,57.53880921785628,1550000,villa,1,1,343,sale,1992.0,True,3.0533612607011444
+PROP1447,Modern 1 Bedroom House in Souillac,Souillac,Savanne,South,-20.51761232576295,57.52029598159887,405000,house,1,1,298,sale,1987.0,False,12.503050402140863
+PROP1448,Beautiful 2 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.26990116498204,57.36548339003873,680000,villa,2,1,175,sale,2018.0,False,3.93049127352706
+PROP1449,Beautiful 5 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.52976234785756,57.514901023697206,175000,condo,5,6,122,sale,2019.0,False,9.368612935486954
+PROP1450,Cozy 4 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.254046040677203,57.47966375931849,900000,villa,4,5,352,rent,1987.0,False,14.055562774944587
+PROP1451,613 sqm Land in Flic en Flac,Flic en Flac,Black River,West,-20.270983252480786,57.3606025308514,670000,land,0,0,613,rent,,False,4.840291183902557
+PROP1452,815 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.27153401809606,57.48038472909303,540000,land,0,0,815,sale,,False,14.46532059495702
+PROP1453,Luxurious 2 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.25086577183905,57.463842179185846,750000,villa,2,3,286,rent,2012.0,True,10.11009004491887
+PROP1454,Elegant 2 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24609057094311,57.46325120950238,360000,house,2,1,194,rent,2016.0,False,14.841667545974696
+PROP1455,Luxurious 3 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.01931970442567,57.577853593898695,245000,apartment,3,1,80,sale,2002.0,False,2.082612326322589
+PROP1456,Modern 3 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.322636782098034,57.37170077256201,340000,condo,3,4,126,rent,1990.0,False,3.8849226571030315
+PROP1457,944 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.4102825848493,57.69269539100938,560000,land,0,0,944,rent,,False,2.133715707179727
+PROP1458,407 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.236807088008305,57.47680428737483,330000,land,0,0,407,sale,,False,8.192779849527765
+PROP1459,921 sqm Land in Souillac,Souillac,Savanne,South,-20.515573999612204,57.515230739839346,490000,land,0,0,921,rent,,False,11.793846392345264
+PROP1460,Beautiful 2 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.024118243526193,57.537933273351186,1710000,villa,2,2,396,rent,2023.0,True,1.7098258263228665
+PROP1461,Luxurious 3 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.26834742885974,57.36848010748482,955000,villa,3,3,224,sale,1981.0,False,4.738769258602585
+PROP1462,Charming 3 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03897212237159,57.54882248961836,435000,condo,3,2,135,sale,2009.0,True,3.9318918608518163
+PROP1463,Spacious 4 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.43248548345848,57.70564767543655,180000,apartment,4,2,64,rent,2013.0,True,1.2487237169514822
+PROP1464,Beautiful 4 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.010159558034168,57.57435399642226,545000,house,4,4,230,sale,1996.0,False,4.356504876655542
+PROP1465,Luxurious 2 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.30750442936421,57.50837543312326,605000,villa,2,3,243,rent,2022.0,True,14.090294412808243
+PROP1466,Modern 3 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30265799271754,57.47273184484944,830000,villa,3,3,355,rent,2014.0,True,11.997190925774849
+PROP1467,Elegant 2 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.290964337249267,57.47474124358278,175000,apartment,2,1,109,rent,2016.0,True,13.385450322112293
+PROP1468,Elegant 4 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.430311022648585,57.709582694748654,495000,condo,4,4,187,rent,2023.0,False,2.679851007778398
+PROP1469,Beautiful 3 Bedroom House in Souillac,Souillac,Savanne,South,-20.52903164072145,57.52092850176135,175000,house,3,4,152,sale,1999.0,False,12.11575216141942
+PROP1470,Charming 2 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.27706423293196,57.37082138066476,590000,condo,2,1,196,sale,1985.0,False,4.706762607118557
+PROP1471,824 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.413500833511254,57.70200570985438,525000,land,0,0,824,rent,,False,4.5093336397009125
+PROP1472,782 sqm Land in Souillac,Souillac,Savanne,South,-20.531080314809085,57.51957096463626,380000,land,0,0,782,sale,,False,5.345287061906037
+PROP1473,947 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.027631372231664,57.55300340371757,1010000,land,0,0,947,rent,,False,2.421242385955163
+PROP1474,Spacious 4 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.15464942573609,57.4904531314809,580000,house,4,5,300,rent,2022.0,False,3.497172621773568
+PROP1475,422 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.042585514868723,57.547976819592414,425000,land,0,0,422,rent,,False,4.388697287292665
+PROP1476,Modern 5 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.155170168053917,57.501067625583865,330000,condo,5,6,124,sale,1980.0,True,3.652271642037961
+PROP1477,899 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.222534476871267,57.7960614173821,850000,land,0,0,899,rent,,False,1.9803992203201366
+PROP1478,Luxurious 3 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.020832599523477,57.586804759953814,1540000,villa,3,1,392,rent,2013.0,True,2.8280357428242846
+PROP1479,Modern 4 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.0398004905378,57.540971499133306,275000,apartment,4,2,113,rent,2012.0,False,2.306383598789466
+PROP1480,Charming 2 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.193868506987,57.78047576426356,330000,house,2,1,160,rent,2014.0,False,2.4068895721455115
+PROP1481,Luxurious 4 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02660300745612,57.581778112561764,370000,apartment,4,3,137,sale,1990.0,False,2.074552267925705
+PROP1482,358 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.306365817667118,57.510170162234985,265000,land,0,0,358,sale,,False,8.743777488290856
+PROP1483,286 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.237001998869097,57.475508515942984,235000,land,0,0,286,sale,,False,11.923233807620335
+PROP1484,Modern 2 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.224655139752862,57.46296739861334,495000,villa,2,3,177,sale,1990.0,False,10.220479375106065
+PROP1485,Spacious 3 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.275261458678397,57.35991190954072,230000,apartment,3,2,89,sale,2014.0,True,2.6299738487371345
+PROP1486,Charming 1 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.413281324472056,57.6928517982953,315000,house,1,1,207,sale,2013.0,True,4.709472049181997
+PROP1487,Cozy 1 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.33105189421593,57.375515230917856,180000,apartment,1,2,73,rent,2002.0,False,1.9829355371057011
+PROP1488,Modern 5 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02507189132352,57.553912933846185,795000,house,5,6,288,rent,2024.0,False,3.496177562562221
+PROP1489,Cozy 2 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.402125323216588,57.70152161220097,105000,apartment,2,3,68,rent,1995.0,True,3.552149486957034
+PROP1490,Charming 4 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.290821791977137,57.48465991155181,205000,apartment,4,1,135,rent,1983.0,False,5.468222085912052
+PROP1491,Spacious 5 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.282246301420848,57.35387820126253,1020000,villa,5,1,286,sale,1986.0,True,1.0743016834137964
+PROP1492,Spacious 1 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.23171195756082,57.79236520124249,220000,apartment,1,1,105,rent,2018.0,True,4.056659759347491
+PROP1493,Elegant 4 Bedroom Villa in Souillac,Souillac,Savanne,South,-20.520881213604643,57.52488982976341,580000,villa,4,2,271,rent,2012.0,False,13.78406147708989
+PROP1494,671 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03419713305166,57.5440004927175,755000,land,0,0,671,sale,,False,3.870604504472169
+PROP1495,Spacious 1 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.435082587197172,57.705441797685836,645000,house,1,1,299,rent,2008.0,False,1.9507128702549568
+PROP1496,Beautiful 1 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.294673500601018,57.476276787264794,395000,house,1,1,238,sale,2015.0,False,11.80197575388359
+PROP1497,Luxurious 3 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.162267600542773,57.4977219858401,285000,apartment,3,1,124,sale,1999.0,False,2.0448394970348875
+PROP1498,Charming 4 Bedroom House in Souillac,Souillac,Savanne,South,-20.52670414907658,57.514067395461375,255000,house,4,2,180,sale,1989.0,True,14.9380846565328
+PROP1499,Cozy 5 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03185157530281,57.54394385053707,155000,apartment,5,5,58,rent,2001.0,True,4.372522891387101
+PROP1500,Luxurious 5 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.436339093001685,57.71867826713662,775000,villa,5,1,212,rent,1985.0,False,3.5476339259466645
+PROP1501,355 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32397520730464,57.51242662441888,290000,land,0,0,355,sale,,False,9.67193254779379
+PROP1502,725 sqm Land in Souillac,Souillac,Savanne,South,-20.526102950901493,57.5246144542761,390000,land,0,0,725,sale,,False,12.01831934941122
+PROP1503,Cozy 5 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.217551628740335,57.78619661742636,1180000,villa,5,1,342,sale,1986.0,False,3.8534358954865127
+PROP1504,Luxurious 3 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.16727376702385,57.50360433984741,745000,villa,3,3,261,sale,1989.0,True,3.3201695651625354
+PROP1505,Cozy 3 Bedroom Villa in Souillac,Souillac,Savanne,South,-20.523370849912624,57.51166865842117,395000,villa,3,2,186,rent,2013.0,True,7.950418685070351
+PROP1506,Cozy 4 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.272861454772773,57.35442891839559,590000,house,4,5,257,sale,1983.0,False,2.4352962097438287
+PROP1507,Luxurious 1 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.271871634925166,57.3611604111383,425000,condo,1,1,137,sale,1994.0,False,3.1249455398779564
+PROP1508,Elegant 3 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.306488204432696,57.47220924040628,270000,house,3,3,201,rent,2018.0,True,13.94842055698006
+PROP1509,243 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.036812685462074,57.53813154261795,255000,land,0,0,243,sale,,False,2.698939847512517
+PROP1510,Charming 5 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.216432209154114,57.45672231534575,1060000,villa,5,5,384,rent,2022.0,True,10.813940949225449
+PROP1511,Luxurious 5 Bedroom House in Tamarin,Tamarin,Black River,West,-20.332194188487296,57.374289331039535,230000,house,5,6,111,sale,1988.0,True,4.866470753192383
+PROP1512,Beautiful 2 Bedroom House in Tamarin,Tamarin,Black River,West,-20.316955350570606,57.372216244736386,345000,house,2,3,165,rent,2007.0,True,4.363866512327524
+PROP1513,677 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30166340455395,57.47398195622607,525000,land,0,0,677,sale,,False,12.861156979613266
+PROP1514,Spacious 2 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.20326903216206,57.778741642395566,475000,house,2,2,248,rent,1981.0,True,3.902896473417401
+PROP1515,Luxurious 5 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.217977600415015,57.78663045471431,220000,apartment,5,1,99,sale,2005.0,False,1.928627249826151
+PROP1516,Charming 2 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.25884455091397,57.47406629171824,420000,condo,2,3,195,rent,1999.0,True,7.623427331465581
+PROP1517,655 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.408597574811278,57.70059224007017,380000,land,0,0,655,rent,,False,4.6625818524248
+PROP1518,Elegant 3 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.15731256693039,57.50675499031064,815000,villa,3,2,252,sale,2016.0,False,1.261770143959207
+PROP1519,669 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.204721856702587,57.78763596636319,655000,land,0,0,669,rent,,False,3.761158289355832
+PROP1520,Modern 2 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32385871330734,57.50720034443182,860000,villa,2,2,367,rent,2012.0,True,6.940532383865451
+PROP1521,Luxurious 2 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.225080928671712,57.79016511721203,125000,apartment,2,1,54,sale,2023.0,False,4.8657685333332115
+PROP1522,Cozy 1 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.314745612601556,57.51389526679745,270000,house,1,2,172,sale,2014.0,False,5.073625054064154
+PROP1523,Luxurious 5 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.027087062083,57.54010516090436,935000,villa,5,3,225,sale,2004.0,True,1.526709824259727
+PROP1524,Luxurious 1 Bedroom House in Souillac,Souillac,Savanne,South,-20.52058357183455,57.51553873453969,220000,house,1,2,198,rent,1999.0,False,14.842277261913244
+PROP1525,780 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.23190120669163,57.79447822772689,635000,land,0,0,780,rent,,False,2.6064600778175633
+PROP1526,Luxurious 5 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.026790907856867,57.54773029633906,690000,house,5,4,288,rent,2009.0,False,2.896718109074841
+PROP1527,Modern 2 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.04178369496775,57.535979585976094,1700000,villa,2,3,360,rent,1990.0,True,4.5954893784457775
+PROP1528,Cozy 3 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.417231950867595,57.7057117537696,345000,house,3,4,208,sale,2013.0,True,1.3650668616990753
+PROP1529,Spacious 2 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.43585127490082,57.70815847962007,1300000,villa,2,1,291,rent,2003.0,True,4.144511766387193
+PROP1530,Spacious 3 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.43254240393413,57.70711696441058,280000,condo,3,2,94,rent,2004.0,True,2.8516414797042056
+PROP1531,598 sqm Land in Tamarin,Tamarin,Black River,West,-20.33131917229936,57.37434584999877,665000,land,0,0,598,rent,,False,4.358194518549647
+PROP1532,Charming 4 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24470778139512,57.462006541606044,375000,house,4,3,266,rent,1986.0,False,6.941643841554833
+PROP1533,Luxurious 2 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22610828970426,57.45749977093866,455000,house,2,3,250,sale,2014.0,False,8.477915445933444
+PROP1534,Elegant 2 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.025533031410326,57.554502259752034,935000,villa,2,3,234,sale,1990.0,False,3.5837467148007534
+PROP1535,Spacious 2 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.20134130666354,57.77175478411443,600000,villa,2,1,169,rent,1993.0,False,4.567670388593539
+PROP1536,Luxurious 1 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.27203018615689,57.3661103592243,875000,villa,1,2,207,rent,2002.0,False,2.6169851688073025
+PROP1537,Elegant 3 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.203508421934544,57.78699610661414,415000,condo,3,2,170,rent,2006.0,True,2.3655151555647014
+PROP1538,965 sqm Land in Flic en Flac,Flic en Flac,Black River,West,-20.26958866925919,57.369060460693454,1120000,land,0,0,965,rent,,False,1.8592250964856905
+PROP1539,Modern 2 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.28234338793803,57.373071783486,570000,house,2,2,240,sale,1998.0,True,2.0742424988680157
+PROP1540,Charming 4 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.037904397075096,57.54899781624737,160000,apartment,4,2,56,sale,2024.0,False,2.4968131459392744
+PROP1541,Cozy 3 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.315769726981287,57.508655482609285,275000,apartment,3,3,149,rent,2012.0,True,9.068043009029505
+PROP1542,Luxurious 1 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.333606286207083,57.374252489799254,515000,condo,1,2,172,sale,2022.0,True,4.697668935413757
+PROP1543,Elegant 4 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.27129285167426,57.483662843851775,495000,house,4,2,265,rent,2018.0,False,5.269856381116716
+PROP1544,Elegant 2 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.406588966629432,57.69785288490393,275000,house,2,2,186,rent,1990.0,False,4.717609992763977
+PROP1545,Luxurious 2 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.53123737839062,57.52317602344458,215000,apartment,2,1,138,sale,2013.0,True,14.524321037729031
+PROP1546,305 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.16288480422356,57.49356125122097,295000,land,0,0,305,sale,,False,3.7896514789510256
+PROP1547,378 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.44152235423292,57.707057279493505,450000,land,0,0,378,sale,,False,2.742338426220022
+PROP1548,Luxurious 5 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.28144118319104,57.37180500253038,315000,house,5,3,127,rent,2013.0,True,3.6304932668775423
+PROP1549,Charming 2 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.447958906968747,57.71836615183107,430000,house,2,3,168,rent,2021.0,True,1.2407954269125172
+PROP1550,Beautiful 3 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.153689032986136,57.49829065330318,210000,apartment,3,2,87,sale,1997.0,False,2.374534597459102
+PROP1551,702 sqm Land in Flic en Flac,Flic en Flac,Black River,West,-20.28032143002301,57.36499884368041,695000,land,0,0,702,rent,,False,2.517312619416945
+PROP1552,543 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.202510610614095,57.77387223956564,485000,land,0,0,543,rent,,False,4.415720115554294
+PROP1553,Spacious 2 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.44333140358074,57.70712437778195,250000,apartment,2,3,86,rent,2004.0,False,1.564503831003047
+PROP1554,677 sqm Land in Flic en Flac,Flic en Flac,Black River,West,-20.270231111555482,57.355207201721164,740000,land,0,0,677,rent,,False,2.5806198433033405
+PROP1555,Spacious 4 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.15640523227526,57.4957102378687,460000,house,4,1,219,sale,2009.0,False,3.6148749690901902
+PROP1556,214 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29074903742485,57.478185805510535,130000,land,0,0,214,rent,,False,10.949484386184011
+PROP1557,306 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.008747137423978,57.584756803741286,370000,land,0,0,306,sale,,False,2.2321865194446873
+PROP1558,Charming 4 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.039236230379654,57.54064537404716,295000,condo,4,3,91,sale,2003.0,False,3.7935237316700743
+PROP1559,Cozy 1 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.242206391695,57.477283410075614,425000,house,1,1,247,rent,2007.0,False,14.372096234463184
+PROP1560,Luxurious 4 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.316765001887312,57.526457975903256,305000,condo,4,5,160,rent,2022.0,False,10.229345577653334
+PROP1561,Spacious 5 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.020058753167156,57.575525496822145,355000,apartment,5,5,112,sale,1990.0,False,3.0627270158241857
+PROP1562,574 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.23450056907646,57.79631270021214,560000,land,0,0,574,sale,,False,1.030755003353483
+PROP1563,Elegant 5 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.023637911714975,57.55291752786762,260000,house,5,3,111,sale,2008.0,False,4.985378528747611
+PROP1564,Cozy 1 Bedroom Villa in Souillac,Souillac,Savanne,South,-20.523273197889463,57.51432490050128,700000,villa,1,1,315,sale,1993.0,False,5.51278213768553
+PROP1565,Beautiful 4 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.40062580704828,57.694269691077366,735000,villa,4,3,308,sale,1987.0,True,3.842842393926134
+PROP1566,653 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02388996690503,57.54110876536692,810000,land,0,0,653,sale,,False,1.7168556396153942
+PROP1567,Modern 1 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.229531493374267,57.462308727090786,455000,house,1,2,291,sale,1989.0,False,5.137141648253363
+PROP1568,Elegant 4 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29131170232744,57.48181564737938,295000,condo,4,4,166,rent,2004.0,True,6.88144422469369
+PROP1569,Charming 4 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.189936406489547,57.78845762825289,375000,house,4,4,191,sale,2021.0,False,2.2035956129143957
+PROP1570,Beautiful 5 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.226725763752793,57.798147440142934,190000,apartment,5,5,86,sale,1986.0,False,1.3983582758356845
+PROP1571,Beautiful 5 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.211500471817555,57.45317930807415,190000,apartment,5,3,114,rent,2019.0,True,9.84171118666341
+PROP1572,Beautiful 2 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.51380599589784,57.523573344096675,130000,condo,2,2,97,rent,2004.0,True,13.140130957147178
+PROP1573,Spacious 2 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.308940461147984,57.51626030655499,205000,apartment,2,1,133,rent,1998.0,True,6.529339427575536
+PROP1574,Beautiful 5 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.218193590890294,57.7824277868282,335000,house,5,4,188,sale,1993.0,True,3.285611758775777
+PROP1575,Spacious 3 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.292824574810886,57.487940210157326,350000,condo,3,1,192,rent,2003.0,True,11.459931303098614
+PROP1576,969 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.267877833700542,57.488745877755015,770000,land,0,0,969,sale,,False,7.710973617816631
+PROP1577,Cozy 1 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.158626825570217,57.49811924550274,540000,villa,1,2,162,rent,2006.0,False,1.4264627425095622
+PROP1578,Beautiful 5 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.448988325440542,57.719907963174045,945000,villa,5,5,219,rent,2006.0,True,4.203905359390603
+PROP1579,Modern 1 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.218789365693624,57.456624411552745,480000,villa,1,2,168,rent,1999.0,False,7.455684447247473
+PROP1580,Charming 3 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.329167836982165,57.365409158424995,750000,villa,3,3,206,sale,1980.0,False,4.1615091210899156
+PROP1581,Charming 3 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.302184588072837,57.481794302261676,345000,condo,3,1,161,rent,2023.0,False,11.078376591750796
+PROP1582,Modern 1 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.038595830518844,57.5496911240307,965000,villa,1,2,251,rent,2002.0,False,4.442551620836685
+PROP1583,Spacious 5 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.218152167826574,57.78457357095394,245000,house,5,2,143,sale,2017.0,False,3.6265543115289964
+PROP1584,Cozy 1 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.449168492296003,57.704509640387045,1580000,villa,1,2,359,sale,1991.0,True,2.468052275574175
+PROP1585,734 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.221997300708452,57.77993589989589,630000,land,0,0,734,rent,,False,3.5952769231913893
+PROP1586,Luxurious 3 Bedroom House in Tamarin,Tamarin,Black River,West,-20.32767126900995,57.36417952894712,460000,house,3,4,190,rent,1995.0,False,1.2035385489773942
+PROP1587,Charming 5 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29884254223813,57.47212585942373,220000,apartment,5,5,132,rent,1994.0,True,5.877523983609726
+PROP1588,Modern 3 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.531287186311143,57.52138896879491,240000,condo,3,3,169,sale,1982.0,True,9.019998109805442
+PROP1589,Modern 3 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.027446092420067,57.58961065942129,400000,house,3,3,138,rent,1990.0,True,3.87660371930391
+PROP1590,Luxurious 5 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.233377339183146,57.793374009026515,360000,condo,5,5,145,sale,2015.0,False,2.0155542732964076
+PROP1591,Luxurious 1 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02969094848931,57.543152109273706,1435000,villa,1,1,397,rent,1980.0,False,4.509586493327771
+PROP1592,603 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.30728754088265,57.51119167919439,440000,land,0,0,603,rent,,False,9.573936099753709
+PROP1593,318 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.162491925484606,57.5033667563807,270000,land,0,0,318,rent,,False,4.5000297432797485
+PROP1594,Cozy 4 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.295282193822864,57.48646512603315,110000,apartment,4,2,69,sale,1997.0,True,8.148093508469929
+PROP1595,790 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.233311732914224,57.46922875890105,640000,land,0,0,790,rent,,False,7.96536812984758
+PROP1596,Elegant 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29274926310311,57.47139513082153,100000,apartment,1,1,64,sale,1990.0,True,13.844238839918399
+PROP1597,967 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.44678142571067,57.70679493177279,900000,land,0,0,967,sale,,False,2.127358114291286
+PROP1598,Luxurious 1 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.027105377189624,57.57259761055563,305000,apartment,1,2,108,rent,2018.0,True,3.8949630415458505
+PROP1599,Charming 5 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.515330808447693,57.5220471988628,135000,apartment,5,5,113,rent,2020.0,False,14.70969736126769
+PROP1600,Beautiful 4 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.44249602347033,57.71286179526705,1395000,villa,4,5,371,rent,1989.0,False,4.4367713868874645
+PROP1601,Beautiful 4 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.27360771545309,57.47279527821427,155000,apartment,4,2,82,rent,2022.0,False,7.593601893220217
+PROP1602,Beautiful 1 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29075756960948,57.485140437932735,560000,villa,1,2,240,rent,2022.0,True,7.644393953974427
+PROP1603,Modern 5 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22016826184505,57.46729906187724,245000,apartment,5,1,131,sale,1995.0,False,7.608205292702381
+PROP1604,529 sqm Land in Souillac,Souillac,Savanne,South,-20.519936290381064,57.521680917428476,260000,land,0,0,529,rent,,False,12.020864821817998
+PROP1605,Elegant 1 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.220540710892475,57.78554507433927,1050000,villa,1,1,310,rent,1998.0,False,2.27581981416821
+PROP1606,Spacious 4 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26740766857094,57.472444493041934,205000,condo,4,1,91,sale,2020.0,True,12.687668295923913
+PROP1607,Beautiful 4 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.034289011209218,57.54845337445354,470000,condo,4,3,141,rent,1997.0,True,4.928328540796355
+PROP1608,Luxurious 1 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24103034962984,57.47280365639915,590000,villa,1,1,256,sale,1986.0,False,6.250112426597928
+PROP1609,Beautiful 2 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29795238696319,57.4767162047574,305000,house,2,1,217,sale,2016.0,False,9.450121415742021
+PROP1610,Spacious 4 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.153726519229142,57.50134577945912,510000,condo,4,5,188,sale,2013.0,True,3.0695557974889547
+PROP1611,269 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.234862798988768,57.783431487892855,240000,land,0,0,269,sale,,False,3.1759750052492386
+PROP1612,Elegant 5 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.446450411158146,57.70581549086298,160000,apartment,5,3,57,rent,2016.0,True,4.74879832915452
+PROP1613,Luxurious 1 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.249384082684312,57.47553775170151,190000,condo,1,2,103,sale,2007.0,True,6.862746704618154
+PROP1614,460 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.204246416915566,57.788088734442184,430000,land,0,0,460,sale,,False,1.969114687168842
+PROP1615,Cozy 2 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22152744180351,57.45713496836307,440000,house,2,1,275,rent,2011.0,False,8.314256395436976
+PROP1616,Elegant 3 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24354026523541,57.470762033361574,710000,villa,3,3,290,rent,2003.0,True,14.099532886589932
+PROP1617,Cozy 2 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.016420723228165,57.577661584278445,150000,apartment,2,2,54,sale,2000.0,False,1.703242544651038
+PROP1618,Modern 3 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21002394905185,57.46550829682877,100000,apartment,3,4,59,rent,2002.0,True,8.076124375718653
+PROP1619,Luxurious 5 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.299883893715734,57.468475530691165,255000,condo,5,6,132,rent,2006.0,False,12.900141139302175
+PROP1620,Beautiful 3 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.311644665574825,57.52633728673805,270000,apartment,3,2,136,sale,2021.0,True,10.929438121920398
+PROP1621,Beautiful 2 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21118716288871,57.46305125725325,365000,condo,2,2,184,rent,2023.0,True,10.559702699959498
+PROP1622,Spacious 5 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.321516349210757,57.514173027362446,205000,house,5,4,129,sale,2018.0,True,10.335167093230613
+PROP1623,Modern 2 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.033875976732013,57.54804766142373,425000,house,2,1,160,sale,1989.0,False,3.120868310565964
+PROP1624,Modern 5 Bedroom House in Souillac,Souillac,Savanne,South,-20.52641975545291,57.5187177048285,120000,house,5,3,102,rent,2012.0,False,12.998793790079983
+PROP1625,Modern 2 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.291714156860408,57.47294031102796,195000,apartment,2,2,101,sale,1987.0,False,6.259781459825348
+PROP1626,Beautiful 4 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.160756161787592,57.5062833797586,285000,condo,4,4,125,rent,2002.0,False,4.292575566242119
+PROP1627,Luxurious 2 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.447304529562338,57.722756911877774,130000,apartment,2,1,54,sale,1987.0,False,2.228855602673797
+PROP1628,Spacious 4 Bedroom House in Tamarin,Tamarin,Black River,West,-20.318520090290654,57.37749881034944,580000,house,4,3,255,sale,2017.0,True,3.1817996914684588
+PROP1629,Beautiful 4 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.222816994224672,57.78537021577394,250000,condo,4,5,109,sale,1995.0,False,4.2032718490482
+PROP1630,Charming 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.294864332941245,57.47524429510932,100000,apartment,1,1,58,rent,2005.0,False,12.332234944045705
+PROP1631,Modern 2 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.01176639023525,57.58191443304895,350000,apartment,2,3,128,sale,2022.0,False,4.203684409415611
+PROP1632,Charming 2 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.318462192420014,57.51764978531393,420000,house,2,2,248,rent,2018.0,False,12.56978848567199
+PROP1633,Charming 1 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.190426959949235,57.77356111605546,1000000,villa,1,1,319,sale,2015.0,False,2.570097346140847
+PROP1634,Beautiful 3 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.263279537771744,57.47284138643522,715000,villa,3,2,261,sale,1989.0,True,14.209907546365807
+PROP1635,222 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32089331214426,57.51589244395111,150000,land,0,0,222,rent,,False,10.888832204240213
+PROP1636,Beautiful 1 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.414925737226948,57.69553330383964,90000,apartment,1,1,52,sale,2023.0,True,2.5074302087350153
+PROP1637,269 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02591485283805,57.587179938913216,340000,land,0,0,269,sale,,False,2.130700985926887
+PROP1638,397 sqm Land in Souillac,Souillac,Savanne,South,-20.517609107632765,57.51516052606887,200000,land,0,0,397,rent,,False,9.664355139138014
+PROP1639,Beautiful 5 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32157710055929,57.524723841280256,220000,condo,5,3,116,rent,2003.0,False,5.943475984347618
+PROP1640,Charming 3 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.196030013756165,57.770613586141714,420000,condo,3,3,170,rent,2008.0,False,2.5545772947850174
+PROP1641,Beautiful 1 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.44546566206678,57.723412330086774,320000,apartment,1,1,138,rent,1985.0,False,4.534437924942204
+PROP1642,Spacious 2 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02893641208702,57.54689032908154,595000,condo,2,2,183,rent,1999.0,False,4.620965752073258
+PROP1643,Charming 3 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24286424596621,57.479634449269454,225000,condo,3,1,120,sale,1993.0,True,12.560932666343962
+PROP1644,667 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.16159584949139,57.498188105556,620000,land,0,0,667,sale,,False,2.1295708501067483
+PROP1645,Cozy 3 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.300673315508064,57.473516977405275,205000,condo,3,3,105,sale,2007.0,True,8.95173838317104
+PROP1646,Charming 5 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.224757069942584,57.79328693933414,300000,apartment,5,3,133,rent,1996.0,False,4.313147255766448
+PROP1647,Elegant 4 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.321606070801074,57.371919192335646,1375000,villa,4,5,375,sale,1987.0,False,3.5261655281806967
+PROP1648,Beautiful 3 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.256985379391235,57.48171252206008,390000,condo,3,2,192,sale,2014.0,False,14.107289839621417
+PROP1649,Spacious 4 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.223075169899708,57.45950624882958,200000,apartment,4,4,117,sale,2024.0,True,7.370682722809887
+PROP1650,Luxurious 5 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02732321314355,57.58719629551818,1320000,villa,5,3,321,rent,2012.0,True,3.610503668229491
+PROP1651,Cozy 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.305203401299504,57.48791241393323,160000,apartment,1,1,90,rent,2004.0,False,6.227671448233814
+PROP1652,Luxurious 1 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02185611197317,57.58639563523882,365000,apartment,1,2,115,rent,1994.0,False,3.721280355226672
+PROP1653,Cozy 1 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22163936821037,57.457573430082476,255000,house,1,2,146,rent,2001.0,False,14.571448625830811
+PROP1654,Charming 4 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.40985935756148,57.69463982143194,440000,house,4,5,298,rent,2001.0,False,2.8596800211215543
+PROP1655,Beautiful 5 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30265426868355,57.48100494656072,235000,condo,5,5,130,rent,1984.0,True,7.43382933604301
+PROP1656,Beautiful 4 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.442249488747997,57.709891970322154,235000,condo,4,2,85,rent,2004.0,False,4.26355260582499
+PROP1657,Luxurious 4 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.199407753596088,57.78619905127579,295000,condo,4,1,130,sale,1994.0,True,3.6309238239399386
+PROP1658,574 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.206291754671366,57.78691710196042,475000,land,0,0,574,rent,,False,3.2747693707868515
+PROP1659,Charming 1 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.27294975041862,57.47658704847678,415000,condo,1,1,186,sale,1991.0,False,13.816010036948551
+PROP1660,Beautiful 3 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.32508873170247,57.368291471878216,385000,condo,3,3,122,rent,2011.0,False,4.322011493611333
+PROP1661,Luxurious 3 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.227741996766703,57.786147055303786,995000,villa,3,4,264,rent,2012.0,False,1.0287554569927595
+PROP1662,Spacious 2 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.245195531408527,57.472721099227485,260000,condo,2,3,152,sale,1984.0,True,11.422212527835004
+PROP1663,867 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.271094346947386,57.479885815607915,710000,land,0,0,867,rent,,False,14.042840409653875
+PROP1664,Spacious 5 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.267839888528016,57.47719380586044,1055000,villa,5,4,335,rent,2007.0,True,12.749356129897624
+PROP1665,Beautiful 3 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.443795763044406,57.72115405401108,635000,villa,3,3,172,sale,2024.0,True,1.2673354484631307
+PROP1666,Beautiful 5 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.187062344020298,57.784997610370006,255000,house,5,4,124,sale,2008.0,True,3.6843269354548287
+PROP1667,788 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.405924248277298,57.69291672249839,510000,land,0,0,788,sale,,False,3.969620444711796
+PROP1668,470 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.19095336070697,57.78668056113368,515000,land,0,0,470,rent,,False,3.5785901265900537
+PROP1669,Beautiful 5 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.300118298038186,57.47944594306943,750000,villa,5,1,293,rent,2016.0,False,10.108677915944291
+PROP1670,Cozy 5 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.51500788444135,57.51767333872892,125000,condo,5,3,87,rent,2006.0,False,13.023697010550682
+PROP1671,Beautiful 1 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.301884264498028,57.47984131601692,630000,villa,1,2,218,rent,2007.0,False,13.583783886716835
+PROP1672,Elegant 2 Bedroom House in Tamarin,Tamarin,Black River,West,-20.332063057464065,57.36684504474857,655000,house,2,1,299,sale,1991.0,False,3.3837952397979496
+PROP1673,Spacious 4 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.440506738173877,57.72418377148409,370000,condo,4,4,133,rent,2007.0,True,3.530874340153412
+PROP1674,Cozy 5 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.317751063397875,57.51358743547483,205000,apartment,5,3,111,sale,2000.0,True,14.9231186701826
+PROP1675,703 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.412855350863445,57.708732729164296,490000,land,0,0,703,sale,,False,1.937374697623254
+PROP1676,Spacious 4 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.248289759063002,57.47962543573424,370000,house,4,4,234,rent,1981.0,False,7.138484819706602
+PROP1677,Beautiful 2 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.311727506048822,57.52170083533971,440000,villa,2,3,180,rent,1995.0,True,14.242155011990757
+PROP1678,Cozy 4 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.168187924199533,57.50800698193512,300000,apartment,4,4,140,rent,1986.0,False,2.398304088676064
+PROP1679,Cozy 5 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.021411232259272,57.58038030268375,650000,house,5,5,268,rent,2016.0,True,1.1309820056875086
+PROP1680,874 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.013918280930433,57.589719777315075,920000,land,0,0,874,sale,,False,4.540563314231094
+PROP1681,700 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.228336894379492,57.458526555697155,500000,land,0,0,700,rent,,False,13.795111851609647
+PROP1682,Cozy 4 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.01917138944378,57.575057868234204,320000,apartment,4,4,119,rent,2021.0,False,4.155784184974435
+PROP1683,Luxurious 2 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03848030072813,57.54543005435883,220000,condo,2,2,83,sale,1983.0,False,2.2590262099940985
+PROP1684,Spacious 4 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.206195816382927,57.7800871915218,265000,condo,4,3,110,sale,1983.0,True,2.4420318451796956
+PROP1685,Spacious 5 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.40792922259311,57.702508844214165,915000,villa,5,3,355,sale,2014.0,True,3.4505565838935253
+PROP1686,Cozy 3 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31742356661975,57.51548057873222,260000,apartment,3,1,137,rent,1988.0,True,8.064345229249355
+PROP1687,Luxurious 2 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.53128601925037,57.51385413902745,80000,apartment,2,2,52,sale,2017.0,False,6.677785499519948
+PROP1688,Cozy 2 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.3003923469056,57.48235095586515,225000,apartment,2,3,128,rent,2008.0,False,10.608243478604964
+PROP1689,Elegant 1 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.27041753129381,57.48872494002842,195000,apartment,1,2,98,rent,2013.0,True,13.541664421015986
+PROP1690,Elegant 5 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.41060178207996,57.704833247342556,700000,villa,5,4,305,sale,1998.0,False,2.309835518179585
+PROP1691,Modern 3 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.022150253412484,57.585208047472605,245000,condo,3,3,81,sale,2018.0,False,1.1083050914690031
+PROP1692,Charming 5 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.041715577020756,57.54050701291605,375000,apartment,5,3,136,rent,2010.0,True,1.0877696766191796
+PROP1693,Beautiful 2 Bedroom House in Souillac,Souillac,Savanne,South,-20.53084530647202,57.51591701682297,175000,house,2,2,156,rent,1983.0,True,12.189896675927423
+PROP1694,Luxurious 1 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30495128659859,57.47047550229215,235000,condo,1,2,144,sale,2018.0,False,8.997561672977586
+PROP1695,Spacious 1 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.164864117126278,57.50120067290644,250000,condo,1,2,120,sale,2006.0,True,2.118541529971643
+PROP1696,Spacious 2 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.01466590524488,57.58467031164358,335000,apartment,2,2,127,sale,1997.0,True,1.269620815091665
+PROP1697,395 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.214319001265565,57.46871060535882,290000,land,0,0,395,rent,,False,10.833142625771039
+PROP1698,Modern 3 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.256380337864414,57.477604822169,150000,apartment,3,4,90,sale,2018.0,True,8.75481455136126
+PROP1699,643 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.239817031631752,57.4647965027028,500000,land,0,0,643,rent,,False,10.21081178260772
+PROP1700,Luxurious 5 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.272118102376314,57.47648884319396,545000,villa,5,6,173,rent,2005.0,False,9.49624301311778
+PROP1701,Cozy 1 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.166860181467346,57.493452379781,850000,villa,1,1,277,sale,1980.0,False,1.997100938965536
+PROP1702,Charming 5 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.447429481218556,57.723274498204425,130000,apartment,5,2,55,sale,2022.0,False,1.6725968565361282
+PROP1703,Cozy 3 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.293676453673495,57.48767231057377,765000,villa,3,3,343,rent,1986.0,False,7.336241294004284
+PROP1704,Charming 1 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.32163199632746,57.363755407093365,240000,apartment,1,1,95,rent,2000.0,False,3.04239566674519
+PROP1705,Luxurious 2 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.320892744922265,57.363720381963006,270000,apartment,2,3,94,rent,2024.0,True,1.3858538281316641
+PROP1706,Charming 4 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.255817962413765,57.47129511357752,175000,apartment,4,4,95,rent,1980.0,False,11.237450480987844
+PROP1707,940 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.324767479324308,57.52009386001293,700000,land,0,0,940,sale,,False,13.486427151947844
+PROP1708,542 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31365113033643,57.51083063592926,385000,land,0,0,542,sale,,False,12.431846168731973
+PROP1709,Cozy 3 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32529528079898,57.52546906356307,265000,house,3,1,190,sale,2012.0,False,5.332620930536548
+PROP1710,Charming 5 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.04158906324279,57.5462743793875,1195000,villa,5,4,281,sale,1995.0,False,4.191480307727247
+PROP1711,Elegant 1 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.279168172298935,57.36452229641991,635000,villa,1,1,161,sale,1987.0,True,3.193240647415653
+PROP1712,Spacious 5 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.323270590678828,57.37109306991343,1085000,villa,5,4,247,rent,2024.0,True,4.506289777197814
+PROP1713,825 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.409223506829225,57.7083641172233,585000,land,0,0,825,sale,,False,4.362996483391836
+PROP1714,Cozy 5 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29134991292131,57.47342975936675,570000,villa,5,5,248,sale,2012.0,False,13.059062807499473
+PROP1715,Charming 3 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.225782987092654,57.79433468663387,465000,house,3,3,257,rent,1997.0,True,4.604534103304889
+PROP1716,340 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.443645693701303,57.70865809353322,370000,land,0,0,340,rent,,False,2.5555167148364664
+PROP1717,Modern 1 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.523173931928074,57.522891942251775,165000,apartment,1,2,105,rent,1986.0,True,7.008285649046991
+PROP1718,419 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.448070223493513,57.70740355356575,490000,land,0,0,419,rent,,False,1.4436480896045718
+PROP1719,Beautiful 4 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21192116555372,57.45386825700497,155000,apartment,4,2,101,rent,1989.0,True,8.19032505025766
+PROP1720,Elegant 5 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.17042026849197,57.508380915548074,185000,apartment,5,5,86,rent,2013.0,False,1.1804162345214895
+PROP1721,451 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.008321571217447,57.57296116239813,555000,land,0,0,451,rent,,False,1.5069243470185478
+PROP1722,Luxurious 4 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.235533410444667,57.47107961541345,610000,villa,4,1,228,rent,2018.0,True,11.14649606579852
+PROP1723,Charming 2 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.436944442706658,57.71984807927156,425000,condo,2,3,154,rent,2024.0,True,2.5344521356570104
+PROP1724,Charming 5 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.163105355955356,57.48892316918697,320000,house,5,4,162,sale,1983.0,True,2.606835393274087
+PROP1725,Luxurious 4 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02654016361679,57.57853976279282,205000,apartment,4,4,59,sale,1995.0,False,1.271971161898307
+PROP1726,Elegant 2 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.239185020890556,57.464200816398595,715000,villa,2,2,273,rent,1989.0,False,5.35791355312032
+PROP1727,Modern 2 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.262239188935638,57.48474260434799,175000,condo,2,1,86,rent,2001.0,False,12.850399358233252
+PROP1728,Beautiful 2 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.442894892435877,57.70864115602658,290000,condo,2,2,102,sale,2003.0,False,4.440141131110455
+PROP1729,Charming 3 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.290848598787374,57.474182412917806,420000,house,3,4,263,sale,1981.0,False,14.781696691812261
+PROP1730,Modern 1 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.218622154320773,57.786836581113654,1220000,villa,1,2,360,rent,2011.0,True,4.898608947316665
+PROP1731,622 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.026850807009012,57.53737023214965,780000,land,0,0,622,rent,,False,2.755081994139177
+PROP1732,464 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.259432019289434,57.47391798889458,370000,land,0,0,464,rent,,False,7.902638946671568
+PROP1733,Spacious 1 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21797765874573,57.46077240716444,1160000,villa,1,1,379,rent,1995.0,False,8.215654297513096
+PROP1734,Charming 3 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.280626859141044,57.353704788082325,395000,condo,3,4,113,rent,2014.0,True,3.520193935104643
+PROP1735,Spacious 5 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.234534091592575,57.47749766464468,405000,condo,5,6,194,sale,2021.0,False,13.514870057585272
+PROP1736,Elegant 2 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23937322085406,57.46988095147905,340000,condo,2,1,154,rent,2009.0,True,14.588221703830532
+PROP1737,Cozy 5 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.229878419007054,57.783845328512506,290000,condo,5,1,132,sale,1997.0,False,1.1765913365143046
+PROP1738,Spacious 5 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.314970013359606,57.51026260916914,110000,apartment,5,6,64,rent,1986.0,False,5.414185495164459
+PROP1739,Modern 3 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.212431453146866,57.46381433897991,595000,villa,3,4,212,rent,2007.0,True,13.356984758440019
+PROP1740,Beautiful 2 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.401075133198027,57.70590613156584,155000,apartment,2,1,87,rent,1987.0,False,3.753591109372001
+PROP1741,Luxurious 4 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.248044884115252,57.46524205505671,930000,villa,4,5,347,rent,1998.0,True,13.023282116876066
+PROP1742,Spacious 2 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.199579152331584,57.778075744809,880000,villa,2,2,232,sale,2019.0,True,1.0464931354945044
+PROP1743,Charming 2 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26660473937866,57.48857110165347,235000,condo,2,2,106,rent,1998.0,False,5.788682492274714
+PROP1744,Beautiful 4 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.16286056033494,57.500945976962605,300000,apartment,4,5,125,sale,2023.0,False,3.398791768575522
+PROP1745,Elegant 4 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.018745921770297,57.587646112526585,255000,condo,4,5,86,rent,2006.0,True,1.7897153279263214
+PROP1746,Modern 4 Bedroom House in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.248003174638818,57.474834139578164,500000,house,4,2,271,sale,2021.0,True,13.35953812827149
+PROP1747,Beautiful 5 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23260972014722,57.4659876381208,185000,condo,5,5,104,sale,1994.0,True,12.857301962490478
+PROP1748,Modern 3 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.249180962042026,57.47600916820587,245000,condo,3,1,122,sale,2024.0,True,6.624372130833018
+PROP1749,202 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.25930678181906,57.486229710957176,140000,land,0,0,202,sale,,False,11.958240446343304
+PROP1750,675 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.219936874582714,57.79667176104248,620000,land,0,0,675,sale,,False,2.362737213900744
+PROP1751,Modern 1 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.257892267309785,57.477003251267476,125000,apartment,1,2,76,rent,2004.0,True,10.376938982847044
+PROP1752,Beautiful 1 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.222065427847614,57.45639868283595,135000,apartment,1,1,78,rent,2005.0,False,6.075326508468212
+PROP1753,Charming 4 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.1558438409866,57.506704253246525,460000,house,4,1,242,rent,1997.0,True,1.2127802820688331
+PROP1754,994 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23457514894029,57.46999849002461,800000,land,0,0,994,rent,,False,5.361315899373059
+PROP1755,726 sqm Land in Souillac,Souillac,Savanne,South,-20.527796915125723,57.523864807532384,360000,land,0,0,726,rent,,False,13.178789666074115
+PROP1756,Charming 5 Bedroom House in Tamarin,Tamarin,Black River,West,-20.324660739856515,57.37295705629051,370000,house,5,2,186,rent,1990.0,True,4.012846188170888
+PROP1757,Elegant 4 Bedroom House in Souillac,Souillac,Savanne,South,-20.529656286427958,57.52586529857872,340000,house,4,4,275,rent,1988.0,True,12.42104727587071
+PROP1758,Cozy 4 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.329019157398683,57.37784758941455,470000,condo,4,4,182,rent,2012.0,False,1.1205306212552082
+PROP1759,Modern 5 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.217301591418995,57.45275947760101,755000,villa,5,6,247,sale,2004.0,False,12.29309002457899
+PROP1760,783 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.260036900839697,57.47655097062094,625000,land,0,0,783,rent,,False,13.918782266830688
+PROP1761,Modern 1 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.156791175335254,57.50607931203629,450000,house,1,2,205,rent,2012.0,True,1.8820176471949503
+PROP1762,Charming 2 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.306731953454847,57.486735001787515,370000,house,2,1,230,rent,1987.0,True,5.26057768365693
+PROP1763,Luxurious 5 Bedroom Apartment in Mahebourg,Mahebourg,Grand Port,East,-20.403178207137934,57.70437347233052,160000,apartment,5,2,96,sale,1991.0,True,4.043441351728907
+PROP1764,Elegant 3 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.232794247056503,57.468289708520885,330000,condo,3,1,179,sale,2014.0,False,14.26724620203927
+PROP1765,Beautiful 3 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.430688184741197,57.70945687267444,1060000,villa,3,1,288,rent,2021.0,True,4.322414996996665
+PROP1766,310 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.399518522249874,57.700166372037245,215000,land,0,0,310,sale,,False,2.770652932905077
+PROP1767,Luxurious 4 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23709700909966,57.47472196396436,210000,apartment,4,3,110,rent,2012.0,True,11.889913509897333
+PROP1768,661 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.2151319553752,57.454205687624956,415000,land,0,0,661,sale,,False,5.377162881209154
+PROP1769,944 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.04169950086181,57.55320623384273,1145000,land,0,0,944,sale,,False,2.8191707842693763
+PROP1770,Cozy 5 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.0212664570333,57.58249784549485,765000,house,5,5,291,rent,2011.0,False,4.731037825762551
+PROP1771,Modern 4 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.15250166208393,57.496197355119634,1030000,villa,4,3,280,rent,1987.0,False,4.303786718414775
+PROP1772,Charming 4 Bedroom House in Tamarin,Tamarin,Black River,West,-20.326761111677992,57.379473832062374,720000,house,4,5,282,rent,2021.0,True,3.7182348279524544
+PROP1773,Beautiful 5 Bedroom Condo in Tamarin,Tamarin,Black River,West,-20.3352146935039,57.36469123835268,545000,condo,5,1,186,sale,2022.0,False,1.341174901768396
+PROP1774,Spacious 2 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.28172166858067,57.36468805844055,670000,house,2,1,236,rent,2009.0,False,1.5669344706824533
+PROP1775,647 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.244975938565172,57.47859354070107,510000,land,0,0,647,sale,,False,9.351223165147516
+PROP1776,459 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.406147648082083,57.70612701024987,285000,land,0,0,459,sale,,False,2.8659793872125787
+PROP1777,Modern 3 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.15375248125984,57.49459926507735,355000,condo,3,2,149,sale,2009.0,True,1.8416373795421865
+PROP1778,Modern 3 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.302984982087857,57.48766211261249,205000,house,3,2,120,rent,1983.0,True,13.612894903126852
+PROP1779,Charming 3 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.3235650594902,57.5248789649978,245000,condo,3,2,143,sale,2021.0,True,13.791548300520965
+PROP1780,Luxurious 2 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.39953673128796,57.692144747709335,845000,villa,2,2,366,rent,2010.0,True,2.325553174104247
+PROP1781,800 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22687840179869,57.47009386891407,520000,land,0,0,800,rent,,False,5.924835129136463
+PROP1782,Elegant 2 Bedroom Villa in Blue Bay,Blue Bay,Grand Port,East,-20.4484513045375,57.72160055323626,1350000,villa,2,2,310,rent,1991.0,False,3.3904999275208256
+PROP1783,Beautiful 4 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.213056497418993,57.46986689752013,850000,villa,4,2,363,rent,1984.0,False,10.670021917903085
+PROP1784,506 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.18812180093628,57.784740960832735,485000,land,0,0,506,sale,,False,1.6524241795685763
+PROP1785,Cozy 4 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03094113717186,57.54467562230765,345000,condo,4,4,113,rent,1998.0,True,1.743105930852027
+PROP1786,Charming 4 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.17038664037081,57.500185484586964,270000,apartment,4,5,127,rent,1998.0,False,1.9750845803825938
+PROP1787,696 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.294538251188413,57.480832224534566,520000,land,0,0,696,sale,,False,6.348296447169637
+PROP1788,Luxurious 1 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.023943287503673,57.58897223423045,440000,apartment,1,1,128,rent,1999.0,False,4.634322562535218
+PROP1789,Beautiful 5 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.44856225098333,57.71666421996275,425000,apartment,5,3,147,rent,2001.0,True,1.0414236479562038
+PROP1790,Cozy 4 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.21833160023664,57.78905840047901,285000,apartment,4,3,139,sale,2014.0,True,3.4573882668833265
+PROP1791,Charming 3 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.035706450509334,57.554520824149165,485000,house,3,4,209,rent,2002.0,False,3.614469174588237
+PROP1792,903 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.15949415137694,57.49024545869631,820000,land,0,0,903,rent,,False,3.096228423533077
+PROP1793,Modern 4 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.19803183323232,57.78187425159838,400000,house,4,2,164,rent,1992.0,False,1.1558121514278588
+PROP1794,364 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.308407012336392,57.511927205849844,260000,land,0,0,364,sale,,False,13.874897007707563
+PROP1795,Cozy 4 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.292504909652514,57.48491515515065,220000,condo,4,3,121,sale,1990.0,False,13.876761590067089
+PROP1796,562 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.161926497957545,57.49345526175369,480000,land,0,0,562,sale,,False,3.369364570810743
+PROP1797,Spacious 2 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.227087742041167,57.78552888085915,490000,condo,2,3,195,rent,2019.0,True,2.298012767408665
+PROP1798,Beautiful 2 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26389607520326,57.48095871812792,365000,condo,2,2,190,rent,2010.0,False,12.16803285889385
+PROP1799,Beautiful 3 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.237685385105582,57.47629708087294,910000,villa,3,3,313,sale,2013.0,True,5.451588687937398
+PROP1800,Spacious 1 Bedroom Condo in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.22406331076265,57.46013113495897,175000,condo,1,2,80,rent,2010.0,True,9.62932543677942
+PROP1801,Luxurious 3 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.19016269369573,57.77894828431257,245000,condo,3,3,106,sale,2008.0,False,2.500446167378287
+PROP1802,684 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02688248918878,57.54591733460283,770000,land,0,0,684,sale,,False,2.416646468173623
+PROP1803,731 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.221263253284384,57.78384662370184,725000,land,0,0,731,rent,,False,4.8039694563683355
+PROP1804,Modern 1 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.331817978996614,57.36477164382825,160000,apartment,1,2,57,sale,2015.0,False,4.038652857700994
+PROP1805,Spacious 1 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.294138692628522,57.47691959152749,395000,house,1,2,286,rent,2017.0,False,8.653815106147821
+PROP1806,Elegant 1 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.229125233200904,57.46833816856136,570000,villa,1,2,221,sale,2002.0,False,6.114648833233158
+PROP1807,356 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.30680565802759,57.50668365339718,225000,land,0,0,356,rent,,False,6.772879407254226
+PROP1808,239 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.163881212849013,57.49332619779223,185000,land,0,0,239,rent,,False,2.8427787776148756
+PROP1809,Elegant 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30515145340229,57.47750011689752,215000,apartment,1,1,136,sale,1991.0,False,11.297944618188744
+PROP1810,Charming 4 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.400577505412016,57.70260562369297,435000,house,4,5,274,rent,1998.0,False,4.8100694978057685
+PROP1811,Charming 3 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.020543702758314,57.57613241953608,275000,apartment,3,4,80,sale,2010.0,True,4.765267558361423
+PROP1812,Elegant 3 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.290978196922214,57.47168336592984,200000,apartment,3,1,136,sale,1997.0,True,14.959681935631105
+PROP1813,Cozy 5 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.31917763611872,57.37287961002691,145000,apartment,5,3,52,rent,1989.0,True,1.8224646136558187
+PROP1814,841 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31999245177687,57.52535311141712,600000,land,0,0,841,rent,,False,6.433958222853065
+PROP1815,Elegant 4 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.229286161222237,57.4621320747777,460000,villa,4,4,172,rent,2007.0,True,14.818284089110502
+PROP1816,Modern 5 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.294521439432327,57.485430316247246,435000,house,5,5,297,sale,2002.0,False,9.817173137158903
+PROP1817,Luxurious 2 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.262481783871774,57.48458201209285,645000,villa,2,1,255,rent,1982.0,True,8.070711896169215
+PROP1818,Charming 3 Bedroom Villa in Tamarin,Tamarin,Black River,West,-20.335136724291356,57.37847728651412,775000,villa,3,1,187,rent,2022.0,False,2.943547797629166
+PROP1819,Beautiful 2 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.163495753793434,57.501514478608605,250000,apartment,2,1,121,sale,1989.0,True,2.382045853553752
+PROP1820,Elegant 1 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.025748464529098,57.53514454379592,570000,house,1,2,233,rent,2002.0,False,1.7293547089922523
+PROP1821,Beautiful 4 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.219067076955206,57.452109539099055,315000,house,4,3,178,sale,2002.0,True,14.663703517778089
+PROP1822,Beautiful 3 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.258438174117643,57.47081487462352,250000,house,3,1,148,rent,1982.0,True,11.505856846323915
+PROP1823,536 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.249763763740155,57.46796811982095,440000,land,0,0,536,rent,,False,14.416794389952592
+PROP1824,Cozy 2 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.27883853262441,57.3554373269421,515000,house,2,3,230,rent,2016.0,True,1.4140978231677046
+PROP1825,Beautiful 2 Bedroom Condo in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.041149675330548,57.55263879205172,485000,condo,2,1,143,rent,1997.0,False,2.4003109962438423
+PROP1826,Luxurious 5 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.212448420122815,57.453954640975596,380000,house,5,3,215,sale,1981.0,False,9.769095820548817
+PROP1827,651 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.267814331021153,57.48242521950785,460000,land,0,0,651,rent,,False,13.948721650412354
+PROP1828,Cozy 4 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.290853683658607,57.480554926311875,300000,house,4,1,208,rent,1991.0,False,8.154966868667579
+PROP1829,709 sqm Land in Port Louis,Port Louis,Port Louis,North,-20.164181684997033,57.50374528164519,545000,land,0,0,709,sale,,False,1.22395307375676
+PROP1830,Charming 4 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.315858941434673,57.52244604837061,495000,villa,4,2,208,rent,2017.0,False,11.054653302810312
+PROP1831,Spacious 1 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.194883510317897,57.78628833734932,255000,apartment,1,1,93,rent,2003.0,True,2.4201816816008894
+PROP1832,Modern 1 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.01104616436206,57.577044084836906,1490000,villa,1,2,386,rent,2023.0,False,4.051696860949338
+PROP1833,Luxurious 5 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.20470004979074,57.779469334382945,980000,villa,5,6,257,sale,2008.0,True,4.651306569361006
+PROP1834,Spacious 4 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.445543713669263,57.715954999298056,540000,house,4,5,264,sale,2004.0,False,2.4879399389046837
+PROP1835,Modern 5 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.299601620809405,57.48417336303258,155000,condo,5,1,80,sale,2012.0,True,10.668838565481877
+PROP1836,Elegant 2 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.436099045245754,57.722426478288604,270000,house,2,2,126,rent,1980.0,False,4.988346280325803
+PROP1837,534 sqm Land in Tamarin,Tamarin,Black River,West,-20.32966600276275,57.37415354951045,550000,land,0,0,534,sale,,False,3.6853990300817925
+PROP1838,Luxurious 4 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.019094796302134,57.58338889539741,725000,condo,4,4,196,sale,1996.0,False,2.9349195717451475
+PROP1839,Spacious 3 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.024591749568728,57.58063088393438,700000,house,3,1,226,rent,2004.0,True,1.1354246553969185
+PROP1840,Elegant 2 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.273926541685906,57.355598580555956,355000,house,2,3,148,rent,2022.0,True,4.765654934224219
+PROP1841,Charming 2 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.335310107919994,57.37482383818288,150000,apartment,2,2,67,rent,1982.0,False,2.5805165693332643
+PROP1842,Cozy 1 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.43314474274233,57.70562629255532,320000,apartment,1,1,121,sale,1986.0,False,4.4038825899091485
+PROP1843,Modern 5 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02018116987547,57.581215670112414,285000,condo,5,3,82,rent,2001.0,False,3.649655931660609
+PROP1844,Luxurious 1 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.278538644475386,57.36624939778426,355000,apartment,1,1,142,sale,1988.0,False,4.56990228868664
+PROP1845,Elegant 2 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.4037363500229,57.70694138212777,840000,villa,2,3,399,rent,2000.0,False,2.427835278174302
+PROP1846,Spacious 5 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.528862056907982,57.51858002692625,270000,condo,5,2,156,rent,2023.0,False,9.82539709356028
+PROP1847,Luxurious 1 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.43735807001208,57.718522545496654,575000,house,1,2,269,rent,1996.0,False,2.8079397749104933
+PROP1848,Luxurious 3 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.193597996172183,57.78324026650598,710000,villa,3,4,185,rent,2020.0,False,4.913570942843748
+PROP1849,Elegant 4 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.52935980446904,57.51770956529967,155000,condo,4,2,98,sale,2011.0,False,13.667213085096279
+PROP1850,Cozy 5 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.440854925125905,57.71719886603383,580000,condo,5,5,186,rent,1982.0,True,1.2934026672230403
+PROP1851,Charming 1 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.279497246832765,57.36269881604121,615000,condo,1,1,191,rent,1995.0,True,3.5027031809367934
+PROP1852,Elegant 2 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.40903341190176,57.70648204865341,440000,villa,2,1,175,rent,1987.0,True,3.792837458849152
+PROP1853,Luxurious 4 Bedroom Villa in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.032275512242002,57.54373970845506,865000,villa,4,5,198,rent,1988.0,True,2.2330736192195495
+PROP1854,Beautiful 1 Bedroom Villa in Port Louis,Port Louis,Port Louis,North,-20.166464567211605,57.50383963417762,1205000,villa,1,1,352,rent,1981.0,True,4.146481865678805
+PROP1855,435 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.288532579743006,57.47064041546319,320000,land,0,0,435,rent,,False,7.590706378804284
+PROP1856,Beautiful 4 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.25775962989043,57.48739563725938,125000,apartment,4,3,75,rent,2018.0,False,7.909394711005958
+PROP1857,Elegant 1 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.27053766396007,57.35779101568492,310000,apartment,1,2,116,rent,1984.0,False,2.3219757971654733
+PROP1858,856 sqm Land in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.019497513381058,57.58290289485656,1115000,land,0,0,856,sale,,False,4.988476916897881
+PROP1859,Spacious 5 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30202398701455,57.47550332075159,460000,villa,5,5,176,sale,1997.0,True,13.914006263998587
+PROP1860,269 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.234746553459434,57.46202297293415,215000,land,0,0,269,rent,,False,13.022193818659376
+PROP1861,450 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.226808337438154,57.77996000242819,435000,land,0,0,450,sale,,False,3.962614101816794
+PROP1862,728 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.288891590405463,57.48554713805675,500000,land,0,0,728,sale,,False,13.449214338977185
+PROP1863,Beautiful 1 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.021924009783937,57.57739750035909,565000,house,1,2,201,sale,2010.0,True,1.0860279614493082
+PROP1864,Modern 5 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.43916995909582,57.71159316673391,590000,condo,5,1,195,sale,1989.0,False,4.483938487368237
+PROP1865,Spacious 1 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23416393041583,57.48000908424534,240000,condo,1,2,127,rent,1983.0,False,7.7040114458124265
+PROP1866,Beautiful 1 Bedroom House in Souillac,Souillac,Savanne,South,-20.52632736819396,57.520504110165234,225000,house,1,1,190,sale,2014.0,False,6.237785340725166
+PROP1867,Spacious 1 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.012798125519815,57.59151730837088,825000,villa,1,2,203,sale,1993.0,False,4.702854915039838
+PROP1868,528 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.304186447303245,57.48109282636195,390000,land,0,0,528,sale,,False,10.670860137452776
+PROP1869,Spacious 3 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.198334779394877,57.78950783438196,710000,house,3,4,295,rent,1983.0,True,4.4984145817986505
+PROP1870,Beautiful 3 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.314452676081928,57.519527764602614,395000,house,3,2,278,rent,2019.0,True,8.488661670959758
+PROP1871,953 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.441963851142948,57.70686645513675,1025000,land,0,0,953,sale,,False,1.2871286303229827
+PROP1872,Charming 5 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.23208576419803,57.78438915208615,120000,apartment,5,5,62,sale,1996.0,True,3.57545084302181
+PROP1873,Luxurious 3 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.28103377335708,57.365748343440416,510000,house,3,1,202,sale,1985.0,False,1.9378063768019524
+PROP1874,Spacious 1 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30555429476673,57.48267998481596,130000,apartment,1,2,78,sale,2022.0,True,14.787729623751574
+PROP1875,Luxurious 5 Bedroom Apartment in Curepipe,Curepipe,Plaines Wilhems,Central,-20.318963376282483,57.52519916790039,205000,apartment,5,5,115,sale,2002.0,True,12.468757709841672
+PROP1876,Charming 5 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.417501598978433,57.70837429622242,345000,house,5,5,257,sale,2001.0,True,1.0094741637753941
+PROP1877,Modern 4 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.265439608897164,57.358825750517134,940000,villa,4,1,261,rent,2024.0,True,1.6177499905442718
+PROP1878,Elegant 1 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.220483357248597,57.78806510445903,550000,villa,1,1,177,sale,1999.0,True,1.1568075449234745
+PROP1879,Spacious 3 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.154573822763403,57.49691950495438,270000,condo,3,2,130,sale,2015.0,True,3.0608168983271162
+PROP1880,Modern 5 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.211664222141216,57.46414510741031,260000,house,5,3,169,sale,2002.0,True,11.661966790678449
+PROP1881,Cozy 4 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.416263558236135,57.69426029685944,215000,condo,4,3,129,sale,2020.0,True,3.0861446593355106
+PROP1882,Spacious 2 Bedroom Villa in Curepipe,Curepipe,Plaines Wilhems,Central,-20.31433273607223,57.52444970166554,540000,villa,2,2,194,sale,1999.0,False,10.26016160188727
+PROP1883,Luxurious 2 Bedroom House in Belle Mare,Belle Mare,Flacq,East,-20.198336717670667,57.783092987420105,465000,house,2,3,235,sale,2012.0,False,3.068823785306146
+PROP1884,Charming 2 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.252130428388003,57.464814862568524,775000,villa,2,1,330,sale,2022.0,True,10.901505493974145
+PROP1885,Beautiful 2 Bedroom Condo in Blue Bay,Blue Bay,Grand Port,East,-20.429756080809966,57.70675944842195,345000,condo,2,1,112,rent,1986.0,False,2.1846630289547178
+PROP1886,Charming 2 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.015040961160015,57.589692010735355,340000,house,2,1,147,sale,1997.0,False,3.2164974221501974
+PROP1887,Modern 4 Bedroom Villa in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.224671798530643,57.77991120334232,510000,villa,4,3,174,sale,2020.0,True,3.5101948679503736
+PROP1888,Beautiful 1 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.334562864479846,57.36289224885498,225000,apartment,1,1,87,sale,1981.0,True,2.699602343953904
+PROP1889,Modern 5 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.28967306706586,57.480436640301335,175000,apartment,5,5,94,sale,1982.0,True,12.237034874304262
+PROP1890,Luxurious 2 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.18746102850579,57.77432311105955,1220000,villa,2,2,341,rent,1980.0,False,1.1698407416410705
+PROP1891,439 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30592847738581,57.48514026363397,270000,land,0,0,439,rent,,False,8.684777401265034
+PROP1892,Spacious 3 Bedroom Villa in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21744543046331,57.466394143784306,945000,villa,3,3,337,rent,2005.0,True,7.690473662768573
+PROP1893,Modern 3 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.167457322403965,57.50697524334237,115000,apartment,3,2,60,sale,2004.0,True,3.8926476016532416
+PROP1894,Luxurious 1 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.194899657971963,57.783492446295135,315000,apartment,1,2,119,rent,2010.0,True,2.809907869656402
+PROP1895,Luxurious 1 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.32743416985065,57.36234651474924,195000,apartment,1,1,82,sale,1994.0,True,3.2323041496278564
+PROP1896,Cozy 1 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.025092166275396,57.53603002725112,425000,house,1,1,161,sale,2009.0,False,4.3487042089825
+PROP1897,Modern 1 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.267725612091233,57.473245161251306,775000,villa,1,2,305,rent,2015.0,True,11.402829554434934
+PROP1898,Modern 1 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.43492602650407,57.72015989639749,675000,house,1,2,290,rent,1992.0,False,1.0036287665639763
+PROP1899,Luxurious 4 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30182591349658,57.48053100532157,205000,house,4,1,151,rent,1980.0,False,14.928392785412965
+PROP1900,651 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.400316674246053,57.70767757403956,380000,land,0,0,651,sale,,False,2.6036705022646367
+PROP1901,Luxurious 3 Bedroom Condo in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.233186313828387,57.78310713819423,440000,condo,3,2,185,sale,1997.0,True,2.812200566751449
+PROP1902,Modern 3 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.154537624637676,57.50043594444223,325000,house,3,3,167,sale,1999.0,True,1.3888526423937448
+PROP1903,Luxurious 4 Bedroom Condo in Belle Mare,Belle Mare,Flacq,East,-20.205744821562806,57.7743669708327,200000,condo,4,1,86,rent,1998.0,True,2.3181548861231898
+PROP1904,904 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.436019363824194,57.714939262426505,815000,land,0,0,904,sale,,False,1.1809143849793968
+PROP1905,Beautiful 5 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.256834516780113,57.48016365927824,465000,house,5,2,295,sale,1992.0,True,11.831410013485069
+PROP1906,Charming 2 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.265544482475537,57.37303064234342,155000,apartment,2,3,56,sale,1987.0,False,2.6560993718071266
+PROP1907,Cozy 3 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.024022783061405,57.57820684424683,675000,condo,3,4,193,rent,1981.0,False,4.69035026334857
+PROP1908,Luxurious 1 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.271490852783273,57.48058482626437,150000,apartment,1,2,90,sale,2001.0,False,8.75730132053101
+PROP1909,Luxurious 1 Bedroom Villa in Mahebourg,Mahebourg,Grand Port,East,-20.40276030240941,57.70246844757406,735000,villa,1,2,336,sale,1991.0,False,3.9821368255509175
+PROP1910,Cozy 4 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.24421784012132,57.47299434112328,965000,villa,4,5,333,sale,2012.0,True,13.562251971390532
+PROP1911,Spacious 2 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.332965536389302,57.372247449659156,180000,apartment,2,3,77,rent,2017.0,False,2.5160737901405166
+PROP1912,Charming 5 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.278473839599588,57.37065497510162,160000,apartment,5,1,51,rent,2022.0,True,2.3157494322586696
+PROP1913,Modern 1 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.30013812317201,57.47314088219004,240000,house,1,1,185,sale,1989.0,True,11.577405435778356
+PROP1914,235 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.415860306005886,57.70603885855381,145000,land,0,0,235,rent,,False,1.2732237779233095
+PROP1915,Beautiful 3 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.434292059060503,57.70507965775578,310000,apartment,3,2,113,rent,2013.0,False,4.913956133696803
+PROP1916,Modern 3 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.275355647147624,57.36833019410559,495000,condo,3,1,148,sale,1983.0,True,1.2055572250341329
+PROP1917,654 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.301743730956908,57.47729992487669,450000,land,0,0,654,rent,,False,12.727611841465837
+PROP1918,Modern 2 Bedroom Apartment in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21887698278141,57.45700894705382,290000,apartment,2,3,143,rent,2012.0,True,5.5560465506088565
+PROP1919,Luxurious 5 Bedroom Apartment in Port Louis,Port Louis,Port Louis,North,-20.16811287875991,57.49223466987361,175000,apartment,5,4,93,rent,2008.0,True,3.114877243540885
+PROP1920,Luxurious 4 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26050525810426,57.484105064915155,95000,apartment,4,4,53,rent,1999.0,False,11.10942985918956
+PROP1921,Beautiful 1 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.235157715780034,57.46185872636343,970000,villa,1,2,363,rent,2007.0,False,10.718474904318473
+PROP1922,Spacious 5 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32546597080501,57.5080408356034,385000,condo,5,5,172,sale,1993.0,True,9.744479957127893
+PROP1923,Cozy 2 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.323909823847455,57.52430282449478,370000,condo,2,3,174,sale,1981.0,True,13.06503241415111
+PROP1924,Modern 3 Bedroom Apartment in Souillac,Souillac,Savanne,South,-20.522521671957062,57.52559331507748,185000,apartment,3,1,141,sale,1997.0,False,6.517135645993726
+PROP1925,Modern 1 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.265075786208403,57.48736075294477,360000,condo,1,1,184,rent,1991.0,True,6.8336354655731615
+PROP1926,Charming 5 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.296129538595252,57.47707294043136,280000,condo,5,3,161,rent,2017.0,True,8.69666128730562
+PROP1927,Modern 5 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.32560075020876,57.37332516460224,220000,apartment,5,2,94,rent,2013.0,False,4.181696811967258
+PROP1928,Beautiful 5 Bedroom Condo in Port Louis,Port Louis,Port Louis,North,-20.167035513877778,57.49647380192464,355000,condo,5,2,156,sale,1981.0,True,3.0187628667436823
+PROP1929,Luxurious 4 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.220493156306915,57.79211702247493,225000,apartment,4,2,93,rent,2002.0,False,1.2017765481492249
+PROP1930,Beautiful 1 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.021185792745847,57.58720360698292,520000,house,1,2,184,sale,1995.0,False,4.831990113874928
+PROP1931,Beautiful 3 Bedroom House in Mahebourg,Mahebourg,Grand Port,East,-20.41192686277449,57.70439397321447,190000,house,3,3,145,rent,2001.0,False,4.87630069849765
+PROP1932,Luxurious 3 Bedroom Villa in Souillac,Souillac,Savanne,South,-20.52741175222242,57.527799677242356,735000,villa,3,1,310,sale,1984.0,True,10.657171640428858
+PROP1933,Luxurious 2 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.23576526535164,57.79328114216236,400000,house,2,3,234,sale,2000.0,True,1.1479803969777893
+PROP1934,Charming 2 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.02459426230095,57.580749841055656,230000,condo,2,2,82,rent,1989.0,False,3.7256502805983525
+PROP1935,Beautiful 3 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.239017252894197,57.475416195393926,275000,apartment,3,3,141,rent,1980.0,True,8.800293372275828
+PROP1936,Beautiful 2 Bedroom Condo in Curepipe,Curepipe,Plaines Wilhems,Central,-20.323033604826897,57.51241076457244,320000,condo,2,2,166,rent,2002.0,True,12.469925478842022
+PROP1937,Cozy 2 Bedroom Apartment in Flic en Flac,Flic en Flac,Black River,West,-20.27353958510765,57.37058978491279,350000,apartment,2,1,118,sale,1997.0,False,3.5202005728145367
+PROP1938,Spacious 3 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.27033279474713,57.355045193230254,345000,house,3,4,151,rent,2012.0,True,4.724053079745396
+PROP1939,Beautiful 2 Bedroom House in Blue Bay,Blue Bay,Grand Port,East,-20.437039454462337,57.71167334148498,785000,house,2,3,293,rent,1999.0,True,2.10359024239534
+PROP1940,Modern 2 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.298399371062686,57.4740594991238,330000,condo,2,3,159,rent,1999.0,False,12.28480736529513
+PROP1941,872 sqm Land in Curepipe,Curepipe,Plaines Wilhems,Central,-20.32227366867134,57.518284799639446,610000,land,0,0,872,rent,,False,8.40359337268584
+PROP1942,959 sqm Land in Vacoas,Vacoas,Plaines Wilhems,Central,-20.303593218659802,57.47314478002518,715000,land,0,0,959,sale,,False,7.734055247547586
+PROP1943,Cozy 3 Bedroom Condo in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.245354591301624,57.4715948083479,320000,condo,3,4,188,rent,2023.0,True,9.704707305448398
+PROP1944,Cozy 1 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02359190313084,57.546615329614745,660000,house,1,2,298,rent,1991.0,False,2.647598941819088
+PROP1945,Elegant 5 Bedroom House in Curepipe,Curepipe,Plaines Wilhems,Central,-20.325879662588594,57.51564149998085,325000,house,5,6,177,rent,1995.0,False,7.615426062852134
+PROP1946,Beautiful 3 Bedroom Villa in Belle Mare,Belle Mare,Flacq,East,-20.19480062384053,57.78365425900639,1595000,villa,3,4,397,sale,1985.0,False,3.580391403902924
+PROP1947,618 sqm Land in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.228172294602977,57.78130932015898,575000,land,0,0,618,sale,,False,4.78850641554834
+PROP1948,Beautiful 2 Bedroom Apartment in Blue Bay,Blue Bay,Grand Port,East,-20.430513536700392,57.72077595955452,150000,apartment,2,1,65,sale,2004.0,True,1.3558857474036148
+PROP1949,Luxurious 5 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.204508034106546,57.78936617375286,385000,apartment,5,1,145,sale,2000.0,True,1.0771270758323443
+PROP1950,Elegant 5 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.278321335613878,57.36412458000936,545000,house,5,5,214,rent,2011.0,True,2.2450641879421456
+PROP1951,Luxurious 1 Bedroom Apartment in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.03967241697147,57.5447028189393,260000,apartment,1,1,93,rent,2001.0,False,1.2656471975346206
+PROP1952,Spacious 2 Bedroom House in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.008607146081697,57.5826470861902,590000,house,2,2,239,sale,1984.0,True,2.313025681430902
+PROP1953,Cozy 2 Bedroom Villa in Flic en Flac,Flic en Flac,Black River,West,-20.280844921876373,57.35643388638433,830000,villa,2,3,205,sale,1994.0,False,2.3050456822831142
+PROP1954,Modern 2 Bedroom House in Flic en Flac,Flic en Flac,Black River,West,-20.27903715484071,57.36131448840914,635000,house,2,2,230,sale,1988.0,False,1.6252669776155195
+PROP1955,367 sqm Land in Belle Mare,Belle Mare,Flacq,East,-20.18997624707438,57.776772434807036,395000,land,0,0,367,sale,,False,4.923670066225764
+PROP1956,Beautiful 3 Bedroom Condo in Souillac,Souillac,Savanne,South,-20.518482068474324,57.512041163629966,150000,condo,3,4,113,rent,2014.0,False,6.168678958884799
+PROP1957,Spacious 2 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.019517284047776,57.57722390175621,205000,apartment,2,2,63,rent,1997.0,True,1.8718307639785903
+PROP1958,Luxurious 3 Bedroom Condo in Mahebourg,Mahebourg,Grand Port,East,-20.418062203631386,57.709325223766584,220000,condo,3,2,115,rent,2020.0,False,2.6810373074794445
+PROP1959,Elegant 2 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.022571410138468,57.58006664872392,260000,condo,2,2,90,rent,2011.0,True,2.3411446164534944
+PROP1960,Cozy 3 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26432266536163,57.48312480965356,975000,villa,3,3,324,sale,1988.0,True,10.056795596769232
+PROP1961,Modern 2 Bedroom House in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.27133184310839,57.472211583664084,175000,house,2,3,104,rent,2017.0,True,11.223466927273401
+PROP1962,Spacious 2 Bedroom Apartment in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.265350149856648,57.47004291198719,135000,apartment,2,2,66,rent,1984.0,False,8.565272855655442
+PROP1963,Modern 2 Bedroom Condo in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.268620428021514,57.47931685839216,325000,condo,2,1,143,rent,1982.0,True,7.979475485881331
+PROP1964,813 sqm Land in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.224959023918753,57.4686449150726,520000,land,0,0,813,sale,,False,8.225654368853975
+PROP1965,Elegant 1 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.225739222449374,57.79716740772949,255000,house,1,1,138,sale,2020.0,True,3.6868146998011495
+PROP1966,Modern 2 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.038151559886956,57.54879762108726,305000,house,2,2,131,sale,1988.0,True,2.1503840975123905
+PROP1967,Beautiful 2 Bedroom House in Port Louis,Port Louis,Port Louis,North,-20.15639823683386,57.502388992006836,245000,house,2,2,108,rent,2002.0,True,2.183561900260798
+PROP1968,Luxurious 3 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29262924623933,57.486113637556684,100000,apartment,3,2,56,sale,1999.0,False,8.939984897928454
+PROP1969,Modern 3 Bedroom House in Beau Bassin,Beau Bassin,Plaines Wilhems,Central,-20.21044810736231,57.47006978769941,290000,house,3,3,158,rent,2004.0,False,5.827980327296858
+PROP1970,Beautiful 3 Bedroom Villa in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.245189511689887,57.480491976043886,595000,villa,3,1,255,sale,2002.0,False,10.321280108015468
+PROP1971,Modern 5 Bedroom Condo in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.009417594011286,57.582632418258854,325000,condo,5,4,99,rent,1991.0,True,1.796767858514067
+PROP1972,Cozy 5 Bedroom Apartment in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29689244740541,57.48739175903109,165000,apartment,5,4,98,rent,2016.0,True,6.535581079151804
+PROP1973,Modern 3 Bedroom Condo in Vacoas,Vacoas,Plaines Wilhems,Central,-20.305953321917254,57.47009788729482,165000,condo,3,1,80,sale,1989.0,True,8.18062457438314
+PROP1974,Beautiful 2 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.026689088806663,57.58372036777499,1650000,villa,2,3,379,sale,2017.0,False,3.2889209428058184
+PROP1975,412 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26681477377946,57.4824043375153,290000,land,0,0,412,sale,,False,14.756006445606833
+PROP1976,Charming 3 Bedroom Villa in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.020015223941044,57.58260227899899,1490000,villa,3,3,366,rent,2000.0,True,3.453698546733406
+PROP1977,Modern 4 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.270217181637648,57.366857330570916,445000,condo,4,5,136,sale,1990.0,False,1.371403947093421
+PROP1978,909 sqm Land in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.26857440789744,57.4825117276844,715000,land,0,0,909,rent,,False,12.366117345735667
+PROP1979,Beautiful 2 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.28917596749975,57.486400119064754,405000,villa,2,3,160,rent,1983.0,False,13.877978234495863
+PROP1980,971 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.398598420314364,57.70083079605128,550000,land,0,0,971,rent,,False,1.4063338187046859
+PROP1981,Spacious 3 Bedroom House in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.04257975873572,57.54869998821386,615000,house,3,3,255,rent,2009.0,False,2.2689174217313783
+PROP1982,Cozy 4 Bedroom House in Vacoas,Vacoas,Plaines Wilhems,Central,-20.28993148818763,57.47633724718007,180000,house,4,1,137,sale,1990.0,True,8.738417958686853
+PROP1983,330 sqm Land in Mahebourg,Mahebourg,Grand Port,East,-20.40932815282264,57.69565871240347,190000,land,0,0,330,rent,,False,4.207184221724401
+PROP1984,Beautiful 4 Bedroom Apartment in Belle Mare,Belle Mare,Flacq,East,-20.202744331952072,57.77580472359058,265000,apartment,4,3,124,rent,1994.0,False,2.6377365666817907
+PROP1985,Spacious 1 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.28983765347514,57.486545675067894,915000,villa,1,1,338,sale,1999.0,False,8.087915341236172
+PROP1986,263 sqm Land in Souillac,Souillac,Savanne,South,-20.52077129811728,57.526744418686654,150000,land,0,0,263,sale,,False,7.80772016786318
+PROP1987,656 sqm Land in Tamarin,Tamarin,Black River,West,-20.325499001139132,57.36554662004993,615000,land,0,0,656,rent,,False,4.425009306229487
+PROP1988,Charming 1 Bedroom Villa in Quatre Bornes,Quatre Bornes,Plaines Wilhems,Central,-20.25469770046624,57.47067743583367,880000,villa,1,2,269,sale,1980.0,True,6.719330814603477
+PROP1989,Modern 5 Bedroom House in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.23250451047366,57.78226010019516,255000,house,5,2,148,sale,1984.0,True,1.141212125767173
+PROP1990,Cozy 2 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.245489008350177,57.46785489689566,130000,apartment,2,3,71,sale,2003.0,True,12.27847954310974
+PROP1991,Charming 4 Bedroom Apartment in Trou d'Eau Douce,Trou d'Eau Douce,Flacq,East,-20.221923235997888,57.79810292447974,175000,apartment,4,5,79,sale,1991.0,True,2.3117157530846537
+PROP1992,Charming 2 Bedroom Condo in Flic en Flac,Flic en Flac,Black River,West,-20.27950566324996,57.35644175904291,380000,condo,2,2,124,rent,2002.0,False,2.248593719926522
+PROP1993,267 sqm Land in Trou aux Biches,Trou aux Biches,Pamplemousses,North,-20.02721244017962,57.55407475129252,270000,land,0,0,267,sale,,False,2.136185495463572
+PROP1994,Luxurious 1 Bedroom Apartment in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.239623531412093,57.47716900237952,115000,apartment,1,1,65,rent,2000.0,True,11.702652596713603
+PROP1995,825 sqm Land in Blue Bay,Blue Bay,Grand Port,East,-20.448833218723205,57.707125229782555,800000,land,0,0,825,rent,,False,3.950520932986637
+PROP1996,Modern 3 Bedroom Apartment in Grand Baie,Grand Baie,Rivière du Rempart,North,-20.018270479295804,57.58216944279699,215000,apartment,3,2,77,sale,2007.0,False,3.343302000018508
+PROP1997,401 sqm Land in Rose Hill,Rose Hill,Plaines Wilhems,Central,-20.23777033600396,57.474593008130796,310000,land,0,0,401,sale,,False,7.017866319429857
+PROP1998,Charming 2 Bedroom Apartment in Tamarin,Tamarin,Black River,West,-20.33383977203428,57.36563808374466,215000,apartment,2,2,85,sale,2024.0,False,1.4338985675100138
+PROP1999,Charming 2 Bedroom Villa in Vacoas,Vacoas,Plaines Wilhems,Central,-20.29265436991659,57.473764791858024,750000,villa,2,3,317,rent,1993.0,True,8.65178037106679

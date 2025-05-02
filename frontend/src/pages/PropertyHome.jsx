@@ -257,6 +257,12 @@ const PropertyHome = () => {
               </div>
             )
           )}
+          <div className="py-6">
+            <PropertyPricePrediction />
+          </div>
+          <div className="mt-8">
+            <LocationAnalysisComponent />
+          </div>
         </div>
       </div>
     </div>

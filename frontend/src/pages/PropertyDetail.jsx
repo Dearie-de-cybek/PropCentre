@@ -396,6 +396,13 @@ const PropertyDetail = () => {
                 )}
               </div>
 
+              <div className="container mx-auto px-6 mb-8">
+                <PropertyDetailsAnalytics 
+                  propertyId={id} 
+                  propertyData={propertyData}
+                />
+              </div>
+
               {/* Landlord Info */}
               {propertyData.landlord && (
                 <div className="mb-6 border-t border-b border-[#404040] py-4">
@@ -453,6 +460,9 @@ const PropertyDetail = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container mx-auto px-6 py-8">
+        <SimilarPropertiesComponent propertyId={id} />
       </div>
 
       {/* Login Modal */}

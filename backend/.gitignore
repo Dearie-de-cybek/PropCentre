@@ -9,3 +9,7 @@ pnpm-lock.yaml
 
 yarn.lock
 /yarn.lock
+
+
+venv
+/.venv

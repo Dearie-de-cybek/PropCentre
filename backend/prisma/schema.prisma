@@ -317,3 +317,43 @@ model PasswordReset {
   @@index([token, isUsed]) // Updated index
   @@index([email])
 }
+
+model PropertyPriceHistory {
+  id          Int      @id @default(autoincrement())
+  propertyId  Int
+  date        DateTime
+  price       Decimal  @db.Decimal(10, 2)
+  
+  property    Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  
+  @@index([propertyId, date])
+}
+
+model LocationAnalytics {
+  id                Int      @id @default(autoincrement())
+  location          String   @unique
+  district          String?
+  averagePrice      Decimal  @db.Decimal(10, 2)
+  priceTrend        Float    // Percentage change
+  locationScore     Int      // 0-100 score
+  tourismRating     Int      // 0-10 rating
+  developmentGrowth Float?   // Percentage
+  lastUpdated       DateTime @default(now())
+  insights          String[] // Array of insight texts
+  
+  @@index([location])
+}
+
+model PropertyView {
+  id          Int      @id @default(autoincrement())
+  propertyId  Int
+  userId      Int?
+  viewDate    DateTime @default(now())
+  ipAddress   String?
+  
+  property    Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  
+  @@index([propertyId])
+  @@index([userId])
+}
